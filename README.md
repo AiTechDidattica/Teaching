@@ -2,7 +2,7 @@
 - 👀 I’m interested in Everything
 - 🌱 I’m currently learning Everything
 - 💞️ I’m looking to collaborate on Everything
-- 📫 How to reach me... didattica@aitechstuff.com
+- 📫 How to reach me didattica@aitechstuff.com
 - ⚡ Fun fact: The first computer mouse was made of wood!
 
 <!---
