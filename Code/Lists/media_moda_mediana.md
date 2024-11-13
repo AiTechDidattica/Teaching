@@ -60,6 +60,6 @@ La lista ordinata è:
 Poiché la lista ha un numero pari di elementi, la mediana è la media dei due numeri centrali: `45` e `45`. Quindi la mediana è `45`.
 
 ### Riassunto:
-- **Media**: 51.1
+- **Media**: 46.1
 - **Moda**: 12 e 45 (entrambi appaiono due volte)
 - **Mediana**: 45
