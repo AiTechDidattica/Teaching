@@ -5,6 +5,7 @@ In questo esempio, vedremo come calcolare la **media**, la **moda** e la **media
 
 ## Dati di partenza
 Abbiamo una lista di 10 numeri generati casualmente, ad esempio:
+(Si consiglia di usare questa lista di partenza per il testing)
 
 ```python
 numbers = [34, 67, 12, 45, 78, 23, 45, 56, 12, 89]
