@@ -24,11 +24,11 @@ Ad esempio, se abbiamo i numeri:
 numbers = [34, 67, 12, 45, 78, 23, 45, 56, 12, 89]
 ```
 
-La somma degli elementi è: `34 + 67 + 12 + 45 + 78 + 23 + 45 + 56 + 12 + 89 = 511`
+La somma degli elementi è: `34 + 67 + 12 + 45 + 78 + 23 + 45 + 56 + 12 + 89 = 461`
 
-La media sarà: `511 / 10 = 51.1`
+La media sarà: `461 / 10 = 46.1`
 
-Quindi la **media** è `51.1`.
+Quindi la **media** è `46.1`.
 
 ## Moda
 La **moda** è il numero che appare con maggiore frequenza nella lista. Se ci sono più numeri con la stessa frequenza, la lista ha più di una moda (è bimodale o multimodale). Se nessun numero si ripete, non c'è una moda. Nel nostro esempio:
