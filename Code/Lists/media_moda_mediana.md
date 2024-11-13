@@ -4,7 +4,7 @@
 In questo esempio, vedremo come calcolare la **media**, la **moda** e la **mediana** di una lista di 10 numeri casuali generati da Python.
 
 ## Dati di partenza
-Abbiamo una lista di 10 numeri generati casualmente, ad esempio:
+Abbiamo una lista di 10 numeri generati casualmente, ad esempio:\
 (Si consiglia di usare questa lista di partenza per il testing)
 
 ```python
