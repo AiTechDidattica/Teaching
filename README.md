@@ -5,7 +5,8 @@
 - 📫 How to reach me didattica@aitechstuff.com
 - ⚡ Fun fact: The first computer mouse was made of wood!
 
-# UPDATE: 
+(23/11/2024)
+# UPDATE:  
 - Aggiornata la struttura della cartella "Lists". 
 - Aggiunte tracce per i programmi assegnati con output attesi.
 
