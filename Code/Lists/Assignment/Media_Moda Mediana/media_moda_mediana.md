@@ -63,3 +63,9 @@ Poiché la lista ha un numero pari di elementi, la mediana è la media dei due n
 - **Media**: 46.1
 - **Moda**: 12 e 45 (entrambi appaiono due volte)
 - **Mediana**: 45
+
+## Programmi assegnati:
+
+1. Calcolare la **media**, la **moda** e la **mediana** di una lista di numeri utilizzando il modulo Python `statistics`.
+
+2. Calcolare la **media**, la **moda** e la **mediana** di una lista di numeri in modo "classico", seguendo i passaggi descritti nella guida sopra.
