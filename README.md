@@ -5,7 +5,9 @@
 - 📫 How to reach me didattica@aitechstuff.com
 - ⚡ Fun fact: The first computer mouse was made of wood!
 
-# UPDATE: Aggiornata la struttura della cartella "Lists" - aggiunte tracce per i programmi assegnati con output attesi.
+# UPDATE: 
+- Aggiornata la struttura della cartella "Lists". 
+- Aggiunte tracce per i programmi assegnati con output attesi.
 
 <!---
 AiTechDidattica/AiTechDidattica is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
