@@ -1,5 +1,5 @@
-# UPDATE 30/11/2024
-## Non so se il programma "calcolatrice.py" sia ancora work in progress... ma nel caso non lo fosse, dagli un ulteriore sguardo. GP
+# UPDATE (02/12/2024)
+- Visionato programma "calcolatrice.py" sul tuo repository, dagli un ulteriore sguardo.
 
 # UPDATE: (29/11/2024)  
 - Aggiunta cartella "Functions" con esempi e tracce programmi.
