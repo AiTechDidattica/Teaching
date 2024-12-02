@@ -4,6 +4,8 @@
 # UPDATE: (29/11/2024)  
 - Aggiunta cartella "Functions" con esempi e tracce programmi.
 
+---
+
 - 👋 Hi, I’m @AiTechDidattica
 - 👀 I’m interested in Everything
 - 🌱 I’m currently learning Everything
