@@ -1,8 +1,7 @@
-# UPDATE (02/12/2024)
-- Visionato programma "calcolatrice.py" sul tuo repository, dagli un ulteriore sguardo.
-
-# UPDATE: (29/11/2024)  
-- Aggiunta cartella "Functions" con esempi e tracce programmi.
+# UPDATE (06/12/2024)
+- Aggiunto nuovo Assignment nella cartella Functions
+- Fornita soluzione per Assignment "Calculator"
+- Aggiunta cartella Dictionaries con materiale introduttivo
 
 ---
 
