@@ -1,3 +1,6 @@
+# UPDATE (07/12/2024)
+- Visto programma "binary_to_decimal". l'idea c'è... ora valuta la possibilità di apportare del refiniment se lo ritieni necessario. GP
+
 # UPDATE (06/12/2024)
 - Aggiunto nuovo Assignment nella cartella Functions
 - Fornita soluzione per Assignment "Calculator"
