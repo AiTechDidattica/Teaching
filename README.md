@@ -1,5 +1,5 @@
 # UPDATE (17/12/2024) - Ci vediamo Giovedì 19/12 per la lezione
-- Aggiunti assignments cartella "Disctionaries"
+- Aggiunti assignments cartella "Dictionaries"
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
