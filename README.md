@@ -1,11 +1,6 @@
-# UPDATE (07/12/2024)
-- Visto programma "binario_a_decimale", l'idea c'è... ora valuta la possibilità di apportare del refiniment se lo ritieni necessario. GP
-
-# UPDATE (06/12/2024)
-- Aggiunto nuovo Assignment nella cartella Functions
-- Fornita soluzione per Assignment "Calculator"
-- Aggiunta cartella Dictionaries con materiale introduttivo
-
+# UPDATE (17/12/2024)
+# Ci vediamo Giovedì 19/12 per la lezione
+- Aggiunti assignments cartella "Disctionaries"
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
