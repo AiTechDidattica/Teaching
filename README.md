@@ -1,5 +1,6 @@
 # UPDATE (17/12/2024) - Ci vediamo Giovedì 19/12 per la lezione
 - Aggiunti assignments cartella "Dictionaries"
+- Canale Annunci Telegram - https://t.me/+BUPo2IWUuvk4ZTM6
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
