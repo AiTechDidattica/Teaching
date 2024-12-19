@@ -1,8 +1,8 @@
 # UPDATE (19/12/2024) - Assegno per le vacanze
-- 500 parole sul primo capitolo dei sistemi informativi
+- Scrivere almeno 500 parole sul primo capitolo del materiale sui sistemi informativi
 - Sviluppare funzionalità decimal_to_binary
-- Sviluppare programmi con suddivisione logica in funzioni 
-- Aggiunti assignments cartella "Dictionaries"
+- Esercitarsi su programmi con suddivisione logica in funzioni 
+- Leggere materiale sui Dizionari e notazione Json
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
