@@ -1,4 +1,7 @@
-# UPDATE (17/12/2024) - Ci vediamo Giovedì 19/12 per la lezione
+# UPDATE (19/12/2024) - Assegno per le vacanze
+- 500 parole sul primo capitolo dei sistemi informativi
+- Sviluppare funzionalità decimal_to_binary
+- Sviluppare programmi con suddivisione logica in funzioni 
 - Aggiunti assignments cartella "Dictionaries"
 ---
 
