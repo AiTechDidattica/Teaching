@@ -1,8 +1,5 @@
 # UPDATE (06/01/2025) 
 - Domani sarò a scuola per correggere i compiti - non faremo lezione ma sono disponibile per domande o dubbi.
-  
-# UPDATE (23/12/2024) 
-- Visto programma "decimal_to_binary" - considera la possibilità di eseguire del refining
 
 # UPDATE (19/12/2024) - Assegno per le vacanze
 - Scrivere almeno 500 parole sul primo capitolo del materiale sui sistemi informativi
