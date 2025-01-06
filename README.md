@@ -1,5 +1,5 @@
 # UPDATE (06/01/2025) 
-- Domani sarò a scuola per correggere i compiti - non faremo lezione ma sono disponibile per domande o dubbi.
+- Domani sarò a scuola per correggere i compiti - non faremo lezione ma sono disponibile per domande e/o dubbi.
 
 # UPDATE (19/12/2024) - Assegno per le vacanze
 - Scrivere almeno 500 parole sul primo capitolo del materiale sui sistemi informativi
