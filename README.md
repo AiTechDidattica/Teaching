@@ -1,5 +1,5 @@
 # UPDATE (09/01/2025) 
-- Prossima Lezione: Venerdì 10/01
+- Prossima Lezione: Venerdì 17/01
 
 # UPDATE (19/12/2024) - Assegno per le vacanze
 - Scrivere almeno 500 parole sul primo capitolo del materiale sui sistemi informativi
