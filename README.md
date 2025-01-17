@@ -4,6 +4,8 @@
 - Rileggere Capitolo 1 - Sezione B - Introduzione ai sistemi informativi.
 - Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che sia funzionali alle operazione di gestione dei dati.
 
+---
+
 - 👋 Hi, I’m @AiTechDidattica
 - 👀 I’m interested in Everything
 - 🌱 I’m currently learning Everything
