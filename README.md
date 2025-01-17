@@ -2,7 +2,7 @@
 - Prossima Lezione: Venerdì 24/01
 - Definizione di processo aziendale con esempi.
 - Rileggere Capitolo 1 - Sezione B - Introduzione ai sistemi informativi.
-- Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che sia funzionali alle operazione di gestione dei dati.
+- Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che siano funzionali alle operazione di gestione dei dati.
 
 ---
 
