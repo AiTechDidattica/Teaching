@@ -1,12 +1,8 @@
-# UPDATE (10/01/2025) 
-- Prossima Lezione: Venerdì 17/01
-
-# UPDATE (19/12/2024) - Assegno per le vacanze
-- Scrivere almeno 500 parole sul primo capitolo del materiale sui sistemi informativi
-- Sviluppare funzionalità decimal_to_binary
-- Esercitarsi su programmi con suddivisione logica in funzioni 
-- Leggere materiale sui Dizionari e notazione Json
----
+# UPDATE (17/01/2025) 
+- Prossima Lezione: Venerdì 24/01
+- Definizione di processo aziendale con esempi.
+- Rileggere Capitolo 1 - Sezione B - Introduzione ai sistemi informativi.
+- Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che sia funzionali alle operazione di gestione dei dati.
 
 - 👋 Hi, I’m @AiTechDidattica
 - 👀 I’m interested in Everything
