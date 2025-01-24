@@ -1,3 +1,6 @@
+# UPDATE (24/01/2025)
+- Prossima Lezione: Venerdì 31/01
+
 # UPDATE (18/01/2025)
 - Visionato script "students_v2.py" - l'idea c'è ma è necessario del refinement. Rileggi bene la traccia assegnata e ricorda che se ad una funzione vengono assegnati troppi compiti o se deve coprire troppi scenari di utilizzo, è sintomo che qualcosa non vada.
 
