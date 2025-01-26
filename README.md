@@ -1,4 +1,4 @@
-# UPDATE (24/01/2025)
+# UPDATE (26/01/2025)
 - Prossima Lezione: Venerdì 31/01
 ## Assegno:
 - Leggere materiale introduttivo sulla programmazione orientata agli oggetti - OOP
