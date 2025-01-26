@@ -5,12 +5,7 @@
 - Definizione di processo aziendale con esempi.
 - Rileggere Capitolo B1 e B2 - Materiale sistemi informativi
 - Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che siano funzionali alle operazione di gestione dei dati.
-
----
-
-# UPDATE (18/01/2025)
 - Visionato script "students_v2.py" - l'idea c'è ma è necessario del refinement. Rileggi bene la traccia assegnata e ricorda che se ad una funzione vengono assegnati troppi compiti o se deve coprire troppi scenari di utilizzo, è sintomo che qualcosa non vada.
-
 ---
 
 
