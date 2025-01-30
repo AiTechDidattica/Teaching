@@ -1,6 +1,6 @@
 # UPDATE (30/01/2025)
 - Prossima Lezione: Venerdì 31/01
-- Aggiornata organizzazione Materiale delle Lezioni.
+- Aggiornata organizzazione materiale delle lezioni
 
 # UPDATE (26/01/2025)
 ## Assegno:
