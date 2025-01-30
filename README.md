@@ -1,5 +1,8 @@
-# UPDATE (26/01/2025)
+# UPDATE (30/01/2025)
 - Prossima Lezione: Venerdì 31/01
+- Aggiornata organizzazione Materiale delle Lezioni.
+
+# UPDATE (26/01/2025)
 ## Assegno:
 - Leggere materiale introduttivo sulla programmazione orientata agli oggetti - OOP
 - Definizione di processo aziendale con esempi.
