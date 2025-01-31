@@ -1,5 +1,5 @@
 # UPDATE (31/01/22025)
-- Informatica è stata scelta come materia d'esame, cerca di non mancare alle lezioni che abbiamo molto da fare.
+- Informatica è stata scelta come materia d'esame per la seconda prova, non mancare alle lezioni che abbiamo molto da fare.
 
 # UPDATE (30/01/2025)
 - Prossima Lezione: Venerdì 31/01
