@@ -1,19 +1,9 @@
 # UPDATE (31/01/22025)
-- Informatica è stata scelta come materia d'esame per la seconda prova, non mancare alle lezioni che abbiamo molto da fare.
-
-# UPDATE (30/01/2025)
-- Prossima Lezione: Venerdì 31/01
-- Aggiornata organizzazione materiale delle lezioni
-
-# UPDATE (26/01/2025)
-## Assegno:
-- Leggere materiale introduttivo sulla programmazione orientata agli oggetti - OOP
-- Definizione di processo aziendale con esempi.
+- Informatica è stata scelta come materia d'esame per la seconda prova, quindi non mancare alle lezioni che abbiamo molto da fare.
+- Prossima Lezione: Venerdì 07/02
 - Rileggere Capitolo B1 e B2 - Materiale sistemi informativi
-- Svolgere assignment dizionari: Arricchire il programma "students_management" con input da tastiera ed eventuale aggiunta di campi ai dizionari che siano funzionali alle operazione di gestione dei dati.
-- Visionato script "students_v2.py" - l'idea c'è ma è necessario del refinement. Rileggi bene la traccia assegnata e ricorda che se ad una funzione vengono assegnati troppi compiti o se deve coprire troppi scenari di utilizzo, è sintomo che qualcosa non vada.
----
 
+---
 
 - 👋 Hi, I’m @AiTechDidattica
 - 👀 I’m interested in Everything
