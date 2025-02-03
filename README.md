@@ -1,4 +1,5 @@
-# UPDATE (31/01/22025)
+# UPDATE (03/02/22025)
+- Prossima Lezione Venerdì 07/02
 - Informatica è stata scelta come materia d'esame per la seconda prova, quindi non mancare alle lezioni che abbiamo molto da fare.
 - Prossima Lezione: Venerdì 07/02
 - Rileggere Capitolo B1 e B2 - Materiale sistemi informativi
