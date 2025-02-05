@@ -161,6 +161,10 @@ SELECT CodiceCorso, COUNT(Matricola) AS NumeroStudenti
 FROM Partecipa
 GROUP BY CodiceCorso;
 ```
+### Differenza tra COUNT(*) e COUNT(Colonna)
+#### COUNT(*) conta tutte le righe, anche se ci sono valori NULL.
+#### COUNT(colonna) conta solo le righe in cui CodiceCorso non è NULL (importante nel LEFT JOIN).
+
 
 #### Media dei voti per corso:
 ```sql
