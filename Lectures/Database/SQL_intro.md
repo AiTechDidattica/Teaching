@@ -144,6 +144,16 @@ LEFT JOIN Partecipa p ON s.Matricola = p.Matricola
 LEFT JOIN Corso c ON p.CodiceCorso = c.CodiceCorso;
 ```
 
+### Tabella riepilogativa JOIN
+| JOIN Type   | Include solo corrispondenze? | Include righe senza corrispondenza? |
+|------------|-----------------------------|----------------------------------|
+| **INNER JOIN** | ✅ Sì                        | ❌ No                           |
+| **LEFT JOIN**  | ❌ No (mantiene tutte le righe della prima tabella) | ✅ Sì (NULL per la seconda tabella) |
+| **RIGHT JOIN** | ❌ No (mantiene tutte le righe della seconda tabella) | ✅ Sì (NULL per la prima tabella) |
+| **FULL JOIN**  | ❌ No                        | ✅ Sì (NULL dove manca) |
+
+#### Alcuni database (come MySQL) non supportano direttamente FULL JOIN. In questi casi si può simulare con LEFT JOIN UNION RIGHT JOIN.
+
 ### Funzioni Aggregate
 #### Conteggio degli studenti per corso:
 ```sql
