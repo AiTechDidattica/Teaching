@@ -10,7 +10,7 @@ Una **dipendenza funzionale** tra due insiemi di attributi A e B in una relazion
 Si scrive:
 
 \[
-A \rightarrow B
+A --> B
 \]
 
 Si legge "**A determina B**".  
