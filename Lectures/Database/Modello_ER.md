@@ -84,22 +84,3 @@ CREATE TABLE Partecipa (
     FOREIGN KEY (Matricola) REFERENCES Studente(Matricola),
     FOREIGN KEY (CodiceCorso) REFERENCES Corso(CodiceCorso)
 );
-
-erDiagram
-    STUDENTE ||--o{ PARTECIPA : "si iscrive"
-    CORSO ||--o{ PARTECIPA : "ha studenti"
-    STUDENTE {
-        string Matricola PK
-        string Nome
-        string Cognome
-    }
-    CORSO {
-        string CodiceCorso PK
-        string Titolo
-        int CFU
-    }
-    PARTECIPA {
-        string Matricola FK
-        string CodiceCorso FK
-        int Voto
-    }
