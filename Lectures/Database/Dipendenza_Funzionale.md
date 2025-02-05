@@ -10,7 +10,7 @@ Una **dipendenza funzionale** tra due insiemi di attributi A e B in una relazion
 Si scrive:
 
 \[
-A --> B
+A \rightarrow B
 \]
 
 Si legge "**A determina B**".  
@@ -142,4 +142,6 @@ Ora ogni determinante è una chiave candidata. ✅
 ## **📢 Conclusione**
 ✔️ **Le dipendenze funzionali sono fondamentali per progettare database senza ridondanza.**  
 ✔️ **Normalizzare significa eliminare dipendenze parziali, transitive e anomalie sulle chiavi candidate.**  
-✔️ **BCNF garant
+✔️ **BCNF garantisce che ogni determinante sia una chiave candidata.**  
+
+Per approfondire, esistono anche **4NF** (elimina dipendenze multivalore) e **5NF** (elimina dipendenze di join), ma BCNF è sufficiente per la maggior parte delle applicazioni. 🚀
