@@ -5,16 +5,16 @@ Le **forme normali** sono regole utilizzate nei database relazionali per ridurre
 
 Le forme normali si usano nella progettazione dei database relazionali per migliorare la qualità dei dati, eliminare ridondanze, ridurre il rischio di anomalie di aggiornamento e garantire l'integrità referenziale.
 
-Obiettivi della normalizzazione:
-> Eliminare la ridondanza:
+## Obiettivi della normalizzazione:
+### Eliminare la ridondanza:
 - Evitare la duplicazione non necessaria dei dati, che può portare a un maggiore utilizzo di spazio e a possibili errori nei dati.
 
-> Evitare le anomalie:
+### Evitare le anomalie:
 - Anomalie di inserimento: si verificano quando l'inserimento di nuovi dati è impedito a causa della dipendenza da altri dati già esistenti.
 - Anomalie di aggiornamento: aggiornare un valore ripetuto in più tuple richiede più operazioni, aumentando il rischio di inconsistenze.
 - Anomalie di cancellazione: la rimozione di un dato può comportare la perdita di informazioni aggiuntive indesiderate.
 
-> Garantire la coerenza: ogni valore viene memorizzato in un'unica posizione, rendendo gli aggiornamenti più sicuri e affidabili.
+### Garantire la coerenza: ogni valore viene memorizzato in un'unica posizione, rendendo gli aggiornamenti più sicuri e affidabili.
 - Migliorare la flessibilità del database: permettendo di espandere e modificare il database senza introdurre incoerenze.
 
 ---
