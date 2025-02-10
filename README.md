@@ -1,3 +1,6 @@
+# UPDATE (10/02/2025)
+- Prossima Lezione: 14/02/2025
+
 # UPDATE (07/02/2025)
 - Mi sono svegliato con qualche linea di febbre. Oggi non riesco a venire a lezione. 
 
