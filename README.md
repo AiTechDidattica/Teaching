@@ -1,5 +1,5 @@
-# UPDATE (04/05/2025)
-- Prossima Lezione: Venerdì 09/05/2025
+# UPDATE (10/05/2025)
+- Prossima Lezione: Venerdì 16/05/2025
 - Rileggere materiale sui sistemi informativi
 - Lettura degli appunti sul Database ed SQL
 ---
