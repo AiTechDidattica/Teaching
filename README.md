@@ -1,7 +1,4 @@
-# UPDATE (31/05/2025)
-- Prossima Lezione: Venerdì 06/06/2025
-- Rileggere materiale sui sistemi informativi
-- Lettura degli appunti sul Database ed SQL
+# UPDATE (29/09/2026)
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
