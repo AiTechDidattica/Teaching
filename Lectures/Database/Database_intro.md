@@ -66,12 +66,12 @@ Il **modello E-R** è un modo visuale per progettare il database. Usa concetti c
   - `Studente`: Attributi `Matricola`, `Nome`, `Cognome`.
   - `Corso`: Attributi `CodiceCorso`, `Titolo`, `CFU`.
 - **Relazione**:
-  - `Partecipa`: Collegamento tra `Studente` e `Corso`, con attributo `Voto`.
+  - `Partecipazione`: Collegamento tra `Studente` e `Corso`, con attributo `Voto`.
 
 ### Diagramma UML (Modello E-R)
 ```simpletext
 +------------------+       +------------------+       +------------------+
-|    Studente      |       |    Partecipa     |       |      Corso       |
+|    Studente      |       |  Partecipazione  |       |      Corso       |
 +------------------+       +------------------+       +------------------+
 | Matricola (PK)   |<----->| Matricola (FK)   |<----->| CodiceCorso (PK) |
 | Nome             |       | CodiceCorso (FK) |       | Titolo           |
@@ -99,21 +99,21 @@ Il modello relazionale traduce il modello E-R in un insieme di tabelle. Ogni ent
 
 ### Definizione di Chiavi
 - **Chiave primaria**: Un attributo (o un insieme di attributi) che identifica univocamente una tupla.
-  - Es. `Matricola` nella tabella `Studente`.
+  - Es. `Matricola` nella tabella `Studenti`.
 - **Chiave esterna**: Un attributo che punta alla chiave primaria di un'altra tabella.
-  - Es. `Matricola` nella tabella `Partecipa`.
+  - Es. `Matricola` nella tabella `Partecipazioni`.
 - **Superchiave**: Qualsiasi insieme di attributi che identifica univocamente una tupla.
 
 **Esempio**:
-- Nella tabella `Partecipa`, la combinazione di `Matricola` e `CodiceCorso` forma la chiave primaria.
+- Nella tabella `Partecipazioni`, la combinazione di `Matricola` e `CodiceCorso` forma la chiave primaria.
 
 ### Query sulle Chiavi Esterne
 Recuperare gli studenti con il nome del corso e il voto:
 ```sql
 SELECT s.Nome, s.Cognome, c.Titolo, p.Voto
-FROM Studente s
-JOIN Partecipa p ON s.Matricola = p.Matricola
-JOIN Corso c ON p.CodiceCorso = c.CodiceCorso;
+FROM Studenti s
+JOIN Partecipazioni p ON s.Matricola = p.Matricola
+JOIN Corsi c ON p.CodiceCorso = c.CodiceCorso;
 ```
 
 ---
