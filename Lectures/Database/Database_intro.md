@@ -87,15 +87,15 @@ Il modello relazionale traduce il modello E-R in un insieme di tabelle. Ogni ent
 
 ### Schema Relazionale
 **Tabelle**:
-1. **Studente**:
+1. **Studenti**:
    - **Chiave primaria**: `Matricola`.
-2. **Corso**:
+2. **Corsi**:
    - **Chiave primaria**: `CodiceCorso`.
-3. **Partecipa**:
+3. **Partecipazioni**:
    - **Chiave primaria**: Combinazione di `Matricola` e `CodiceCorso`.
    - **Chiavi esterne**:
-     - `Matricola` (riferisce a `Studente`).
-     - `CodiceCorso` (riferisce a `Corso`).
+     - `Matricola` (riferisce a `Studenti`).
+     - `CodiceCorso` (riferisce a `Corsi`).
 
 ### Definizione di Chiavi
 - **Chiave primaria**: Un attributo (o un insieme di attributi) che identifica univocamente una tupla.
