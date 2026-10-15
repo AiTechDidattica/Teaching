@@ -54,7 +54,7 @@ La normalizzazione è un processo volto a eliminare ridondanze e anomalie nei da
 
 ## Relazione
 
-### Partecipa
+### Partecipazione
 - **Descrizione**: Rappresenta l'iscrizione di uno studente a un corso.
 - **Collega**: Studente ↔ Corso
 - **Attributo**: Voto (valutazione dello studente nel corso)
@@ -64,23 +64,23 @@ La normalizzazione è un processo volto a eliminare ridondanze e anomalie nei da
 Per trasformare il modello E-R in schema relazionale, possiamo definire le seguenti tabelle:
 
 ```sql
-CREATE TABLE Studente (
+CREATE TABLE Studenti (
     Matricola VARCHAR(10) PRIMARY KEY,
     Nome VARCHAR(50),
     Cognome VARCHAR(50)
 );
 
-CREATE TABLE Corso (
+CREATE TABLE Corsi (
     CodiceCorso VARCHAR(10) PRIMARY KEY,
     Titolo VARCHAR(100),
     CFU INT
 );
 
-CREATE TABLE Partecipa (
+CREATE TABLE Partecipazioni (
     Matricola VARCHAR(10),
     CodiceCorso VARCHAR(10),
     Voto INT,
     PRIMARY KEY (Matricola, CodiceCorso),
-    FOREIGN KEY (Matricola) REFERENCES Studente(Matricola),
-    FOREIGN KEY (CodiceCorso) REFERENCES Corso(CodiceCorso)
+    FOREIGN KEY (Matricola) REFERENCES StudenteiMatricola),
+    FOREIGN KEY (CodiceCorso) REFERENCES Corsi(CodiceCorso)
 );
