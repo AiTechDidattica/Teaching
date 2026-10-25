@@ -10,7 +10,7 @@ In Python, le due principali strutture iterative sono:
 - **`for`**: permette di scorrere gli elementi di una sequenza o più in generale di un oggetto iterabile, eseguendo un blocco di istruzioni per ciascun ciclo.
 
 La differenza fondamentale riguarda il modo in cui viene controllata la ripetizione: 
-- Nel caso del costrutto *`while`** la gestione è di tipo manuale
+- Nel caso del costrutto **`while`** la gestione è di tipo manuale
 - Nel caso del costrutto **`for`** la gestione è di tipo automatico
 
 Consideriamo un programma che deve visualizzare i numeri da 1 a 5.
