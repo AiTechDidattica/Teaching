@@ -203,9 +203,9 @@ Output: `10, 8, 6, 4, 2`.
 
 Il passo negativo determina un decremento della variabile a ogni iterazione.
 
-I parametri **Start**, **Stop** e **Step** possono essere modificati tramite controlli ed i valori generati vengono visualizzati insieme al numero di iterazioni. 
+I parametri **Start**, **Stop** e **Step** possono essere ovviamente gestiti da programma ed i valori generati dalla funzione range() possono essere visualizzati insieme al numero di iterazioni. 
 
-**Impostazione iniziale della simulazione:** `start = 1`, `stop = 11`, `step = 2`.
+**Impostazione iniziale:** `start = 1`, `stop = 11`, `step = 2`.
 
 ```python
 start = 1
