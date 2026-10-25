@@ -94,6 +94,51 @@ for _ in range(3):
 
 Il carattere `_` (placeholder) indica che non abbiamo intenzione di utilizzare il valore corrente dell'indice.
 
+
+### 2.1 Gli oggetti iterabili in Python
+
+Un **oggetto iterabile** (*iterable*) è un oggetto che permette di attraversare progressivamente i propri elementi, uno alla volta, attraverso un processo chiamato **iterazione**.
+
+Il ciclo `for` utilizza questo meccanismo per eseguire un blocco di istruzioni per ciascun elemento dell'oggetto iterabile, terminando automaticamente quando tutti gli elementi sono stati attraversati.
+
+In Python, i principali oggetti iterabili sono:
+
+| Oggetto | Esempio | Elementi attraversati |
+|---|---|---|
+| Stringa (`str`) | `"Python"` | Singoli caratteri |
+| Lista (`list`) | `[10, 20, 30]` | Elementi della lista |
+| Tupla (`tuple`) | `(4, 8, 12)` | Elementi della tupla |
+| Dizionario (`dict`) | `{"a": 1, "b": 2}` | Chiavi del dizionario |
+| Insieme (`set`) | `{3, 6, 9}` | Elementi, senza ordine garantito |
+| Range (`range`) | `range(5)` | Numeri interi da 0 a 4 |
+
+**Esempio – Iterazione su una lista**
+
+```python
+numeri = [10, 20, 30]
+
+for numero in numeri:
+    print(numero)
+```
+
+**Output:**
+
+```text
+10
+20
+30
+```
+
+In questo esempio:
+- `numeri` è l'**oggetto iterabile**;
+- `numero` è la **variabile di iterazione**, che assume progressivamente il valore di ciascun elemento;
+- il corpo del ciclo viene eseguito **tre volte**, una per ogni elemento della lista.
+
+**Osservazione:** non tutti gli oggetti Python sono iterabili. Ad esempio, un singolo numero intero (`int`) non può essere attraversato direttamente attraverso un ciclo `for`.
+
+Il ciclo `for` non serve quindi esclusivamente a ripetere istruzioni un numero prestabilito di volte, ma più in generale ad **attraversare gli elementi di un oggetto iterabile**.
+
+
 ## 3. La funzione `range()`
 
 La funzione `range()` genera un oggetto che rappresenta una sequenza di numeri interi. È particolarmente utile quando vogliamo eseguire un'operazione un numero prestabilito di volte oppure utilizzare valori numerici progressivi.
