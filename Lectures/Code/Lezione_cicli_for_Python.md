@@ -435,7 +435,7 @@ Output:
 | `for i in range(len(lista))` | Quando serve accedere o modificare gli elementi tramite indice |
 | `for i, elemento in enumerate(lista)` | Quando servono contemporaneamente posizione e valore |
 
-È bene precisare che l'indice restituito da `enumerate()` rappresenta un conteggio progressivo: il suo valore iniziale può essere personalizzato e non necessariamente coincide con un indice valido della lista.
+È bene precisare che l'indice restituito da `enumerate()` rappresenta un conteggio progressivo; il suo valore iniziale può essere personalizzato e non necessariamente coincide con un indice valido della lista.
 
 ## 7. Cicli `for` annidati
 
@@ -459,7 +459,7 @@ Se il ciclo esterno compie 3 iterazioni e quello interno ne compie 4, il blocco 
 
 ```python
 for i in range(1, 4):
-    for j in range(1, 4):
+    for j in range(1, 5):
         print(f"i = {i}, j = {j}")
 ```
 
@@ -469,27 +469,21 @@ Output:
 i = 1, j = 1
 i = 1, j = 2
 i = 1, j = 3
+i = 1, j = 4
 i = 2, j = 1
 i = 2, j = 2
 i = 2, j = 3
+i = 2, j = 4
 i = 3, j = 1
 i = 3, j = 2
 i = 3, j = 3
+i = 3, j = 4
 ```
 
 Si osserva che `i` rimane costante mentre `j` attraversa tutti i valori. Soltanto al completamento del ciclo interno viene aggiornata `i`.
 
-### Visualizzazione dei cicli annidati (trasposizione della simulazione interattiva)
+**Configurazione numero dei cicli:** `outer = 3`, `inner = 4`.
 
-Nella simulazione originale si possono scegliere da 2 a 5 iterazioni esterne e da 2 a 6 iterazioni interne, quindi avanzare o retrocedere un passaggio alla volta. La cella corrente mostra i valori della coppia `(i, j)`, e le celle precedenti rappresentano le iterazioni già eseguite.
-
-**Configurazione iniziale:** `outer = 3`, `inner = 4`.
-
-```python
-for i in range(1, 4):
-    for j in range(1, 5):
-        print(i, j)
-```
 
 **Griglia dei passaggi**, letta da sinistra a destra e dall'alto in basso:
 
