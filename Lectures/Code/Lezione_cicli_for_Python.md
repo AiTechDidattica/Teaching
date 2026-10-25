@@ -259,7 +259,7 @@ Per `n = 5`, le operazioni sono:
 | 4 | 4 | 10 |
 | 5 | 5 | 15 |
 
-In questo esempio, `somma` è una **variabile accumulatrice**, perché conserva e aggiorna progressivamente un risultato.
+In questo esempio, `somma` è una **variabile accumulatrice**, perché conserva ed aggiorna progressivamente un risultato.
 
 ## 4. Il ciclo `for` come ciclo `for each`
 
