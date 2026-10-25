@@ -1,4 +1,4 @@
-# Lezione di Informatica – I cicli `for` in Python
+# L'iterazione definita in Python – I cicli `for`
 
 ## 1. Introduzione: le strutture iterative
 
