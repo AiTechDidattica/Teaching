@@ -203,9 +203,7 @@ Output: `10, 8, 6, 4, 2`.
 
 Il passo negativo determina un decremento della variabile a ogni iterazione.
 
-### Esplorazione di `range()` (trasposizione testuale della simulazione interattiva)
-
-Nella versione interattiva originale, i parametri **Start**, **Stop** e **Step** possono essere modificati tramite controlli, e i valori generati vengono visualizzati insieme al numero di iterazioni. Nel file Markdown il funzionamento è documentato con esempi riproducibili.
+I parametri **Start**, **Stop** e **Step** possono essere modificati tramite controlli ed i valori generati vengono visualizzati insieme al numero di iterazioni. 
 
 **Impostazione iniziale della simulazione:** `start = 1`, `stop = 11`, `step = 2`.
 
