@@ -1,21 +1,17 @@
 # Lezione di Informatica – I cicli `for` in Python
 
-*PROGRAMMAZIONE PYTHON · LEZIONE TEORICO-PRATICA*
-
-**Obiettivo della lezione:** comprendere il funzionamento dei cicli `for` in Python e imparare a utilizzarli per ripetere istruzioni, elaborare sequenze di dati, gestire indici e realizzare iterazioni annidate.
-
-La lezione è organizzata in modo progressivo, partendo dalle istruzioni più semplici fino ad arrivare a programmi di maggiore complessità. Ogni argomento comprende una spiegazione, uno o più esempi e osservazioni utili per comprendere la logica di esecuzione.
-
 ## 1. Introduzione: le strutture iterative
 
 Nella programmazione, una **struttura iterativa** permette di eseguire ripetutamente un blocco di istruzioni, evitando di doverle riscrivere più volte.
 
 In Python, le due principali strutture iterative sono:
 
-- **`while`**: ripete un blocco di istruzioni finché una determinata condizione risulta vera.
-- **`for`**: permette di scorrere gli elementi di una sequenza o, più in generale, di un oggetto iterabile, eseguendo un blocco di istruzioni per ciascun elemento.
+- **`while`**: che ripete un blocco di istruzioni finché una determinata condizione risulta vera.
+- **`for`**: permette di scorrere gli elementi di una sequenza o più in generale di un oggetto iterabile, eseguendo un blocco di istruzioni per ciascun ciclo.
 
-La differenza fondamentale riguarda il modo in cui viene controllata la ripetizione.
+La differenza fondamentale riguarda il modo in cui viene controllata la ripetizione: 
+- Nel caso del costrutto while la gestione è di tipo manuale
+- Nel caso del costrutto for la gestione è di tipo automatico
 
 Consideriamo un programma che deve visualizzare i numeri da 1 a 5.
 
