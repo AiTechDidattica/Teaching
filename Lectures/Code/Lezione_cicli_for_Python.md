@@ -321,7 +321,6 @@ for numero in numeri:
 print(f"Numeri pari: {contatore}")
 ```
 
-**Distinzione importante:** un contatore aumenta di una quantità prefissata, tipicamente 1, ogni volta che si verifica un evento; un accumulatore raccoglie invece risultati progressivi, come una somma.
 
 ## 5. Iterazione mediante indice: `range()` e `len()`
 
@@ -380,8 +379,6 @@ Qui l'utilizzo dell'indice è necessario per assegnare i nuovi valori alle posiz
 Attenzione: scrivere semplicemente `numero = numero * 2` all'interno di un `for numero in numeri` non modificherebbe gli elementi della lista, ma soltanto la variabile locale `numero`.
 
 ## 6. La funzione `enumerate()`: ottenere indice e valore
-
-Il comando che cercavi è proprio **`enumerate()`**.
 
 Questa funzione consente di attraversare un iterabile ottenendo contemporaneamente due informazioni:
 
