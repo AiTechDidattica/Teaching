@@ -426,18 +426,7 @@ Output:
 4: Sara
 ```
 
-### Come funziona `enumerate()` (trasposizione della simulazione interattiva)
-
-Nella simulazione originale è possibile avanzare o retrocedere tra quattro iterazioni, visualizzando ogni volta i valori di `indice` e `studente` prodotti da `enumerate(studenti, start=1)`.
-
-| Iterazione | `indice` | `studente` | Output |
-|---:|---:|---|---|
-| 1 | 1 | Marco | `1: Marco` |
-| 2 | 2 | Anna | `2: Anna` |
-| 3 | 3 | Luca | `3: Luca` |
-| 4 | 4 | Sara | `4: Sara` |
-
-### Quando utilizzare le diverse forme di iterazione?
+## Quando utilizzare le diverse forme di iterazione?
 
 | Modalità | Quando è utile |
 |---|---|
