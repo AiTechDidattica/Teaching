@@ -65,7 +65,6 @@ Dove:
 - `variabile` assume, a ogni iterazione, il valore dell'elemento corrente.
 - `in` introduce l'oggetto da attraversare.
 - `iterabile` è una sequenza o un altro oggetto che può essere percorso.
-- `:` e l'indentazione identificano il blocco di istruzioni da ripetere.
 
 Un'**iterazione** è una singola esecuzione del corpo del ciclo.
 
@@ -84,16 +83,16 @@ Benvenuto alla lezione di Python!
 Benvenuto alla lezione di Python!
 ```
 
-Il blocco viene eseguito tre volte. La variabile `i` assume successivamente i valori `0`, `1` e `2`, anche se in questo programma non viene utilizzata.
+Il blocco viene eseguito tre volte. La variabile `i` (indice) assume successivamente i valori `0`, `1` e `2`, anche se in questo programma non viene utilizzata.
 
-Quando il valore della variabile non serve, per convenzione si può scrivere:
+Quando non si necessità di utilizzare valore della variabile `i`, per convenzione si può scrivere:
 
 ```python
 for _ in range(3):
     print("Benvenuto alla lezione di Python!")
 ```
 
-Il carattere `_` indica che non abbiamo intenzione di utilizzare il valore corrente.
+Il carattere `_` (placeholder) indica che non abbiamo intenzione di utilizzare il valore corrente dell'indice.
 
 ## 3. La funzione `range()`
 
