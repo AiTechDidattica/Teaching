@@ -495,7 +495,7 @@ Si osserva che `i` rimane costante mentre `j` attraversa tutti i valori. Soltant
 
 Numero complessivo di esecuzioni del corpo del ciclo interno: **3 × 4 = 12**.
 
-Per effettuare una simulazione passo per passo anche a console:
+Simulazione passo per passo delle iterazioni esterne-interne:
 
 ```python
 for i in range(1, 4):
@@ -629,13 +629,11 @@ Nei cicli annidati, un `break` collocato nel ciclo interno interrompe soltanto q
 
 ---
 
-# 9. Esercizi da assegnare a casa
+# 9. Esercizi di consolidamento (DA FARE)
 
 Le seguenti tracce sono ordinate secondo una difficoltà crescente, per consolidare gradualmente i concetti affrontati.
 
-**Scheda di esercitazione — 12 programmi.** Nell'interfaccia originale gli esercizi erano selezionabili mediante filtri (*Tutti*, *Base*, *Intermedi*, *Avanzati*) e contrassegnabili come completati; di seguito sono riportati **tutti e dodici, senza esclusioni**.
-
-### 1. Sequenza numerica — Base
+### 1. Sequenza numerica — Bas
 
 Scrivere un programma che acquisisca un numero intero positivo N e visualizzi tutti i numeri compresi tra 1 e N, prima in ordine crescente e poi in ordine decrescente.
 
@@ -665,58 +663,6 @@ Acquisire una parola e un carattere. Utilizzando un ciclo `for`, determinare qua
 
 **Concetti:** `for each`.
 
-### 6. Analisi di una lista — Intermedio
-
-Data la lista `[12, 5, 8, 21, 4, 17, 10]`, determinare quanti numeri sono pari, quanti dispari e la somma degli elementi maggiori di 10.
-
-**Concetti:** `for each` e `if`.
-
-### 7. Posizioni dei numeri negativi — Intermedio
-
-Data la lista `[4, -2, 7, -5, 0, -1, 9]`, visualizzare il valore e l'indice di ciascun elemento negativo utilizzando `enumerate()`.
-
-**Concetti:** `enumerate()`.
-
-### 8. Aggiornamento dei prezzi — Intermedio
-
-Data una lista di prezzi `[10.0, 25.0, 40.0, 15.0]`, aumentare ciascun prezzo del 10%, modificando direttamente gli elementi della lista. Visualizzare la lista aggiornata.
-
-**Concetti:** `range(len())`.
-
-### 9. Rettangolo di asterischi — Avanzato
-
-Acquisire due numeri interi positivi, che rappresentano altezza e larghezza, e disegnare un rettangolo composto da asterischi. Utilizzare esclusivamente cicli `for` annidati per generare il disegno.
-
-**Concetti:** `for` annidati.
-
-### 10. Triangolo numerico — Avanzato
-
-Acquisire un numero N positivo e stampare N righe. Nella prima riga visualizzare 1, nella seconda 1 2, nella terza 1 2 3 e così via, fino a N.
-
-**Concetti:** annidamento variabile.
-
-### 11. Tavola pitagorica N × N — Avanzato
-
-Acquisire un numero intero N compreso tra 2 e 10 e visualizzare una tavola pitagorica di N righe e N colonne, allineando correttamente i risultati.
-
-**Concetti:** `for` annidati e formattazione.
-
-### 12. Analisi di una matrice — Avanzato
-
-Data una matrice quadrata 3 × 3 di numeri interi, calcolare la somma complessiva degli elementi, la somma degli elementi della diagonale principale e individuare il valore massimo.
-
-**Concetti:** `for` annidati ed `enumerate()`.
-
-## 10. Indicazioni metodologiche per lo svolgimento
-
-Per ciascun programma è opportuno chiedere agli studenti di:
-
-1. Individuare i dati di input, le elaborazioni richieste e i risultati di output.
-2. Scegliere la forma di iterazione più adatta, motivandola.
-3. Implementare il programma in Python, utilizzando nomi di variabili significativi e commenti essenziali.
-4. Eseguire almeno due prove con dati differenti, verificando la correttezza dei risultati.
-5. Gestire, ove necessario, gli input non validi, ricorrendo agli strumenti già studiati.
-
 ## 11. Riepilogo finale
 
 | Costrutto | Funzione |
@@ -735,16 +681,3 @@ Per ciascun programma è opportuno chiedere agli studenti di:
 
 ---
 
-### Proposta di organizzazione didattica
-
-Considerando lezioni di due ore, suddividerei il materiale in **tre incontri**, per dare agli studenti il tempo di sperimentare concretamente i costrutti.
-
-| Lezione | Contenuti | Attività pratica |
-|---|---|---|
-| 1ª – 2 ore | Introduzione al `for`, sintassi, `range()` e contatori/accumulatori | Sequenze numeriche, somme e tabelline |
-| 2ª – 2 ore | `for each`, liste, indici, `len()` ed `enumerate()` | Elaborazione delle liste e ricerca di elementi |
-| 3ª – 2 ore | Cicli annidati, matrici, `break` e `continue` | Disegni con asterischi e tavola pitagorica |
-
-**Suggerimento didattico:** prima di eseguire ciascun programma, chiederei agli studenti di prevederne l'output, annotando come cambiano le variabili a ogni iterazione. Questo esercizio di *tracciamento del codice* è particolarmente utile per i cicli annidati, dove spesso nasce la difficoltà di comprendere quale variabile venga aggiornata e in quale momento.
-
-La progressione proposta permette di passare dall'esecuzione ripetuta di istruzioni all'elaborazione di strutture dati, senza introdurre prematuramente concetti più avanzati come comprensioni di lista, generatori o iteratori personalizzati.
