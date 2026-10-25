@@ -629,7 +629,25 @@ Nei cicli annidati, un `break` collocato nel ciclo interno interrompe soltanto q
 
 ---
 
-# 9. Esercizi di consolidamento (DA FARE)
+## 9. Riepilogo finale
+
+| Costrutto | Funzione |
+|---|---|
+| `for` | Esegue istruzioni per ciascun elemento di un iterabile |
+| `range(n)` | Permette di iterare sui numeri da 0 a n−1 |
+| `range(a, b, s)` | Permette di iterare da a verso b, escluso, con passo s |
+| `for x in lista` | Accede direttamente agli elementi |
+| `len(lista)` | Restituisce il numero degli elementi |
+| `range(len(lista))` | Permette di attraversare gli indici della lista |
+| `enumerate(lista)` | Restituisce indice progressivo ed elemento |
+| `enumerate(lista, start=1)` | Permette di personalizzare l'indice iniziale |
+| `for` annidati | Permettono di eseguire un ciclo all'interno di un altro |
+| `break` | Interrompe il ciclo corrente |
+| `continue` | Passa all'iterazione successiva |
+
+---
+
+## 10. Esercizi di consolidamento (DA FARE)
 
 Le seguenti tracce sono ordinate secondo una difficoltà crescente, per consolidare gradualmente i concetti affrontati.
 
@@ -662,22 +680,4 @@ Chiedere quanti numeri si desidera inserire, acquisirli uno alla volta e calcola
 Acquisire una parola e un carattere. Utilizzando un ciclo `for`, determinare quante volte il carattere compare nella parola, senza utilizzare il metodo `count()`.
 
 **Concetti:** `for each`.
-
-## 11. Riepilogo finale
-
-| Costrutto | Funzione |
-|---|---|
-| `for` | Esegue istruzioni per ciascun elemento di un iterabile |
-| `range(n)` | Permette di iterare sui numeri da 0 a n−1 |
-| `range(a, b, s)` | Permette di iterare da a verso b, escluso, con passo s |
-| `for x in lista` | Accede direttamente agli elementi |
-| `len(lista)` | Restituisce il numero degli elementi |
-| `range(len(lista))` | Permette di attraversare gli indici della lista |
-| `enumerate(lista)` | Restituisce indice progressivo ed elemento |
-| `enumerate(lista, start=1)` | Permette di personalizzare l'indice iniziale |
-| `for` annidati | Permettono di eseguire un ciclo all'interno di un altro |
-| `break` | Interrompe il ciclo corrente |
-| `continue` | Passa all'iterazione successiva |
-
----
 
