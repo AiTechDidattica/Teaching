@@ -263,7 +263,7 @@ In questo esempio, `somma` è una **variabile accumulatrice**, perché conserva 
 
 ## 4. Il ciclo `for` come ciclo `for each`
 
-In Python il `for` è, per sua natura, un ciclo di tipo *for each*: permette di attraversare direttamente gli elementi di un iterabile.
+In Python il `for` risulta per propria natura, un ciclo di tipo *for each*; esso permette infatti di attraversare direttamente gli elementi di un iterabile.
 
 La struttura è:
 
@@ -292,7 +292,7 @@ A ogni iterazione, `frutto` assume il valore dell'elemento corrente.
 | 3 | `"Banana"` |
 | 4 | `"Arancia"` |
 
-Non è necessario conoscere anticipatamente il numero degli elementi della lista.
+IMPORTANTE: Non risulta quindi necessario conoscere anticipatamente il numero degli elementi della lista.
 
 ### Esempio 4 – Scorrimento di una stringa
 
