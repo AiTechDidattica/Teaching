@@ -184,7 +184,7 @@ La coppia (`codice_squadra`, `id_allenatore`) costituisce una **chiave primaria 
 
 ### Esempio
 
-**ASSEGNAZIONI**
+**INCARICHI**
 
 | codice_squadra | id_allenatore |
 | -------------- | ----------------- |
@@ -224,7 +224,7 @@ Questo esempio permette di comprendere un principio fondamentale della progettaz
 
 **La cardinalità di una relazione non dipende dal nome delle entità coinvolte, ma dalle regole che descrivono il funzionamento della realtà da rappresentare.**
 
-Le entità `SQUADRE` e `ALLENATORI` rimangono le stesse nei tre scenari. A cambiare sono le regole organizzative della società sportiva e, di conseguenza, la struttura del modello relazionale.
+Le entità `SQUADRE` e `ALLENATORI` rimangono le stesse nei tre scenari. A cambiare sono le regole organizzative della società sportiva e di conseguenza, la struttura del modello relazionale.
 
 È quindi necessario analizzare attentamente la descrizione del problema prima di decidere dove collocare le chiavi esterne o se introdurre una tabella associativa.
 
