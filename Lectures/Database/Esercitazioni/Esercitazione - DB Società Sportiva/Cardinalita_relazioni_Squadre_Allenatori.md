@@ -44,13 +44,13 @@ Ad esempio:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`
 
 **SQUADRE**
 
-`codice_squadra` (PK), `nome`, `categoria`, `codice_allenatore` (FK, UNIQUE)
+`codice_squadra` (PK), `nome`, `categoria`, `id_allenatore` (FK, UNIQUE)
 
-La chiave esterna `codice_allenatore` permette di identificare l'allenatore assegnato a ciascuna squadra.
+La chiave esterna `id_allenatore` permette di identificare l'allenatore assegnato a ciascuna squadra.
 
 Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più squadre.
 
@@ -58,7 +58,7 @@ Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più sq
 
 **ALLENATORI**
 
-| codice_allenatore | nome  | cognome |
+| id_allenatore | nome  | cognome |
 | ----------------- | ----- | ------- |
 | AL01              | Mario | Rossi   |
 | AL02              | Luca  | Bianchi |
