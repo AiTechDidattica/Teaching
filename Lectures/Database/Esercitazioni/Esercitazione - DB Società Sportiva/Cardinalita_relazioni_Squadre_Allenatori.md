@@ -105,7 +105,7 @@ Pertanto:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`, `codice_squadra` (FK)
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`, `codice_squadra` (FK)
 
 La differenza rispetto al primo scenario è fondamentale: la chiave esterna `codice_squadra` viene ora inserita nella tabella `ALLENATORI`.
 
@@ -120,7 +120,7 @@ La differenza rispetto al primo scenario è fondamentale: la chiave esterna `cod
 
 **ALLENATORI**
 
-| codice_allenatore | nome   | cognome | codice_squadra |
+| id_allenatore | nome   | cognome | codice_squadra |
 | ----------------- | ------ | ------- | -------------- |
 | AL01              | Mario  | Rossi   | SQ01           |
 | AL02              | Luca   | Bianchi | SQ01           |
@@ -154,7 +154,7 @@ La relazione `ALLENA` diventa quindi **N:M (molti a molti)**.
 
 ### Perché non è sufficiente una semplice chiave esterna?
 
-Se inserissimo `codice_allenatore` nella tabella `SQUADRE`, potremmo rappresentare direttamente un solo allenatore per squadra.
+Se inserissimo `allenatore` nella tabella `SQUADRE`, potremmo rappresentare direttamente un solo allenatore per squadra.
 
 Viceversa, inserendo `codice_squadra` nella tabella `ALLENATORI`, potremmo rappresentare direttamente una sola squadra per allenatore.
 
@@ -162,7 +162,7 @@ Nessuna delle due soluzioni sarebbe sufficiente a rappresentare correttamente la
 
 ### Introduzione della tabella associativa
 
-Per risolvere il problema si introduce una nuova tabella, denominata `ASSEGNAZIONI`.
+Per risolvere il problema si introduce una nuova tabella, denominata `INCARICHI`.
 
 Il modello relazionale diventa:
 
@@ -172,21 +172,21 @@ Il modello relazionale diventa:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`
 
-**ASSEGNAZIONI**
+**INCARICHI**
 
-`codice_squadra` (PK, FK), `codice_allenatore` (PK, FK)
+`codice_squadra` (PK, FK), `id_allenatore` (PK, FK)
 
-La tabella `ASSEGNAZIONI` contiene due chiavi esterne che fanno riferimento alle chiavi primarie delle rispettive entità.
+La tabella `INCARICHI` contiene due chiavi esterne che fanno riferimento alle chiavi primarie delle rispettive entità.
 
-La coppia (`codice_squadra`, `codice_allenatore`) costituisce una **chiave primaria composta**, impedendo la registrazione duplicata della stessa associazione.
+La coppia (`codice_squadra`, `id_allenatore`) costituisce una **chiave primaria composta**, impedendo la registrazione duplicata della stessa associazione.
 
 ### Esempio
 
 **ASSEGNAZIONI**
 
-| codice_squadra | codice_allenatore |
+| codice_squadra | id_allenatore |
 | -------------- | ----------------- |
 | SQ01           | AL01              |
 | SQ01           | AL02              |
@@ -202,11 +202,11 @@ Dai dati possiamo osservare che:
 
 La relazione N:M originaria viene quindi trasformata, nel modello relazionale, in **due relazioni 1:N**:
 
-`SQUADRE (1) — (N) ASSEGNAZIONI`
+`SQUADRE (1) — (N) INCARICHI`
 
-`ALLENATORI (1) — (N) ASSEGNAZIONI`
+`ALLENATORI (1) — (N) INCARICHI`
 
-La tabella associativa può inoltre contenere attributi che descrivono la relazione stessa, come `data_inizio`, `data_fine` o `incarico`.
+La tabella associativa può inoltre contenere attributi che descrivono la relazione stessa, come `data_inizio`, `data_fine` o `tipo_incarico`.
 
 ---
 
@@ -216,7 +216,7 @@ La tabella associativa può inoltre contenere attributi che descrivono la relazi
 | ----------- | ------------------------------------------------------- | ------------------------------------------------- |
 | **1:1**     | Un allenatore per squadra e una squadra per allenatore  | FK in una delle due tabelle, con vincolo `UNIQUE` |
 | **1:N**     | Più allenatori per squadra, una squadra per allenatore  | FK nella tabella `ALLENATORI`, sul lato N         |
-| **N:M**     | Più allenatori per squadra e più squadre per allenatore | Tabella associativa `ASSEGNAZIONI` con due FK     |
+| **N:M**     | Più allenatori per squadra e più squadre per allenatore | Tabella associativa `INCARICHI` con due FK     |
 
 ## 6. Considerazioni conclusive
 
