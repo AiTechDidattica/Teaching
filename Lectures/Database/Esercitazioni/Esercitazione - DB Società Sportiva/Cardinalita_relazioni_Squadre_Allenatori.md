@@ -66,13 +66,13 @@ Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più sq
 
 **SQUADRE**
 
-| codice_squadra | nome    | codice_allenatore |
+| codice_squadra | nome    | allenatore |
 | -------------- | ------- | ----------------- |
 | SQ01           | Fulmini | AL01              |
 | SQ02           | Aquile  | AL02              |
 | SQ03           | Tigri   | AL03              |
 
-Ogni allenatore compare al massimo una volta nella colonna `codice_allenatore` della tabella `SQUADRE`.
+Ogni allenatore compare al massimo una volta nella colonna `allenatore` della tabella `SQUADRE`.
 
 **Osservazione:** se ogni squadra deve obbligatoriamente avere un allenatore, la chiave esterna dovrà anche essere `NOT NULL`. Per garantire che ogni allenatore abbia necessariamente una squadra occorrono invece ulteriori vincoli.
 
