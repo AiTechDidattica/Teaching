@@ -44,13 +44,13 @@ Ad esempio:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`
 
 **SQUADRE**
 
-`codice_squadra` (PK), `nome`, `categoria`, `codice_allenatore` (FK, UNIQUE)
+`codice_squadra` (PK), `nome`, `categoria`, `allenatore` (FK, UNIQUE)
 
-La chiave esterna `codice_allenatore` permette di identificare l'allenatore assegnato a ciascuna squadra.
+La chiave esterna `id_allenatore` permette di identificare l'allenatore assegnato a ciascuna squadra.
 
 Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più squadre.
 
@@ -58,7 +58,7 @@ Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più sq
 
 **ALLENATORI**
 
-| codice_allenatore | nome  | cognome |
+| id_allenatore | nome  | cognome |
 | ----------------- | ----- | ------- |
 | AL01              | Mario | Rossi   |
 | AL02              | Luca  | Bianchi |
@@ -66,13 +66,13 @@ Il vincolo `UNIQUE` impedisce che lo stesso allenatore venga assegnato a più sq
 
 **SQUADRE**
 
-| codice_squadra | nome    | codice_allenatore |
+| codice_squadra | nome    | allenatore |
 | -------------- | ------- | ----------------- |
 | SQ01           | Fulmini | AL01              |
 | SQ02           | Aquile  | AL02              |
 | SQ03           | Tigri   | AL03              |
 
-Ogni allenatore compare al massimo una volta nella colonna `codice_allenatore` della tabella `SQUADRE`.
+Ogni allenatore compare al massimo una volta nella colonna `allenatore` della tabella `SQUADRE`.
 
 **Osservazione:** se ogni squadra deve obbligatoriamente avere un allenatore, la chiave esterna dovrà anche essere `NOT NULL`. Per garantire che ogni allenatore abbia necessariamente una squadra occorrono invece ulteriori vincoli.
 
@@ -105,7 +105,7 @@ Pertanto:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`, `codice_squadra` (FK)
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`, `codice_squadra` (FK)
 
 La differenza rispetto al primo scenario è fondamentale: la chiave esterna `codice_squadra` viene ora inserita nella tabella `ALLENATORI`.
 
@@ -120,7 +120,7 @@ La differenza rispetto al primo scenario è fondamentale: la chiave esterna `cod
 
 **ALLENATORI**
 
-| codice_allenatore | nome   | cognome | codice_squadra |
+| id_allenatore | nome   | cognome | codice_squadra |
 | ----------------- | ------ | ------- | -------------- |
 | AL01              | Mario  | Rossi   | SQ01           |
 | AL02              | Luca   | Bianchi | SQ01           |
@@ -154,7 +154,7 @@ La relazione `ALLENA` diventa quindi **N:M (molti a molti)**.
 
 ### Perché non è sufficiente una semplice chiave esterna?
 
-Se inserissimo `codice_allenatore` nella tabella `SQUADRE`, potremmo rappresentare direttamente un solo allenatore per squadra.
+Se inserissimo `allenatore` nella tabella `SQUADRE`, potremmo rappresentare direttamente un solo allenatore per squadra.
 
 Viceversa, inserendo `codice_squadra` nella tabella `ALLENATORI`, potremmo rappresentare direttamente una sola squadra per allenatore.
 
@@ -162,7 +162,7 @@ Nessuna delle due soluzioni sarebbe sufficiente a rappresentare correttamente la
 
 ### Introduzione della tabella associativa
 
-Per risolvere il problema si introduce una nuova tabella, denominata `ASSEGNAZIONI`.
+Per risolvere il problema si introduce una nuova tabella, denominata `INCARICHI`.
 
 Il modello relazionale diventa:
 
@@ -172,21 +172,21 @@ Il modello relazionale diventa:
 
 **ALLENATORI**
 
-`codice_allenatore` (PK), `nome`, `cognome`, `qualifica`
+`id_allenatore` (PK), `nome`, `cognome`, `qualifica`
 
-**ASSEGNAZIONI**
+**INCARICHI**
 
-`codice_squadra` (PK, FK), `codice_allenatore` (PK, FK)
+`codice_squadra` (PK, FK), `id_allenatore` (PK, FK)
 
-La tabella `ASSEGNAZIONI` contiene due chiavi esterne che fanno riferimento alle chiavi primarie delle rispettive entità.
+La tabella `INCARICHI` contiene due chiavi esterne che fanno riferimento alle chiavi primarie delle rispettive entità.
 
-La coppia (`codice_squadra`, `codice_allenatore`) costituisce una **chiave primaria composta**, impedendo la registrazione duplicata della stessa associazione.
+La coppia (`codice_squadra`, `id_allenatore`) costituisce una **chiave primaria composta**, impedendo la registrazione duplicata della stessa associazione.
 
 ### Esempio
 
-**ASSEGNAZIONI**
+**INCARICHI**
 
-| codice_squadra | codice_allenatore |
+| codice_squadra | id_allenatore |
 | -------------- | ----------------- |
 | SQ01           | AL01              |
 | SQ01           | AL02              |
@@ -202,11 +202,11 @@ Dai dati possiamo osservare che:
 
 La relazione N:M originaria viene quindi trasformata, nel modello relazionale, in **due relazioni 1:N**:
 
-`SQUADRE (1) — (N) ASSEGNAZIONI`
+`SQUADRE (1) — (N) INCARICHI`
 
-`ALLENATORI (1) — (N) ASSEGNAZIONI`
+`ALLENATORI (1) — (N) INCARICHI`
 
-La tabella associativa può inoltre contenere attributi che descrivono la relazione stessa, come `data_inizio`, `data_fine` o `incarico`.
+La tabella associativa può inoltre contenere attributi che descrivono la relazione stessa, come `data_inizio`, `data_fine` o `tipo_incarico`.
 
 ---
 
@@ -216,7 +216,7 @@ La tabella associativa può inoltre contenere attributi che descrivono la relazi
 | ----------- | ------------------------------------------------------- | ------------------------------------------------- |
 | **1:1**     | Un allenatore per squadra e una squadra per allenatore  | FK in una delle due tabelle, con vincolo `UNIQUE` |
 | **1:N**     | Più allenatori per squadra, una squadra per allenatore  | FK nella tabella `ALLENATORI`, sul lato N         |
-| **N:M**     | Più allenatori per squadra e più squadre per allenatore | Tabella associativa `ASSEGNAZIONI` con due FK     |
+| **N:M**     | Più allenatori per squadra e più squadre per allenatore | Tabella associativa `INCARICHI` con due FK     |
 
 ## 6. Considerazioni conclusive
 
@@ -224,7 +224,7 @@ Questo esempio permette di comprendere un principio fondamentale della progettaz
 
 **La cardinalità di una relazione non dipende dal nome delle entità coinvolte, ma dalle regole che descrivono il funzionamento della realtà da rappresentare.**
 
-Le entità `SQUADRE` e `ALLENATORI` rimangono le stesse nei tre scenari. A cambiare sono le regole organizzative della società sportiva e, di conseguenza, la struttura del modello relazionale.
+Le entità `SQUADRE` e `ALLENATORI` rimangono le stesse nei tre scenari. A cambiare sono le regole organizzative della società sportiva e di conseguenza, la struttura del modello relazionale.
 
 È quindi necessario analizzare attentamente la descrizione del problema prima di decidere dove collocare le chiavi esterne o se introdurre una tabella associativa.
 
