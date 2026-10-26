@@ -48,7 +48,7 @@ Ad esempio:
 
 **SQUADRE**
 
-`codice_squadra` (PK), `nome`, `categoria`, `id_allenatore` (FK, UNIQUE)
+`codice_squadra` (PK), `nome`, `categoria`, `allenatore` (FK, UNIQUE)
 
 La chiave esterna `id_allenatore` permette di identificare l'allenatore assegnato a ciascuna squadra.
 
