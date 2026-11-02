@@ -6,27 +6,22 @@ In una base di dati relazionale, le informazioni vengono organizzate in **tabell
 
 Le tabelle possono essere collegate attraverso attributi comuni, utilizzando le **chiavi primarie (PK)** e le **chiavi esterne (FK)**.
 
-La *molteplicità* di una relazione indica quanti record di una tabella possono essere associati ai record di un'altra tabella.
+La *molteplicità* di una relazione indica quante tuple di una tabella possono essere associate alle tuple di un'altra tabella.
 
 Le principali molteplicità sono:
 
-- **Uno a uno (1:1):** a ogni record della prima tabella può corrispondere al massimo un record della seconda e viceversa.
-- **Uno a molti (1:N):** a un record della prima tabella possono corrispondere più record della seconda, mentre ogni record della seconda può essere associato al massimo a uno della prima.
-- **Molti a molti (N:M):** a un record della prima tabella possono corrispondere più record della seconda e viceversa.
-
-> **Precisazione:** le sigle 1:1, 1:N e N:M descrivono il numero massimo di associazioni; l'obbligatorietà di un'associazione è un vincolo distinto.
-
-Vediamo come queste relazioni vengono realizzate attraverso esempi concreti, utilizzando direttamente le tabelle relazionali e non il modello E/R.
-
+- **Uno a uno (1:1):** ad ogni tupla della prima tabella può corrispondere al massimo una tupla della seconda e viceversa.
+- **Uno a molti (1:N):** ad una tupla della prima tabella possono corrispondere più tuple della seconda, mentre ogni tupla della seconda può essere associata al massimo ad una della prima.
+- **Molti a molti (N:M):** ad una tupla della prima tabella possono corrispondere più tuple della seconda e viceversa.
 ---
 
 ## 2. Relazione uno a uno (1:1)
 
 ### Esempio: dipendenti e badge aziendali
 
-Un'azienda registra i propri dipendenti e i badge personali assegnati per accedere agli uffici.
+Un'azienda registra i propri dipendenti ed i badge personali assegnati per accedere agli uffici.
 
-Ogni dipendente può possedere un solo badge e ogni badge può essere assegnato a un solo dipendente.
+Ogni dipendente può possedere un solo badge ed ogni badge può essere assegnato ad un solo dipendente.
 
 **Tabella DIPENDENTI**
 
@@ -38,7 +33,7 @@ Ogni dipendente può possedere un solo badge e ogni badge può essere assegnato 
 
 **Tabella BADGE**
 
-| id_badge (PK) | codice_accesso | id_dipendente (FK, UNIQUE) |
+| codice_badge (PK) | codice_accesso | id_dipendente (FK, UNIQUE) |
 |---|---|---|
 | B101 | 45821 | D01 |
 | B102 | 73915 | D02 |
@@ -54,7 +49,7 @@ DIPENDENTI (1) ───────── (1) BADGE
 
 La tabella `DIPENDENTI` identifica ciascun dipendente mediante la chiave primaria `id_dipendente`.
 
-La tabella `BADGE` contiene una propria chiave primaria (`id_badge`) e una chiave esterna (`id_dipendente`), che fa riferimento alla tabella `DIPENDENTI`.
+La tabella `BADGE` contiene una propria chiave primaria (`codice_badge`) ed una chiave esterna (`id_dipendente`), che fa riferimento alla tabella `DIPENDENTI`.
 
 **Attenzione:** la sola presenza della chiave esterna non garantisce una relazione 1:1. È necessario che `id_dipendente` nella tabella `BADGE` abbia anche un **vincolo di unicità (`UNIQUE`)**, così da impedire che più badge siano associati allo stesso dipendente.
 
@@ -68,7 +63,7 @@ Nell'esempio tutti i dipendenti hanno un badge; in generale, il vincolo `UNIQUE`
 
 Un negozio registra i propri clienti e gli ordini effettuati.
 
-Ogni cliente può effettuare più ordini nel tempo, mentre ogni ordine appartiene a un solo cliente.
+Ogni cliente può effettuare più ordini nel tempo, mentre ogni ordine appartiene ad un solo cliente.
 
 **Tabella CLIENTI**
 
@@ -130,7 +125,7 @@ Ogni studente può frequentare più corsi e ogni corso può essere frequentato d
 
 **Tabella CORSI**
 
-| id_corso (PK) | nome_corso | durata_ore |
+| codice_corso (PK) | nome_corso | durata_ore |
 |---|---|---|
 | C01 | Python | 30 |
 | C02 | Inglese | 25 |
@@ -142,15 +137,15 @@ Osserviamo alcune iscrizioni:
 - Laura Bianchi frequenta Python e Inglese.
 - Anna Verdi frequenta Inglese e Robotica.
 
-Non possiamo rappresentare correttamente queste associazioni inserendo una **singola chiave esterna** in `STUDENTI` oppure in `CORSI`: ciascuna riga dovrebbe infatti poter essere collegata a più righe dell'altra tabella.
+Non possiamo rappresentare correttamente queste associazioni inserendo una **singola chiave esterna** in `STUDENTI` oppure in `CORSI`: ciascuna tupla dovrebbe infatti poter essere collegata a più tuple dell'altra tabella.
 
-### La soluzione: una tabella di collegamento
+### La soluzione: una tabella di collegamento (tabella associativa)
 
 Introduciamo una terza tabella, chiamata `ISCRIZIONI`.
 
 **Tabella ISCRIZIONI**
 
-| id_studente (PK, FK) | id_corso (PK, FK) | data_iscrizione |
+| id_studente (PK, FK) | codice_corso (PK, FK) | data_iscrizione |
 |---|---|---|
 | S01 | C01 | 01/10/2026 |
 | S01 | C03 | 02/10/2026 |
@@ -173,11 +168,11 @@ STUDENTI (1) ─── (N) ISCRIZIONI (N) ─── (1) CORSI
 La tabella `ISCRIZIONI` contiene due chiavi esterne:
 
 - `id_studente`, che fa riferimento alla tabella `STUDENTI`;
-- `id_corso`, che fa riferimento alla tabella `CORSI`.
+- `codice_corso`, che fa riferimento alla tabella `CORSI`.
 
 Questi due attributi costituiscono anche una **chiave primaria composta**.
 
-Ciò significa che uno studente può comparire più volte nella tabella `ISCRIZIONI`, così come un corso, ma la stessa coppia (`id_studente`, `id_corso`) non può essere ripetuta.
+Ciò significa che uno studente può comparire più volte nella tabella `ISCRIZIONI`, così come un corso, ma la stessa coppia (`id_studente`, `codice_corso`) non può essere ripetuta.
 
 Per esempio, `S01` compare due volte perché Marco Rossi frequenta due corsi. Analogamente, `C01` compare due volte perché il corso Python è frequentato da due studenti.
 
@@ -195,55 +190,28 @@ La relazione N:M viene quindi trasformata, nel modello logico-relazionale, in **
 
 ---
 
-## 6. Verifica della comprensione
 
-**Domanda 1.** Nella tabella `ORDINI`, perché il valore `C01` può comparire più volte?
+## 6. Esercitazione riepilogativa – Gestione di un'azienda commerciale
 
-- A. Perché una chiave primaria può ripetersi.
-- B. Perché è una chiave esterna e uno stesso cliente può effettuare più ordini.
-- C. Perché ogni ordine può appartenere a più clienti.
-
-**Risposta corretta: B.** `id_cliente` è una FK non univoca: più ordini possono riferirsi allo stesso cliente.
-
-**Domanda 2.** Quale vincolo distingue l'esempio 1:1 da quello 1:N?
-
-- A. Il vincolo `UNIQUE` sulla chiave esterna.
-- B. La presenza di due chiavi primarie.
-- C. L'assenza di una chiave esterna.
-
-**Risposta corretta: A.** Il vincolo `UNIQUE` impedisce che due badge si riferiscano allo stesso dipendente.
-
-**Domanda 3.** Perché `ISCRIZIONI` utilizza una chiave primaria composta?
-
-- A. Per permettere duplicati della stessa iscrizione.
-- B. Per identificare ogni coppia studente-corso senza duplicarla.
-- C. Per impedire a uno studente di frequentare più corsi.
-
-**Risposta corretta: B.** La coppia identifica un'associazione specifica, pur permettendo a ciascuno studente più corsi e a ogni corso più studenti.
-
----
-
-## 7. Esercitazione riepilogativa – Gestione di un'azienda commerciale
-
-### 7.1 Descrizione del problema
+### 6.1 Descrizione del problema
 
 Un'azienda commerciale intende realizzare una base di dati per gestire i propri dipendenti, i reparti aziendali, i progetti e le attività svolte.
 
 L'organizzazione prevede che:
 
-- Ogni dipendente possa essere assegnato a un solo reparto, mentre ciascun reparto può comprendere più dipendenti.
+- Ogni dipendente possa essere assegnato ad un solo reparto, mentre ciascun reparto può comprendere più dipendenti.
 - A ciascun dipendente possa essere assegnato un solo badge identificativo, utilizzabile esclusivamente dal dipendente al quale è associato.
 - Ogni dipendente possa partecipare a più progetti aziendali e ciascun progetto possa coinvolgere più dipendenti.
 
 L'obiettivo è rappresentare queste informazioni attraverso tabelle relazionali, individuando le chiavi primarie, le chiavi esterne e le molteplicità delle relazioni.
 
-### 7.2 Individuazione delle tabelle
+### 6.2 Individuazione delle tabelle
 
 Per rappresentare il sistema sono necessarie cinque tabelle.
 
 **Tabella REPARTI**
 
-| id_reparto (PK) | nome_reparto |
+| codice_reparto (PK) | nome_reparto |
 |---|---|
 | R01 | Amministrazione |
 | R02 | Informatica |
@@ -251,7 +219,7 @@ Per rappresentare il sistema sono necessarie cinque tabelle.
 
 **Tabella DIPENDENTI**
 
-| id_dipendente (PK) | nome | cognome | id_reparto (FK) |
+| id_dipendente (PK) | nome | cognome | codice_reparto (FK) |
 |---|---|---|---|
 | D01 | Marco | Rossi | R02 |
 | D02 | Laura | Bianchi | R01 |
@@ -269,7 +237,7 @@ Per rappresentare il sistema sono necessarie cinque tabelle.
 
 **Tabella PROGETTI**
 
-| id_progetto (PK) | nome_progetto | budget |
+| codice_progetto (PK) | nome_progetto | budget |
 |---|---|---|
 | P01 | Nuovo sito web | 15000 |
 | P02 | Gestione magazzino | 22000 |
@@ -277,7 +245,7 @@ Per rappresentare il sistema sono necessarie cinque tabelle.
 
 **Tabella PARTECIPAZIONI**
 
-| id_dipendente (PK, FK) | id_progetto (PK, FK) | ore_assegnate |
+| id_dipendente (PK, FK) | codice_progetto (PK, FK) | ore_assegnate |
 |---|---|---|
 | D01 | P01 | 80 |
 | D01 | P02 | 50 |
@@ -287,7 +255,7 @@ Per rappresentare il sistema sono necessarie cinque tabelle.
 | D04 | P03 | 90 |
 | D02 | P03 | 30 |
 
-### 7.3 Analisi delle relazioni
+### 6.3 Analisi delle relazioni
 
 **Rappresentazione sintetica dei collegamenti (non E/R):**
 
@@ -305,7 +273,7 @@ Per rappresentare il sistema sono necessarie cinque tabelle.
 
 **Relazione REPARTI–DIPENDENTI (1:N)**
 
-Il reparto `R02` è associato sia al dipendente `D01` sia al dipendente `D03`. La chiave esterna `id_reparto` può quindi ripetersi nella tabella `DIPENDENTI`.
+Il reparto `R02` è associato sia al dipendente `D01` sia al dipendente `D03`. La chiave esterna `codice_reparto` può quindi ripetersi nella tabella `DIPENDENTI`.
 
 **Relazione DIPENDENTI–BADGE (1:1)**
 
@@ -315,9 +283,9 @@ Ogni badge è associato a un solo dipendente. Il vincolo `UNIQUE` sull'attributo
 
 Il dipendente `D01` partecipa ai progetti `P01` e `P02`. Allo stesso tempo, il progetto `P01` coinvolge sia `D01` sia `D03`.
 
-La tabella `PARTECIPAZIONI` permette di rappresentare questa relazione molti a molti mediante due relazioni uno a molti. La coppia (`id_dipendente`, `id_progetto`) costituisce la chiave primaria composta.
+La tabella `PARTECIPAZIONI` permette di rappresentare questa relazione molti a molti mediante due relazioni uno a molti. La coppia (`id_dipendente`, `codice_progetto`) costituisce la chiave primaria composta.
 
-### 7.4 Riepilogo
+### 6.4 Riepilogo
 
 | Tabelle coinvolte | Molteplicità | Realizzazione |
 |---|---|---|
@@ -327,7 +295,7 @@ La tabella `PARTECIPAZIONI` permette di rappresentare questa relazione molti a m
 
 ### 7.5 Osservazioni conclusive
 
-Questo esempio evidenzia un aspetto fondamentale della progettazione relazionale: **la molteplicità non dipende semplicemente dalla presenza di attributi comuni, ma dai vincoli imposti alle associazioni tra i record**.
+Questo esempio evidenzia un aspetto fondamentale della progettazione relazionale: **la molteplicità non dipende semplicemente dalla presenza di attributi comuni, ma dai vincoli imposti alle associazioni tra le tuple**.
 
 In particolare, una relazione N:M non viene rappresentata direttamente con una singola chiave esterna, ma richiede una tabella di collegamento.
 
