@@ -4,7 +4,7 @@ Questa raccolta contiene cinque esercizi con **traccia originale**, **soluzione 
 
 ---
 
-## 1. Sequenza numerica — Bas
+## 1. Sequenza numerica — Base
 
 Scrivere un programma che acquisisca un numero intero positivo N e visualizzi tutti i numeri compresi tra 1 e N, prima in ordine crescente e poi in ordine decrescente.
 
