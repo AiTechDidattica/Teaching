@@ -1,11 +1,5 @@
 # Operazioni con le liste in Python
 
-## Obiettivi della lezione
-
-Al termine della lezione sarai in grado di creare una lista, accedere ai suoi elementi, modificarli, aggiungerli e rimuoverli, estrarre porzioni di una lista, ordinare i dati e scorrere gli elementi con un ciclo `for`.
-
-> **Come usare gli esempi:** ogni esempio è **autonomo**, quindi può essere copiato ed eseguito indipendentemente dagli altri. La lista `fruits` viene ricreata all'inizio dei vari esempi per evitare che le modifiche precedenti alterino i risultati.
-
 ## 0. Che cos'è una lista?
 
 Una **lista** è una struttura dati che raccoglie più valori in un'unica variabile, mantenendone l'ordine. In Python si rappresenta con le parentesi quadre `[]` e i valori sono separati da virgole.
