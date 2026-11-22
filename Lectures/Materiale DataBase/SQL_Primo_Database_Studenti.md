@@ -926,7 +926,7 @@ SELECT
     v.materia,
     v.voto
 FROM STUDENTI AS s
-INNER JOIN VALUTAZIONI AS v
+JOIN VALUTAZIONI AS v
     ON s.codice_studente = v.codice_studente
 ORDER BY s.cognome, v.materia;
 ```
