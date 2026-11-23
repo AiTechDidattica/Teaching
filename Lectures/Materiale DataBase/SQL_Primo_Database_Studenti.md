@@ -1,4 +1,4 @@
-# SQL: il nostro primo database — STUDENTI
+# SQL: il primo database — STUDENTI
 
 **Informatica — classe quarta | Laboratorio con DB Browser for SQLite**  
 **Percorso:** DDL → DML → QL → prima chiave esterna  
@@ -114,7 +114,7 @@ voto INTEGER NOT NULL
     CHECK (voto BETWEEN 1 AND 10)
 ```
 
-Questo è un frammento dimostrativo, non ancora un attributo della nostra tabella STUDENTI. È il vincolo `CHECK`, non il solo tipo `INTEGER`, a definire l'intervallo ammesso.
+Questo è un frammento dimostrativo, non ancora un attributo alla tabella STUDENTI. È il vincolo/condizione espressa nel `CHECK`, non il solo tipo `INTEGER`, a definire l'intervallo ammesso.
 
 ### 2.3 Tipi di dato temporali
 
