@@ -41,6 +41,8 @@ while True:
     else:
         print("\nProgramma realizzato per un'esercitazione di Python.")
 
+    risposta = None
+    
     # Richiesta di una nuova selezione
     while True:
 
