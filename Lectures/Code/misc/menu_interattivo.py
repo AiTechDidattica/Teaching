@@ -11,6 +11,8 @@ while True:
     print("4. Crediti")
     print("=====================================")
 
+    scelta = None
+    
     # Inserimento e validazione della scelta
     while True:
 
