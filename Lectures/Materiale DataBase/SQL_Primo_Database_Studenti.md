@@ -305,8 +305,12 @@ Il vincolo `CHECK` introduce una condizione sui valori di una colonna. In SQLite
 | `codice_studente GLOB 'S[0-9][0-9][0-9]'` | Richiede una S seguita da tre cifre |
 | `data_nascita GLOB '…'` | Controlla la forma `YYYY-MM-DD`, **non** la validità del calendario |
 
-**Importante:** `CHECK (LENGTH(TRIM(nome)) > 0)` impedisce `''`, mentre `NOT NULL` da solo non lo fa. Un valore vuoto e un valore nullo non sono la stessa cosa.
-In SQLite, GLOB è un operatore che permette di verificare se una stringa rispetta un determinato modello di caratteri (pattern).
+**Importante:**
+
+- **`NOT NULL`** impedisce l'inserimento di valori nulli (`NULL`), ma non di stringhe vuote (`''`). Un valore nullo e una stringa vuota non sono la stessa cosa.
+- **`CHECK (LENGTH(TRIM(nome)) > 0)`** impedisce l'inserimento di stringhe vuote o contenenti soltanto spazi, assicurando che il valore contenga almeno un carattere significativo.
+- **`GLOB`** è un operatore di SQLite che permette di verificare se una stringa rispetta un determinato modello di caratteri (*pattern*). Può essere utilizzato nei vincoli `CHECK` per controllare il formato dei valori inseriti.
+
 
 ### 4.5 Piccolo esperimento sui vincoli
 
