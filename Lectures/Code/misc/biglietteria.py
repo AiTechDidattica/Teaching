@@ -11,6 +11,8 @@ while True:
     print("4. Anziani  -  8 euro")
     print("==================================")
 
+    codice = None
+    
     while True:
 
         try:
@@ -45,6 +47,8 @@ while True:
     # Visualizzazione del risultato
     print(f"\nCategoria selezionata: {categoria}")
     print(f"Prezzo del biglietto: {prezzo} euro")
+    
+    risposta = None
 
     while True:
 
