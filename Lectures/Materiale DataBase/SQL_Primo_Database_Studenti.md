@@ -655,7 +655,19 @@ WHERE strftime('%m', data_nascita) = '03';
 
 **Risultato:** Giulia Rossi.
 
-### 8.8 Cercare nei testi con LIKE
+### 8.8 L'operatore LIKE: ricerca di sequenze di caratteri
+
+L'operatore `LIKE` permette di ricercare valori testuali che
+corrispondono a un determinato modello di caratteri (*pattern*).
+
+I principali caratteri jolly sono:
+
+| Simbolo | Significato |
+|---|---|
+| `%` | Qualsiasi sequenza di zero o più caratteri |
+| `_` | Esattamente un carattere qualsiasi |
+
+**Esempio 1 — Cognomi che iniziano con la lettera R**
 
 ```sql
 SELECT nome, cognome
@@ -663,7 +675,68 @@ FROM STUDENTI
 WHERE cognome LIKE 'R%';
 ```
 
-Il simbolo `%` rappresenta una sequenza qualsiasi di caratteri. La query restituisce i cognomi che iniziano con R: **Rossi** e **Romano**.
+La condizione seleziona tutti i cognomi che iniziano con `R`,
+indipendentemente dai caratteri successivi.
+
+**Risultato:** Giulia Rossi e Davide Romano.
+
+**Esempio 2 — Cognomi che terminano con la lettera i**
+
+```sql
+SELECT nome, cognome
+FROM STUDENTI
+WHERE cognome LIKE '%i';
+```
+
+La condizione seleziona tutti i cognomi che terminano con `i`,
+indipendentemente dai caratteri precedenti.
+
+**Risultato:** Bianchi, Conti, Moretti, Neri, Rossi e Verdi.
+
+**Esempio 3 — Cognomi che contengono la sequenza "an"**
+
+```sql
+SELECT nome, cognome
+FROM STUDENTI
+WHERE cognome LIKE '%an%';
+```
+
+La condizione seleziona tutti i cognomi che contengono la
+sequenza `an` in qualsiasi posizione della stringa.
+
+**Risultato:** Marco Bianchi e Davide Romano.
+
+**Esempio 4 — Cognomi che hanno la lettera o in seconda posizione**
+
+```sql
+SELECT nome, cognome
+FROM STUDENTI
+WHERE cognome LIKE '_o%';
+```
+
+Il simbolo `_` rappresenta esattamente un carattere qualsiasi,
+mentre `o` deve occupare la seconda posizione. Il simbolo `%`
+ammette qualsiasi sequenza successiva.
+
+**Risultato:** Conti, Moretti, Romano e Rossi.
+
+**Esempio 5 — Cognomi di cinque caratteri che iniziano con R**
+
+```sql
+SELECT nome, cognome
+FROM STUDENTI
+WHERE cognome LIKE 'R____';
+```
+
+La condizione richiede che il cognome inizi con `R` e sia
+seguito da esattamente quattro caratteri qualsiasi.
+
+**Risultato:** Giulia Rossi.
+
+**Osservazione:** `%` e `_` non sono equivalenti. Il primo
+rappresenta una sequenza di lunghezza variabile (anche vuota),
+mentre il secondo rappresenta esattamente un carattere.
+
 
 ### 8.9 Eliminare le ripetizioni con DISTINCT
 
