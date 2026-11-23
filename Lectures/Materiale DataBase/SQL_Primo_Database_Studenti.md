@@ -947,10 +947,10 @@ Risultato:
 
 - `JOIN` combina le tuple quando i codici degli studenti corrispondono.
 - `ON` specifica la condizione di collegamento.
-- `AS s` e `AS v` assegnano **alias** ai nomi delle tabelle (potevamo scegliere anche 'stud'.
+- `AS s` e `AS v` assegnano **alias** ai nomi delle tabelle (potevamo scegliere anche altro come alias, purchè non siano parole chiavi).
 - `ORDER BY` ordina il risultato per cognome e materia.
 
-**Conclusione del passaggio:** siamo passati da un database con una sola tabella a un database con **due tabelle in relazione 1:N**. Il passo successivo, nell'esercitazione sui corsi pomeridiani, sarà costruire relazioni più articolate con una tabella associativa.
+**Conclusione del passaggio:** siamo passati da un database con una sola tabella ad un database con **due tabelle in relazione 1:N**. Il passo successivo, nell'esercitazione sui corsi pomeridiani, sarà costruire relazioni più articolate con una tabella associativa.
 
 ---
 
@@ -972,6 +972,6 @@ Risultato:
 
 ### Per continuare
 
-Dopo questa introduzione, potremo passare alla dispensa sui **corsi pomeridiani**, nella quale lavoreremo con tre tabelle (STUDENTI, CORSI e ISCRIZIONI) e scopriremo come realizzare una relazione **molti-a-molti (N:M)**.
+Dopo questa introduzione, potremo passare alla dispensa sui **corsi pomeridiani**, nella quale lavoreremo con tre tabelle (STUDENTI, CORSI ed ISCRIZIONI) e scopriremo come realizzare una relazione **molti-a-molti (N:M)**.
 
 **Suggerimento pratico:** salva il database di esercitazione dopo averlo popolato e dopo le operazioni di ripristino. Prima della parte sulle chiavi esterne verifica che gli studenti siano di nuovo esattamente otto.
