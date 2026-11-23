@@ -414,7 +414,7 @@ SET attributo = nuovo_valore
 WHERE condizione;
 ```
 
-### 6.2 Esempio: cambiare classe a uno studente
+### 6.2 Esempio: cambiare classe ad uno studente
 
 Davide Romano (`S008`) passa temporaneamente da `4AS` a `4BS`.
 
