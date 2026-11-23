@@ -879,7 +879,7 @@ FOREIGN KEY (codice_studente)
 
 - `FOREIGN KEY (codice_studente)` indica che la colonna `codice_studente` di VALUTAZIONI è una **chiave esterna**.
 - `REFERENCES STUDENTI(codice_studente)` specifica a quale tabella e a quale chiave primaria si riferisce.
-- Il codice inserito in VALUTAZIONI deve quindi corrispondere a uno studente realmente presente in STUDENTI, quando il controllo delle chiavi esterne è attivo.
+- Il codice inserito in VALUTAZIONI deve quindi corrispondere ad uno studente realmente presente in STUDENTI.
 
 La colonna `codice_valutazione` è invece la **chiave primaria** della nuova tabella: identifica univocamente ogni valutazione, anche se uno studente riceve più voti.
 
@@ -920,9 +920,9 @@ VALUES
 
 Con `PRAGMA foreign_keys = ON`, SQLite rifiuta l'inserimento con un errore di **violazione della chiave esterna**. La valutazione `V005` non viene aggiunta.
 
-### 10.5 La prima JOIN: dal codice al nome dello studente
+### 10.5 Il primo JOIN: dal codice al nome dello studente
 
-Se leggiamo soltanto VALUTAZIONI vediamo i codici degli studenti, non i loro nomi. Con `INNER JOIN` possiamo recuperare le informazioni dalle due tabelle.
+Se leggiamo soltanto VALUTAZIONI vediamo i codici degli studenti, non i loro nomi. Con `JOIN` possiamo recuperare le informazioni dalle due tabelle.
 
 ```sql
 SELECT
@@ -945,9 +945,9 @@ Risultato:
 | Giulia | Rossi | Informatica | 8 |
 | Giulia | Rossi | Matematica | 7 |
 
-- `INNER JOIN` combina le tuple quando i codici degli studenti corrispondono.
+- `JOIN` combina le tuple quando i codici degli studenti corrispondono.
 - `ON` specifica la condizione di collegamento.
-- `AS s` e `AS v` assegnano **alias** ai nomi delle tabelle.
+- `AS s` e `AS v` assegnano **alias** ai nomi delle tabelle (potevamo scegliere anche 'stud'.
 - `ORDER BY` ordina il risultato per cognome e materia.
 
 **Conclusione del passaggio:** siamo passati da un database con una sola tabella a un database con **due tabelle in relazione 1:N**. Il passo successivo, nell'esercitazione sui corsi pomeridiani, sarà costruire relazioni più articolate con una tabella associativa.
