@@ -658,7 +658,7 @@ WHERE strftime('%m', data_nascita) = '03';
 ### 8.8 L'operatore LIKE: ricerca di sequenze di caratteri
 
 L'operatore `LIKE` permette di ricercare valori testuali che
-corrispondono a un determinato modello di caratteri (*pattern*).
+corrispondono ad un determinato modello di caratteri (*pattern*).
 
 I principali caratteri jolly sono:
 
