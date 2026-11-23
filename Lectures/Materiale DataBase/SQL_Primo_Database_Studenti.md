@@ -58,7 +58,7 @@ Attraverso le interrogazioni, denominate *query*, possiamo selezionare specifich
 
 **Esempio:** visualizzare gli studenti di una determinata classe o nati in un particolare anno.
 
-> **Nota terminologica.** La categoria delle interrogazioni viene spesso indicata anche come **DQL** (*Data Query Language*). In alcune classificazioni, `SELECT` è considerata parte del DML. Qui manteniamo distinti DML e QL per evidenziare la differenza fra manipolazione e interrogazione dei dati.
+> **Nota terminologica.** La categoria delle interrogazioni viene spesso indicata anche come **DQL** (*Data Query Language*). 
 
 ### 1.4 Riepilogo
 
