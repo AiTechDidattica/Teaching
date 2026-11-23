@@ -839,7 +839,7 @@ erDiagram
     }
 ```
 
-La molteplicità è **1:N**: uno studente può ricevere zero, una o più valutazioni, mentre ogni valutazione è riferita a uno e un solo studente.
+La molteplicità è **1:N**: uno studente può ricevere zero, una o più valutazioni (se uno studente non ha valutazioni, il suo codice_studente ovviamente non comparirà nella tabella VALUTAZIONI), mentre ogni valutazione è riferita ad uno ed un solo studente.
 
 ### 10.2 Creiamo VALUTAZIONI
 
