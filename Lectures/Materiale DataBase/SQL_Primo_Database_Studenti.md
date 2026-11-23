@@ -4,7 +4,7 @@
 **Percorso:** DDL → DML → QL → prima chiave esterna  
 **Caso di studio:** anagrafica degli studenti di un istituto scolastico
 
-> **Come usare la dispensa.** Cominceremo lavorando con **una sola tabella, STUDENTI**. Prima creeremo una struttura essenziale e impareremo a inserire, modificare, eliminare e interrogare le tuple. Poi vedremo una definizione alternativa della stessa tabella con controlli `CHECK` più rigorosi. **Solo alla fine** introdurremo una seconda tabella, VALUTAZIONI, per comprendere il significato delle chiavi esterne. Tutti i dati sono fittizi.
+> **Come usare la dispensa.** Cominceremo lavorando con **una sola tabella, STUDENTI**. Prima creeremo una struttura essenziale e impareremo a inserire, modificare, eliminare e interrogare le tuple. Poi vedremo una definizione alternativa della stessa tabella con controlli `CHECK` più rigorosi. **Solo alla fine** introdurremo una seconda tabella, VALUTAZIONI, per comprendere il significato delle chiavi esterne.
 >
 > **Attenzione:** i due `CREATE TABLE STUDENTI` (**A: essenziale** e **B: rafforzato**) sono **alternative**: non eseguirli uno dopo l'altro sullo stesso database. Per confrontarli, utilizza due file `.db` diversi.
 
@@ -16,19 +16,19 @@ SQL (*Structured Query Language*) è un linguaggio utilizzato per interagire con
 
 Attraverso SQL possiamo definire la struttura di un database, inserire e modificare i dati memorizzati ed effettuare interrogazioni per ricavare le informazioni di nostro interesse.
 
-Le istruzioni SQL vengono comunemente suddivise, a livello didattico, in diverse categorie, ciascuna destinata a uno specifico insieme di operazioni.
+Le istruzioni SQL vengono comunemente suddivise a livello didattico, in diverse categorie, ciascuna destinata ad uno specifico insieme di operazioni.
 
 ### 1.1 DDL — Data Definition Language
 
-Il DDL, ovvero *linguaggio di definizione dei dati*, comprende le istruzioni che permettono di **definire e modificare la struttura di un database** e degli oggetti che lo compongono.
+Il DDL, ovvero *linguaggio di definizione dei dati*, comprende le istruzioni che permettono di **definire e modificare la struttura di un database**, creando, modificando o eliminando le tabelle e specificandone gli attributi, i tipi di dato ed i vincoli di integrità.
 
 | Istruzione | Funzione |
 |---|---|
-| `CREATE` | Crea un nuovo oggetto, ad esempio una tabella |
+| `CREATE` | Crea una nuova tabella nel database. |
 | `ALTER` | Modifica la struttura di una tabella esistente |
-| `DROP` | Elimina un oggetto dal database |
+| `DROP` | Elimina una tabella dal database |
 
-Attraverso il DDL possiamo definire le tabelle, specificare gli attributi, assegnare i tipi di dato e stabilire i vincoli di integrità, come chiavi primarie ed esterne.
+Attraverso il DDL possiamo quindi definire le tabelle, specificare gli attributi, assegnare i tipi di dato e stabilire i vincoli di integrità, come chiavi primarie (intra-relazionale) ed esterne (inter-relazionali).
 
 **Esempio:** creare una tabella per memorizzare gli studenti di una scuola.
 
