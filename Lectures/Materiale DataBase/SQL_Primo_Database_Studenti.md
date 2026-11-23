@@ -540,7 +540,7 @@ FROM STUDENTI;
 
 Restituisce tutti gli attributi e tutte le tuple.
 
-### 8.2 Visualizzare soltanto alcune colonne
+### 8.2 Visualizzare soltanto alcune colonne (PROIEZIONE)
 
 ```sql
 SELECT nome, cognome
@@ -549,7 +549,7 @@ FROM STUDENTI;
 
 Il risultato contiene soltanto i due attributi richiesti.
 
-### 8.3 Usare WHERE per selezionare le tuple
+### 8.3 Usare WHERE per selezionare le tuple (SELEZIONE)
 
 ```sql
 SELECT nome, cognome, classe
