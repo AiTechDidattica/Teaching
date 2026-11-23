@@ -193,7 +193,7 @@ Un istituto desidera memorizzare i dati anagrafici degli studenti. Per cominciar
 | `data_nascita` | Data di nascita | `DATE` |
 | `classe` | Classe frequentata | `VARCHAR(5)` |
 
-La sigla **PK** significa *Primary Key*, cioè **chiave primaria**. Identifica in maniera univoca una tupla: due studenti possono avere lo stesso nome, ma non lo stesso `codice_studente`.
+La sigla **PK** significa (ovviamente) *Primary Key*, cioè **chiave primaria**; una chiave primaria identifica in maniera univoca una tupla: due studenti possono avere lo stesso nome, ma non lo stesso `codice_studente`.
 
 Una **tupla** è una riga della tabella. Un **attributo** è una colonna. Il **grado** è il numero di attributi (qui **5**); la **cardinalità** è il numero di tuple presenti (sarà **8** dopo il popolamento).
 
@@ -306,6 +306,7 @@ Il vincolo `CHECK` introduce una condizione sui valori di una colonna. In SQLite
 | `data_nascita GLOB '…'` | Controlla la forma `YYYY-MM-DD`, **non** la validità del calendario |
 
 **Importante:** `CHECK (LENGTH(TRIM(nome)) > 0)` impedisce `''`, mentre `NOT NULL` da solo non lo fa. Un valore vuoto e un valore nullo non sono la stessa cosa.
+In SQLite, GLOB è un operatore che permette di verificare se una stringa rispetta un determinato modello di caratteri (pattern).
 
 ### 4.5 Piccolo esperimento sui vincoli
 
