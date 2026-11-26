@@ -1,4 +1,4 @@
-# UPDATE (29/09/2026)
+# UPDATE (25/11/2026)
 ---
 
 - 👋 Hi, I’m @AiTechDidattica
