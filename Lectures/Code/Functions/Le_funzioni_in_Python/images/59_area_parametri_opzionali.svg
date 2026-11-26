@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600pt" height="453pt" viewBox="0.00 0.00 600.30 453.47" role="img">
+<title>Flow chart della funzione per il calcolo dell’area mediante parametri opzionali.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 439.07)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-439.07 585.9,-439.07 585.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M399.5,-377.79C399.5,-369.55 399.5,-359.97 399.5,-350.68" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="402.02,-350.52 399.5,-343.32 396.98,-350.52 402.02,-350.52" />
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M374.52,-281.53C359.76,-265.29 341.08,-244.74 326.05,-228.21" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="327.82,-226.4 321.11,-222.77 324.09,-229.79 327.82,-226.4" />
+<text text-anchor="middle" x="365.5" y="-251.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">False</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M413.4,-279.38C432.43,-238.86 466.38,-166.54 485.47,-125.88" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="487.85,-126.74 488.63,-119.16 483.29,-124.6 487.85,-126.74" />
+<text text-anchor="middle" x="477.5" y="-195.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">True</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M262.22,-179.41C228.85,-163.66 179.46,-140.35 141.37,-122.37" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="141.98,-119.87 134.39,-119.08 139.83,-124.43 141.98,-119.87" />
+<text text-anchor="middle" x="204.5" y="-139.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">True</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>c-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M299.5,-164.77C299.5,-152.53 299.5,-138.63 299.5,-126.55" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="302.02,-126.5 299.5,-119.3 296.98,-126.5 302.02,-126.5" />
+<text text-anchor="middle" x="313.5" y="-139.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">False</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>d-&gt;g</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M438.13,-70.99C410.52,-60.63 378.26,-48.53 351.81,-38.61" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="352.49,-36.18 344.86,-36.01 350.72,-40.9 352.49,-36.18" />
+</g>
+
+<g id="edge7" class="edge">
+<title>e-&gt;g</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M151.16,-70.99C180.84,-60.59 215.53,-48.43 243.89,-38.49" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="245,-40.77 250.96,-36.01 243.33,-36.01 245,-40.77" />
+</g>
+
+<g id="edge8" class="edge">
+<title>f-&gt;g</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M299.5,-70.68C299.5,-62.03 299.5,-52.21 299.5,-43.46" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="302.02,-43.31 299.5,-36.11 296.98,-43.31 302.02,-43.31" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="399.5" cy="-401.33" rx="107.46" ry="23.17" />
+<text text-anchor="middle" x="399.5" y="-397.63" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">area(a, b=0, c=0)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="399.5,-343 229.5,-310 399.5,-277 569.5,-310 399.5,-343" />
+<text text-anchor="middle" x="399.5" y="-306.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">b == 0 and c == 0?</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="299.5,-231 215.5,-198 299.5,-165 383.5,-198 299.5,-231" />
+<text text-anchor="middle" x="299.5" y="-194.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">c == 0?</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M559.5,-119C559.5,-119 439.5,-119 439.5,-119 433.5,-119 427.5,-113 427.5,-107 427.5,-107 427.5,-83 427.5,-83 427.5,-77 433.5,-71 439.5,-71 439.5,-71 559.5,-71 559.5,-71 565.5,-71 571.5,-77 571.5,-83 571.5,-83 571.5,-107 571.5,-107 571.5,-113 565.5,-119 559.5,-119" />
+<text text-anchor="middle" x="499.5" y="-98.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Quadrato</text>
+<text text-anchor="middle" x="499.5" y="-83.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">risultato = a ** 2</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M159,-119C159,-119 12,-119 12,-119 6,-119 0,-113 0,-107 0,-107 0,-83 0,-83 0,-77 6,-71 12,-71 12,-71 159,-71 159,-71 165,-71 171,-77 171,-83 171,-83 171,-107 171,-107 171,-113 165,-119 159,-119" />
+<text text-anchor="middle" x="85.5" y="-98.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Triangolo</text>
+<text text-anchor="middle" x="85.5" y="-83.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">risultato = (a * b) / 2</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M392.5,-119C392.5,-119 206.5,-119 206.5,-119 200.5,-119 194.5,-113 194.5,-107 194.5,-107 194.5,-83 194.5,-83 194.5,-77 200.5,-71 206.5,-71 206.5,-71 392.5,-71 392.5,-71 398.5,-71 404.5,-77 404.5,-83 404.5,-83 404.5,-107 404.5,-107 404.5,-113 398.5,-119 392.5,-119" />
+<text text-anchor="middle" x="299.5" y="-98.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Trapezio</text>
+<text text-anchor="middle" x="299.5" y="-83.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">risultato = ((a + b) * c) / 2</text>
+</g>
+
+<g id="node7" class="node">
+<title>g</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M352.5,-36C352.5,-36 246.5,-36 246.5,-36 240.5,-36 234.5,-30 234.5,-24 234.5,-24 234.5,-12 234.5,-12 234.5,-6 240.5,0 246.5,0 246.5,0 352.5,0 352.5,0 358.5,0 364.5,-6 364.5,-12 364.5,-12 364.5,-24 364.5,-24 364.5,-30 358.5,-36 352.5,-36" />
+<text text-anchor="middle" x="299.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return risultato</text>
+</g>
+</g>
+</svg>

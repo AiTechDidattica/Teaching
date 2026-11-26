@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="528pt" height="466pt" viewBox="0.00 0.00 527.80 465.80" role="img">
+<title>Scomposizione funzionale e flusso dei dati del programma di analisi di una lista numerica. Le elaborazioni sono chiamate sequenzialmente da main().</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 451.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-451.4 513.4,-451.4 513.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M261.5,-400.94C261.5,-392.71 261.5,-382.68 261.5,-373.64" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="264.02,-373.54 261.5,-366.34 258.98,-373.54 264.02,-373.54" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M261.5,-329.94C261.5,-321.71 261.5,-311.68 261.5,-302.64" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="264.02,-302.54 261.5,-295.34 258.98,-302.54 264.02,-302.54" />
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M261.5,-258.94C261.5,-250.71 261.5,-240.68 261.5,-231.64" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="264.02,-231.54 261.5,-224.34 258.98,-231.54 264.02,-231.54" />
+</g>
+
+<g id="edge4" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M235.51,-187.8C217.51,-175.9 193.18,-159.81 172.58,-146.18" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="173.71,-143.9 166.32,-142.03 170.93,-148.11 173.71,-143.9" />
+<text text-anchor="middle" x="220.5" y="-162.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">lista</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M287.69,-187.8C305.91,-175.85 330.55,-159.67 351.37,-146" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="352.78,-148.09 357.41,-142.03 350.01,-143.88 352.78,-148.09" />
+<text text-anchor="middle" x="342.5" y="-162.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">lista</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;h</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M164.3,-93.78C182.01,-81.25 203.98,-65.71 222.55,-52.56" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="224.28,-54.42 228.71,-48.21 221.37,-50.31 224.28,-54.42" />
+<text text-anchor="middle" x="225.5" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">4 valori</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>f-&gt;h</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M359.44,-93.78C341.6,-81.25 319.46,-65.71 300.75,-52.56" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="301.89,-50.28 294.55,-48.21 298.99,-54.41 301.89,-50.28" />
+<text text-anchor="middle" x="355.5" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">2 valori</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M285.5,-437C285.5,-437 237.5,-437 237.5,-437 231.5,-437 225.5,-431 225.5,-425 225.5,-425 225.5,-413 225.5,-413 225.5,-407 231.5,-401 237.5,-401 237.5,-401 285.5,-401 285.5,-401 291.5,-401 297.5,-407 297.5,-413 297.5,-413 297.5,-425 297.5,-425 297.5,-431 291.5,-437 285.5,-437" />
+<text text-anchor="middle" x="261.5" y="-415.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">main()</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M356.5,-366C356.5,-366 166.5,-366 166.5,-366 160.5,-366 154.5,-360 154.5,-354 154.5,-354 154.5,-342 154.5,-342 154.5,-336 160.5,-330 166.5,-330 166.5,-330 356.5,-330 356.5,-330 362.5,-330 368.5,-336 368.5,-342 368.5,-342 368.5,-354 368.5,-354 368.5,-360 362.5,-366 356.5,-366" />
+<text text-anchor="middle" x="261.5" y="-344.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">quantita = leggi_quantita()</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M377,-295C377,-295 146,-295 146,-295 140,-295 134,-289 134,-283 134,-283 134,-271 134,-271 134,-265 140,-259 146,-259 146,-259 377,-259 377,-259 383,-259 389,-265 389,-271 389,-271 389,-283 389,-283 389,-289 383,-295 377,-295" />
+<text text-anchor="middle" x="261.5" y="-273.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numeri = leggi_numeri(quantita)</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M338,-224C338,-224 185,-224 185,-224 179,-224 173,-218 173,-212 173,-212 173,-200 173,-200 173,-194 179,-188 185,-188 185,-188 338,-188 338,-188 344,-188 350,-194 350,-200 350,-200 350,-212 350,-212 350,-218 344,-224 338,-224" />
+<text text-anchor="middle" x="261.5" y="-202.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Lista: [10, 5, 8, 3, 14]</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M251,-142C251,-142 12,-142 12,-142 6,-142 0,-136 0,-130 0,-130 0,-106 0,-106 0,-100 6,-94 12,-94 12,-94 251,-94 251,-94 257,-94 263,-100 263,-106 263,-106 263,-130 263,-130 263,-136 257,-142 251,-142" />
+<text text-anchor="middle" x="131.5" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">calcola_statistiche(numeri)</text>
+<text text-anchor="middle" x="131.5" y="-106.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Somma, minimo, massimo, media</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M487,-142C487,-142 298,-142 298,-142 292,-142 286,-136 286,-130 286,-130 286,-106 286,-106 286,-100 292,-94 298,-94 298,-94 487,-94 487,-94 493,-94 499,-100 499,-106 499,-106 499,-130 499,-130 499,-136 493,-142 487,-142" />
+<text text-anchor="middle" x="392.5" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">conta_pari_dispari(numeri)</text>
+<text text-anchor="middle" x="392.5" y="-106.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Quantità di pari e dispari</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M330.5,-48C330.5,-48 192.5,-48 192.5,-48 186.5,-48 180.5,-42 180.5,-36 180.5,-36 180.5,-12 180.5,-12 180.5,-6 186.5,0 192.5,0 192.5,0 330.5,0 330.5,0 336.5,0 342.5,-6 342.5,-12 342.5,-12 342.5,-36 342.5,-36 342.5,-42 336.5,-48 330.5,-48" />
+<text text-anchor="middle" x="261.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">stampa_risultati(...)</text>
+<text text-anchor="middle" x="261.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Visualizzazione</text>
+</g>
+</g>
+</svg>

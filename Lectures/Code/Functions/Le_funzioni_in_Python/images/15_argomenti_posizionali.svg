@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656 303.22" width="656" height="303.22" role="img"><title>Effetti della variazione dell’ordine degli argomenti nella chiamata di una funzione.</title><rect x="0" y="0" width="656" height="303.22" fill="#ffffff" /><rect x="12" y="11" width="312" height="279.22" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="168.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Prima chiamata</text><svg width="220.57" height="233.22" viewBox="0.00 0.00 191.80 202.80" x="57.72" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 188.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-188.4 177.4,-188.4 177.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M71.15,-137.75C65.67,-129.76 59.07,-120.15 53.14,-111.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="55.12,-109.94 48.97,-105.43 50.96,-112.79 55.12,-109.94" />
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M95.1,-137.75C100.71,-129.76 107.45,-120.15 113.51,-111.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="115.7,-112.77 117.77,-105.43 111.58,-109.88 115.7,-112.77" />
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M48.85,-68.75C54.33,-60.76 60.93,-51.15 66.86,-42.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.04,-43.79 71.03,-36.43 64.88,-40.94 69.04,-43.79" />
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M117.9,-68.75C112.29,-60.76 105.55,-51.15 99.49,-42.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="101.42,-40.88 95.23,-36.43 97.3,-43.77 101.42,-40.88" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M142,-174C142,-174 24,-174 24,-174 18,-174 12,-168 12,-162 12,-162 12,-150 12,-150 12,-144 18,-138 24,-138 24,-138 142,-138 142,-138 148,-138 154,-144 154,-150 154,-150 154,-162 154,-162 154,-168 148,-174 142,-174" />
+<text text-anchor="middle" x="83" y="-152.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">differenza(10, 5)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M62,-105C62,-105 12,-105 12,-105 6,-105 0,-99 0,-93 0,-93 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 62,-69 62,-69 68,-69 74,-75 74,-81 74,-81 74,-93 74,-93 74,-99 68,-105 62,-105" />
+<text text-anchor="middle" x="37" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">a = 10</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M151,-105C151,-105 109,-105 109,-105 103,-105 97,-99 97,-93 97,-93 97,-81 97,-81 97,-75 103,-69 109,-69 109,-69 151,-69 151,-69 157,-69 163,-75 163,-81 163,-81 163,-93 163,-93 163,-99 157,-105 151,-105" />
+<text text-anchor="middle" x="130" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">b = 5</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M120,-36C120,-36 46,-36 46,-36 40,-36 34,-30 34,-24 34,-24 34,-12 34,-12 34,-6 40,0 46,0 46,0 120,0 120,0 126,0 132,-6 132,-12 132,-12 132,-24 132,-24 132,-30 126,-36 120,-36" />
+<text text-anchor="middle" x="83" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">10 - 5 = 5</text>
+</g>
+</g>
+</svg><rect x="332" y="11" width="312" height="279.22" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="488.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Seconda chiamata</text><svg width="220.57" height="233.22" viewBox="0.00 0.00 191.80 202.80" x="377.72" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 188.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-188.4 177.4,-188.4 177.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M66.65,-137.75C61.17,-129.76 54.57,-120.15 48.64,-111.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="50.62,-109.94 44.47,-105.43 46.46,-112.79 50.62,-109.94" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M90.6,-137.75C96.21,-129.76 102.95,-120.15 109.01,-111.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="111.2,-112.77 113.27,-105.43 107.08,-109.88 111.2,-112.77" />
+</g>
+
+<g id="edge3_2" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M44.35,-68.75C49.83,-60.76 56.43,-51.15 62.36,-42.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="64.54,-43.79 66.53,-36.43 60.38,-40.94 64.54,-43.79" />
+</g>
+
+<g id="edge4_2" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M113.4,-68.75C107.79,-60.76 101.05,-51.15 94.99,-42.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="96.92,-40.88 90.73,-36.43 92.8,-43.77 96.92,-40.88" />
+</g>
+
+<g id="node1_2" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M137.5,-174C137.5,-174 19.5,-174 19.5,-174 13.5,-174 7.5,-168 7.5,-162 7.5,-162 7.5,-150 7.5,-150 7.5,-144 13.5,-138 19.5,-138 19.5,-138 137.5,-138 137.5,-138 143.5,-138 149.5,-144 149.5,-150 149.5,-150 149.5,-162 149.5,-162 149.5,-168 143.5,-174 137.5,-174" />
+<text text-anchor="middle" x="78.5" y="-152.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">differenza(5, 10)</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M53,-105C53,-105 12,-105 12,-105 6,-105 0,-99 0,-93 0,-93 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 53,-69 53,-69 59,-69 65,-75 65,-81 65,-81 65,-93 65,-93 65,-99 59,-105 53,-105" />
+<text text-anchor="middle" x="32.5" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">a = 5</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>c</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M151,-105C151,-105 100,-105 100,-105 94,-105 88,-99 88,-93 88,-93 88,-81 88,-81 88,-75 94,-69 100,-69 100,-69 151,-69 151,-69 157,-69 163,-75 163,-81 163,-81 163,-93 163,-93 163,-99 157,-105 151,-105" />
+<text text-anchor="middle" x="125.5" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">b = 10</text>
+</g>
+
+<g id="node4_2" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M118,-36C118,-36 39,-36 39,-36 33,-36 27,-30 27,-24 27,-24 27,-12 27,-12 27,-6 33,0 39,0 39,0 118,0 118,0 124,0 130,-6 130,-12 130,-12 130,-24 130,-24 130,-30 124,-36 118,-36" />
+<text text-anchor="middle" x="78.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">5 - 10 = -5</text>
+</g>
+</g>
+</svg></svg>

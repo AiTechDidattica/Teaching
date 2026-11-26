@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="337pt" height="406pt" viewBox="0.00 0.00 336.80 405.80" role="img">
+<title>Sequenza delle chiamate e dei valori restituiti nel programma di calcolo dell’area e del perimetro del cerchio.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 391.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-391.4 322.4,-391.4 322.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M154,-340.98C154,-332.86 154,-322.9 154,-313.54" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="156.52,-313.41 154,-306.21 151.48,-313.41 156.52,-313.41" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M154,-257.95C154,-246.12 154,-231.69 154,-219.63" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="156.52,-219.3 154,-212.1 151.48,-219.3 156.52,-219.3" />
+<text text-anchor="middle" x="171.5" y="-232.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">raggio</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M154,-175.64C154,-164.45 154,-149.74 154,-137.39" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="156.52,-137.25 154,-130.05 151.48,-137.25 156.52,-137.25" />
+<text text-anchor="middle" x="171.5" y="-150.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">raggio</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M154,-93.6C154,-82.68 154,-68.31 154,-55.54" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="156.52,-55.45 154,-48.25 151.48,-55.45 156.52,-55.45" />
+<text text-anchor="middle" x="218.5" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">raggio, perimetro, area</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M178,-377C178,-377 130,-377 130,-377 124,-377 118,-371 118,-365 118,-365 118,-353 118,-353 118,-347 124,-341 130,-341 130,-341 178,-341 178,-341 184,-341 190,-347 190,-353 190,-353 190,-365 190,-365 190,-371 184,-377 178,-377" />
+<text text-anchor="middle" x="154" y="-355.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">main()</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M246,-306C246,-306 62,-306 62,-306 56,-306 50,-300 50,-294 50,-294 50,-270 50,-270 50,-264 56,-258 62,-258 62,-258 246,-258 246,-258 252,-258 258,-264 258,-270 258,-270 258,-294 258,-294 258,-300 252,-306 246,-306" />
+<text text-anchor="middle" x="154" y="-285.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">raggio = leggi_raggio()</text>
+<text text-anchor="middle" x="154" y="-270.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Acquisizione e validazione</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M287.5,-212C287.5,-212 20.5,-212 20.5,-212 14.5,-212 8.5,-206 8.5,-200 8.5,-200 8.5,-188 8.5,-188 8.5,-182 14.5,-176 20.5,-176 20.5,-176 287.5,-176 287.5,-176 293.5,-176 299.5,-182 299.5,-188 299.5,-188 299.5,-200 299.5,-200 299.5,-206 293.5,-212 287.5,-212" />
+<text text-anchor="middle" x="154" y="-190.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">perimetro = calcola_perimetro(raggio)</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M250,-130C250,-130 58,-130 58,-130 52,-130 46,-124 46,-118 46,-118 46,-106 46,-106 46,-100 52,-94 58,-94 58,-94 250,-94 250,-94 256,-94 262,-100 262,-106 262,-106 262,-118 262,-118 262,-124 256,-130 250,-130" />
+<text text-anchor="middle" x="154" y="-108.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">area = calcola_area(raggio)</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M296,-48C296,-48 12,-48 12,-48 6,-48 0,-42 0,-36 0,-36 0,-12 0,-12 0,-6 6,0 12,0 12,0 296,0 296,0 302,0 308,-6 308,-12 308,-12 308,-36 308,-36 308,-42 302,-48 296,-48" />
+<text text-anchor="middle" x="154" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">stampa_risultati(raggio, perimetro, area)</text>
+<text text-anchor="middle" x="154" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Visualizzazione; ritorno None</text>
+</g>
+</g>
+</svg>

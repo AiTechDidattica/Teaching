@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="272pt" height="215pt" viewBox="0.00 0.00 271.80 214.80" role="img">
+<title>Progettazione del convertitore di temperatura secondo il modello black box.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 257.4,-200.4 257.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M121.5,-149.7C121.5,-142.2 121.5,-133.19 121.5,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="124.02,-124.45 121.5,-117.25 118.98,-124.45 124.02,-124.45" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M121.5,-68.9C121.5,-60.84 121.5,-51.77 121.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="124.02,-43.59 121.5,-36.39 118.98,-43.59 124.02,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M231,-186C231,-186 12,-186 12,-186 6,-186 0,-180 0,-174 0,-174 0,-162 0,-162 0,-156 6,-150 12,-150 12,-150 231,-150 231,-150 237,-150 243,-156 243,-162 243,-162 243,-174 243,-174 243,-180 237,-186 231,-186" />
+<text text-anchor="middle" x="121.5" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Temperatura in ingresso: 25 °C</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#253348" stroke="#253348" stroke-width="1.35" d="M201,-117C201,-117 42,-117 42,-117 36,-117 30,-111 30,-105 30,-105 30,-81 30,-81 30,-75 36,-69 42,-69 42,-69 201,-69 201,-69 207,-69 213,-75 213,-81 213,-81 213,-105 213,-105 213,-111 207,-117 201,-117" />
+<text text-anchor="middle" x="121.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">celsius_to_fahrenheit()</text>
+<text text-anchor="middle" x="121.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">F = C × 9/5 + 32</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M223,-36C223,-36 20,-36 20,-36 14,-36 8,-30 8,-24 8,-24 8,-12 8,-12 8,-6 14,0 20,0 20,0 223,0 223,0 229,0 235,-6 235,-12 235,-12 235,-24 235,-24 235,-30 229,-36 223,-36" />
+<text text-anchor="middle" x="121.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Temperatura restituita: 77 °F</text>
+</g>
+</g>
+</svg>

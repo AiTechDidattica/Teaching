@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="588pt" height="171pt" viewBox="0.00 0.00 587.80 170.80" role="img">
+<title>Accesso in lettura a una variabile globale da parte di differenti funzioni.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 156.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-156.4 573.4,-156.4 573.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M230.55,-93.78C203.22,-80.82 169.08,-64.63 140.79,-51.22" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="141.69,-48.86 134.1,-48.05 139.53,-53.41 141.69,-48.86" />
+<text text-anchor="middle" x="213" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">lettura</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M279.5,-93.78C279.5,-82.24 279.5,-68.12 279.5,-55.69" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="282.02,-55.41 279.5,-48.21 276.98,-55.41 282.02,-55.41" />
+<text text-anchor="middle" x="298" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">lettura</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>a-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M328.45,-93.78C355.78,-80.82 389.92,-64.63 418.21,-51.22" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="419.47,-53.41 424.9,-48.05 417.31,-48.86 419.47,-53.41" />
+<text text-anchor="middle" x="406" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">lettura</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M348.5,-142C348.5,-142 210.5,-142 210.5,-142 204.5,-142 198.5,-136 198.5,-130 198.5,-130 198.5,-106 198.5,-106 198.5,-100 204.5,-94 210.5,-94 210.5,-94 348.5,-94 348.5,-94 354.5,-94 360.5,-100 360.5,-106 360.5,-106 360.5,-130 360.5,-130 360.5,-136 354.5,-142 348.5,-142" />
+<text text-anchor="middle" x="279.5" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Namespace globale</text>
+<text text-anchor="middle" x="279.5" y="-106.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero = 100</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M159,-48C159,-48 12,-48 12,-48 6,-48 0,-42 0,-36 0,-36 0,-12 0,-12 0,-6 6,0 12,0 12,0 159,0 159,0 165,0 171,-6 171,-12 171,-12 171,-36 171,-36 171,-42 165,-48 159,-48" />
+<text text-anchor="middle" x="85.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">funzione_1()</text>
+<text text-anchor="middle" x="85.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">print(numero) → 100</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M353,-48C353,-48 206,-48 206,-48 200,-48 194,-42 194,-36 194,-36 194,-12 194,-12 194,-6 200,0 206,0 206,0 353,0 353,0 359,0 365,-6 365,-12 365,-12 365,-36 365,-36 365,-42 359,-48 353,-48" />
+<text text-anchor="middle" x="279.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">funzione_2()</text>
+<text text-anchor="middle" x="279.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">print(numero) → 100</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M547,-48C547,-48 400,-48 400,-48 394,-48 388,-42 388,-36 388,-36 388,-12 388,-12 388,-6 394,0 400,0 400,0 547,0 547,0 553,0 559,-6 559,-12 559,-12 559,-36 559,-36 559,-42 553,-48 547,-48" />
+<text text-anchor="middle" x="473.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">main()</text>
+<text text-anchor="middle" x="473.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">print(numero) → 100</text>
+</g>
+</g>
+</svg>

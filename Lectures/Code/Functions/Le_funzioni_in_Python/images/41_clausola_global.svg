@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656 334.27" width="656" height="334.27" role="img"><title>Differenza tra assegnazione locale e assegnazione globale mediante global.</title><rect x="0" y="0" width="656" height="334.27" fill="#ffffff" /><rect x="12" y="11" width="312" height="310.27" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="168.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Senza global</text><svg width="296.0" height="244.73" viewBox="0.00 0.00 259.80 214.80" x="20.0" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 245.4,-200.4 245.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M115.5,-149.7C115.5,-142.2 115.5,-133.19 115.5,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="118.02,-124.45 115.5,-117.25 112.98,-124.45 118.02,-124.45" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M115.5,-68.9C115.5,-60.84 115.5,-51.77 115.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="118.02,-43.59 115.5,-36.39 112.98,-43.59 118.02,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M198,-186C198,-186 33,-186 33,-186 27,-186 21,-180 21,-174 21,-174 21,-162 21,-162 21,-156 27,-150 33,-150 33,-150 198,-150 198,-150 204,-150 210,-156 210,-162 210,-162 210,-174 210,-174 210,-180 204,-186 198,-186" />
+<text text-anchor="middle" x="115.5" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Globale: numero = 100</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M190.5,-117C190.5,-117 40.5,-117 40.5,-117 34.5,-117 28.5,-111 28.5,-105 28.5,-105 28.5,-81 28.5,-81 28.5,-75 34.5,-69 40.5,-69 40.5,-69 190.5,-69 190.5,-69 196.5,-69 202.5,-75 202.5,-81 202.5,-81 202.5,-105 202.5,-105 202.5,-111 196.5,-117 190.5,-117" />
+<text text-anchor="middle" x="115.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">modifica()</text>
+<text text-anchor="middle" x="115.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">numero = 50 (locale)</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M219,-36C219,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 219,0 219,0 225,0 231,-6 231,-12 231,-12 231,-24 231,-24 231,-30 225,-36 219,-36" />
+<text text-anchor="middle" x="115.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Globale finale: numero = 100</text>
+</g>
+</g>
+</svg><rect x="332" y="11" width="312" height="310.27" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="488.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Con global</text><svg width="288.42" height="264.27" viewBox="0.00 0.00 250.80 229.80" x="343.79" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 215.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-215.4 236.4,-215.4 236.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M111,-164.93C111,-157.5 111,-148.48 111,-139.59" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="113.52,-139.4 111,-132.2 108.48,-139.4 113.52,-139.4" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M111,-68.61C111,-60.36 111,-51.56 111,-43.69" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="113.52,-43.4 111,-36.2 108.48,-43.4 113.52,-43.4" />
+</g>
+
+<g id="node1_2" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M193.5,-201C193.5,-201 28.5,-201 28.5,-201 22.5,-201 16.5,-195 16.5,-189 16.5,-189 16.5,-177 16.5,-177 16.5,-171 22.5,-165 28.5,-165 28.5,-165 193.5,-165 193.5,-165 199.5,-165 205.5,-171 205.5,-177 205.5,-177 205.5,-189 205.5,-189 205.5,-195 199.5,-201 193.5,-201" />
+<text text-anchor="middle" x="111" y="-179.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Globale: numero = 100</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>n1</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M162,-132C162,-132 60,-132 60,-132 54,-132 48,-126 48,-120 48,-120 48,-81 48,-81 48,-75 54,-69 60,-69 60,-69 162,-69 162,-69 168,-69 174,-75 174,-81 174,-81 174,-120 174,-120 174,-126 168,-132 162,-132" />
+<text text-anchor="middle" x="111" y="-111.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">modifica()</text>
+<text text-anchor="middle" x="111" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">global numero</text>
+<text text-anchor="middle" x="111" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">numero = 50</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M210,-36C210,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 210,0 210,0 216,0 222,-6 222,-12 222,-12 222,-24 222,-24 222,-30 216,-36 210,-36" />
+<text text-anchor="middle" x="111" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Globale finale: numero = 50</text>
+</g>
+</g>
+</svg></svg>

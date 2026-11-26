@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="565pt" height="301pt" viewBox="0.00 0.00 564.80 300.80" role="img">
+<title>Passaggio di una lista a una funzione, restituzione multipla e unpacking della tupla.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 286.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-286.4 550.4,-286.4 550.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M264.5,-235.98C264.5,-227.86 264.5,-217.9 264.5,-208.54" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="267.02,-208.41 264.5,-201.21 261.98,-208.41 267.02,-208.41" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M264.5,-152.95C264.5,-141.12 264.5,-126.69 264.5,-114.63" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="267.02,-114.3 264.5,-107.1 261.98,-114.3 267.02,-114.3" />
+<text text-anchor="middle" x="281.5" y="-127.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">return</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M213.58,-70.94C184.24,-61.12 147.25,-48.73 116.75,-38.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="117.18,-36 109.55,-36.1 115.58,-40.78 117.18,-36" />
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M247.2,-70.94C238.18,-62.05 227.03,-51.07 217.32,-41.49" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="218.99,-39.6 212.09,-36.34 215.45,-43.19 218.99,-39.6" />
+</g>
+
+<g id="edge5" class="edge">
+<title>c-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M282.05,-70.94C291.2,-62.05 302.5,-51.07 312.36,-41.49" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="314.25,-43.16 317.66,-36.34 310.74,-39.55 314.25,-43.16" />
+</g>
+
+<g id="edge6" class="edge">
+<title>c-&gt;h</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M317.65,-70.94C348.4,-61.07 387.2,-48.62 419.11,-38.38" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="420.13,-40.7 426.22,-36.1 418.59,-35.9 420.13,-40.7" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M341,-272C341,-272 188,-272 188,-272 182,-272 176,-266 176,-260 176,-260 176,-248 176,-248 176,-242 182,-236 188,-236 188,-236 341,-236 341,-236 347,-236 353,-242 353,-248 353,-248 353,-260 353,-260 353,-266 347,-272 341,-272" />
+<text text-anchor="middle" x="264.5" y="-250.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Lista: [10, 5, 8, 3, 14]</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M400,-201C400,-201 129,-201 129,-201 123,-201 117,-195 117,-189 117,-189 117,-165 117,-165 117,-159 123,-153 129,-153 129,-153 400,-153 400,-153 406,-153 412,-159 412,-165 412,-165 412,-189 412,-189 412,-195 406,-201 400,-201" />
+<text text-anchor="middle" x="264.5" y="-180.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">calcola_statistiche(numeri)</text>
+<text text-anchor="middle" x="264.5" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Elaborazione senza modifica della lista</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M341,-107C341,-107 188,-107 188,-107 182,-107 176,-101 176,-95 176,-95 176,-83 176,-83 176,-77 182,-71 188,-71 188,-71 341,-71 341,-71 347,-71 353,-77 353,-83 353,-83 353,-95 353,-95 353,-101 347,-107 341,-107" />
+<text text-anchor="middle" x="264.5" y="-85.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Tupla: (40, 3, 14, 8.0)</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M105,-36C105,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 105,0 105,0 111,0 117,-6 117,-12 117,-12 117,-24 117,-24 117,-30 111,-36 105,-36" />
+<text text-anchor="middle" x="58.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">somma = 40</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M236.5,-36C236.5,-36 152.5,-36 152.5,-36 146.5,-36 140.5,-30 140.5,-24 140.5,-24 140.5,-12 140.5,-12 140.5,-6 146.5,0 152.5,0 152.5,0 236.5,0 236.5,0 242.5,0 248.5,-6 248.5,-12 248.5,-12 248.5,-24 248.5,-24 248.5,-30 242.5,-36 236.5,-36" />
+<text text-anchor="middle" x="194.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">minimo = 3</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M387.5,-36C387.5,-36 283.5,-36 283.5,-36 277.5,-36 271.5,-30 271.5,-24 271.5,-24 271.5,-12 271.5,-12 271.5,-6 277.5,0 283.5,0 283.5,0 387.5,0 387.5,0 393.5,0 399.5,-6 399.5,-12 399.5,-12 399.5,-24 399.5,-24 399.5,-30 393.5,-36 387.5,-36" />
+<text text-anchor="middle" x="335.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">massimo = 14</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M524,-36C524,-36 435,-36 435,-36 429,-36 423,-30 423,-24 423,-24 423,-12 423,-12 423,-6 429,0 435,0 435,0 524,0 524,0 530,0 536,-6 536,-12 536,-12 536,-24 536,-24 536,-30 530,-36 524,-36" />
+<text text-anchor="middle" x="479.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">media = 8.0</text>
+</g>
+</g>
+</svg>

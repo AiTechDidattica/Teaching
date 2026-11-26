@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="387pt" height="365pt" viewBox="0.00 0.00 386.80 364.80" role="img">
+<title>Elaborazione della stringa mediante split() e len() e restituzione del risultato.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 350.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-350.4 372.4,-350.4 372.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M179,-287.9C179,-279.84 179,-270.77 179,-262.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="181.52,-262.59 179,-255.39 176.48,-262.59 181.52,-262.59" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M179,-218.7C179,-211.2 179,-202.19 179,-193.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="181.52,-193.45 179,-186.25 176.48,-193.45 181.52,-193.45" />
+</g>
+
+<g id="edge3" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M179,-137.9C179,-129.84 179,-120.77 179,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="181.52,-112.59 179,-105.39 176.48,-112.59 181.52,-112.59" />
+</g>
+
+<g id="edge4" class="edge">
+<title>n3-&gt;n4</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M179,-68.75C179,-61.15 179,-52.08 179,-43.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="181.52,-43.63 179,-36.43 176.48,-43.63 181.52,-43.63" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M296,-336C296,-336 62,-336 62,-336 56,-336 50,-330 50,-324 50,-324 50,-300 50,-300 50,-294 56,-288 62,-288 62,-288 296,-288 296,-288 302,-288 308,-294 308,-300 308,-300 308,-324 308,-324 308,-330 302,-336 296,-336" />
+<text text-anchor="middle" x="179" y="-315.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">STRINGA</text>
+<text text-anchor="middle" x="179" y="-300.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">"Questa è una frase di esempio."</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M220,-255C220,-255 138,-255 138,-255 132,-255 126,-249 126,-243 126,-243 126,-231 126,-231 126,-225 132,-219 138,-219 138,-219 220,-219 220,-219 226,-219 232,-225 232,-231 232,-231 232,-243 232,-243 232,-249 226,-255 220,-255" />
+<text text-anchor="middle" x="179" y="-233.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">frase.split()</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M346,-186C346,-186 12,-186 12,-186 6,-186 0,-180 0,-174 0,-174 0,-150 0,-150 0,-144 6,-138 12,-138 12,-138 346,-138 346,-138 352,-138 358,-144 358,-150 358,-150 358,-174 358,-174 358,-180 352,-186 346,-186" />
+<text text-anchor="middle" x="179" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">LISTA DI STRINGHE</text>
+<text text-anchor="middle" x="179" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">["Questa", "è", "una", "frase", "di", "esempio."]</text>
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M217.5,-105C217.5,-105 140.5,-105 140.5,-105 134.5,-105 128.5,-99 128.5,-93 128.5,-93 128.5,-81 128.5,-81 128.5,-75 134.5,-69 140.5,-69 140.5,-69 217.5,-69 217.5,-69 223.5,-69 229.5,-75 229.5,-81 229.5,-81 229.5,-93 229.5,-93 229.5,-99 223.5,-105 217.5,-105" />
+<text text-anchor="middle" x="179" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">len(parole)</text>
+</g>
+
+<g id="node5" class="node">
+<title>n4</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M208,-36C208,-36 150,-36 150,-36 144,-36 138,-30 138,-24 138,-24 138,-12 138,-12 138,-6 144,0 150,0 150,0 208,0 208,0 214,0 220,-6 220,-12 220,-12 220,-24 220,-24 220,-30 214,-36 208,-36" />
+<text text-anchor="middle" x="179" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return 6</text>
+</g>
+</g>
+</svg>

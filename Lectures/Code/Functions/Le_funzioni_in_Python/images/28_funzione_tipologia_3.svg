@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="483pt" height="253pt" viewBox="0.00 0.00 483.30 252.80" role="img">
+<title>Funzione che acquisisce autonomamente un dato e lo restituisce al chiamante.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 238.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-238.4 468.9,-238.4 468.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M163.03,-175.78C179.1,-163.36 199,-147.98 215.9,-134.91" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="217.83,-136.61 221.98,-130.21 214.74,-132.62 217.83,-136.61" />
+<text text-anchor="middle" x="246.5" y="-150.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">senza argomenti</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M252,-81.95C252,-70.12 252,-55.69 252,-43.63" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="254.52,-43.3 252,-36.1 249.48,-43.3 254.52,-43.3" />
+<text text-anchor="middle" x="278" y="-56.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">return 12</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>c-&gt;b</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M341.72,-175.78C325.52,-163.36 305.45,-147.98 288.4,-134.91" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="289.52,-132.59 282.27,-130.21 286.45,-136.59 289.52,-132.59" />
+<text text-anchor="middle" x="354" y="-150.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">dato inserito</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M254,-224C254,-224 12,-224 12,-224 6,-224 0,-218 0,-212 0,-212 0,-188 0,-188 0,-182 6,-176 12,-176 12,-176 254,-176 254,-176 260,-176 266,-182 266,-188 266,-188 266,-212 266,-212 266,-218 260,-224 254,-224" />
+<text text-anchor="middle" x="133" y="-203.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">main()</text>
+<text text-anchor="middle" x="133" y="-188.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">numero = leggi_numero_positivo()</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M374.5,-130C374.5,-130 129.5,-130 129.5,-130 123.5,-130 117.5,-124 117.5,-118 117.5,-118 117.5,-94 117.5,-94 117.5,-88 123.5,-82 129.5,-82 129.5,-82 374.5,-82 374.5,-82 380.5,-82 386.5,-88 386.5,-94 386.5,-94 386.5,-118 386.5,-118 386.5,-124 380.5,-130 374.5,-130" />
+<text text-anchor="middle" x="252" y="-109.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">leggi_numero_positivo()</text>
+<text text-anchor="middle" x="252" y="-94.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">input(), validazione, return numero</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M442.5,-224C442.5,-224 301.5,-224 301.5,-224 295.5,-224 289.5,-218 289.5,-212 289.5,-212 289.5,-188 289.5,-188 289.5,-182 295.5,-176 301.5,-176 301.5,-176 442.5,-176 442.5,-176 448.5,-176 454.5,-182 454.5,-188 454.5,-188 454.5,-212 454.5,-212 454.5,-218 448.5,-224 442.5,-224" />
+<text text-anchor="middle" x="372" y="-203.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">UTENTE – TASTIERA</text>
+<text text-anchor="middle" x="372" y="-188.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">12</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M351,-36C351,-36 153,-36 153,-36 147,-36 141,-30 141,-24 141,-24 141,-12 141,-12 141,-6 147,0 153,0 153,0 351,0 351,0 357,0 363,-6 363,-12 363,-12 363,-24 363,-24 363,-30 357,-36 351,-36" />
+<text text-anchor="middle" x="252" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">numero = 12 nel chiamante</text>
+</g>
+</g>
+</svg>

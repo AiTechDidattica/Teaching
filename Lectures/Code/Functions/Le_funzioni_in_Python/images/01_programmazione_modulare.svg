@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="498pt" height="296pt" viewBox="0.00 0.00 497.80 295.80" role="img">
+<title>Scomposizione di un problema in sottoproblemi e associazione delle relative funzioni.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 281.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-281.4 483.4,-281.4 483.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M186.62,-218.94C167.34,-209.65 145,-198.89 125.09,-189.29" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="126.02,-186.95 118.44,-186.09 123.83,-191.49 126.02,-186.95" />
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M234.5,-218.72C234.5,-210.77 234.5,-201.75 234.5,-193.32" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="237.02,-193.31 234.5,-186.11 231.98,-193.31 237.02,-193.31" />
+</g>
+
+<g id="edge3" class="edge">
+<title>a-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M282.38,-218.94C301.66,-209.65 324,-198.89 343.91,-189.29" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="345.17,-191.49 350.56,-186.09 342.98,-186.95 345.17,-191.49" />
+</g>
+
+<g id="edge4" class="edge">
+<title>b-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M74.93,-137.9C76.48,-129.84 78.22,-120.77 79.78,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="82.28,-112.94 81.16,-105.39 77.33,-111.99 82.28,-112.94" />
+</g>
+
+<g id="edge5" class="edge">
+<title>c-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M234.5,-137.9C234.5,-129.84 234.5,-120.77 234.5,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="237.02,-112.59 234.5,-105.39 231.98,-112.59 237.02,-112.59" />
+</g>
+
+<g id="edge6" class="edge">
+<title>d-&gt;h</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M395.34,-137.9C394.23,-129.84 392.99,-120.77 391.87,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="394.36,-112.18 390.88,-105.39 389.36,-112.87 394.36,-112.18" />
+</g>
+
+<g id="edge7" class="edge">
+<title>e-&gt;z</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M122.74,-68.92C143.1,-59.82 168.27,-48.58 189.56,-39.07" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="190.78,-41.29 196.33,-36.05 188.73,-36.68 190.78,-41.29" />
+</g>
+
+<g id="edge8" class="edge">
+<title>f-&gt;z</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M234.5,-68.75C234.5,-61.15 234.5,-52.08 234.5,-43.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="237.02,-43.63 234.5,-36.43 231.98,-43.63 237.02,-43.63" />
+</g>
+
+<g id="edge9" class="edge">
+<title>h-&gt;z</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M349.24,-68.92C328.24,-59.78 302.27,-48.48 280.35,-38.95" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="281.3,-36.61 273.69,-36.05 279.28,-41.23 281.3,-36.61" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M322,-267C322,-267 147,-267 147,-267 141,-267 135,-261 135,-255 135,-255 135,-231 135,-231 135,-225 141,-219 147,-219 147,-219 322,-219 322,-219 328,-219 334,-225 334,-231 334,-231 334,-255 334,-255 334,-261 328,-267 322,-267" />
+<text text-anchor="middle" x="234.5" y="-246.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Problema complessivo</text>
+<text text-anchor="middle" x="234.5" y="-231.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Programma da realizzare</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M129,-186C129,-186 12,-186 12,-186 6,-186 0,-180 0,-174 0,-174 0,-150 0,-150 0,-144 6,-138 12,-138 12,-138 129,-138 129,-138 135,-138 141,-144 141,-150 141,-150 141,-174 141,-174 141,-180 135,-186 129,-186" />
+<text text-anchor="middle" x="70.5" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Sottoproblema 1</text>
+<text text-anchor="middle" x="70.5" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Acquisizione</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M293,-186C293,-186 176,-186 176,-186 170,-186 164,-180 164,-174 164,-174 164,-150 164,-150 164,-144 170,-138 176,-138 176,-138 293,-138 293,-138 299,-138 305,-144 305,-150 305,-150 305,-174 305,-174 305,-180 299,-186 293,-186" />
+<text text-anchor="middle" x="234.5" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Sottoproblema 2</text>
+<text text-anchor="middle" x="234.5" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Elaborazione</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M457,-186C457,-186 340,-186 340,-186 334,-186 328,-180 328,-174 328,-174 328,-150 328,-150 328,-144 334,-138 340,-138 340,-138 457,-138 457,-138 463,-138 469,-144 469,-150 469,-150 469,-174 469,-174 469,-180 463,-186 457,-186" />
+<text text-anchor="middle" x="398.5" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Sottoproblema 3</text>
+<text text-anchor="middle" x="398.5" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Visualizzazione</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M124.5,-105C124.5,-105 44.5,-105 44.5,-105 38.5,-105 32.5,-99 32.5,-93 32.5,-93 32.5,-81 32.5,-81 32.5,-75 38.5,-69 44.5,-69 44.5,-69 124.5,-69 124.5,-69 130.5,-69 136.5,-75 136.5,-81 136.5,-81 136.5,-93 136.5,-93 136.5,-99 130.5,-105 124.5,-105" />
+<text text-anchor="middle" x="84.5" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">leggi_dati()</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M283.5,-105C283.5,-105 185.5,-105 185.5,-105 179.5,-105 173.5,-99 173.5,-93 173.5,-93 173.5,-81 173.5,-81 173.5,-75 179.5,-69 185.5,-69 185.5,-69 283.5,-69 283.5,-69 289.5,-69 295.5,-75 295.5,-81 295.5,-81 295.5,-93 295.5,-93 295.5,-99 289.5,-105 283.5,-105" />
+<text text-anchor="middle" x="234.5" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">elabora_dati()</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M437.5,-105C437.5,-105 339.5,-105 339.5,-105 333.5,-105 327.5,-99 327.5,-93 327.5,-93 327.5,-81 327.5,-81 327.5,-75 333.5,-69 339.5,-69 339.5,-69 437.5,-69 437.5,-69 443.5,-69 449.5,-75 449.5,-81 449.5,-81 449.5,-93 449.5,-93 449.5,-99 443.5,-105 437.5,-105" />
+<text text-anchor="middle" x="388.5" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">stampa_dati()</text>
+</g>
+
+<g id="node8" class="node">
+<title>z</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M355.5,-36C355.5,-36 113.5,-36 113.5,-36 107.5,-36 101.5,-30 101.5,-24 101.5,-24 101.5,-12 101.5,-12 101.5,-6 107.5,0 113.5,0 113.5,0 355.5,0 355.5,0 361.5,0 367.5,-6 367.5,-12 367.5,-12 367.5,-24 367.5,-24 367.5,-30 361.5,-36 355.5,-36" />
+<text text-anchor="middle" x="234.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Soluzione coordinata del problema</text>
+</g>
+</g>
+</svg>

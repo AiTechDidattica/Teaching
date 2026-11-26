@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="389pt" height="352pt" viewBox="0.00 0.00 388.80 352.47" role="img">
+<title>Struttura concettuale di una funzione ricorsiva che restituisce un risultato.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 338.07)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-338.07 374.4,-338.07 374.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M177,-276.79C177,-268.55 177,-258.97 177,-249.68" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="179.52,-249.52 177,-242.32 174.48,-249.52 179.52,-249.52" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M151.29,-180.67C138.19,-166.74 122.27,-149.82 109,-135.7" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="110.63,-133.76 103.86,-130.24 106.96,-137.21 110.63,-133.76" />
+<text text-anchor="middle" x="135" y="-150.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">Sì</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M202.98,-180.67C216.21,-166.74 232.3,-149.82 245.72,-135.7" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="247.77,-137.2 250.91,-130.24 244.12,-133.73 247.77,-137.2" />
+<text text-anchor="middle" x="242" y="-150.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">No</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M107.46,-81.95C121.4,-69.33 138.61,-53.75 152.42,-41.26" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="154.46,-42.81 158.11,-36.1 151.08,-39.07 154.46,-42.81" />
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M247.27,-81.95C233.05,-69.22 215.48,-53.48 201.47,-40.92" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="203.14,-39.03 196.09,-36.1 199.78,-42.79 203.14,-39.03" />
+<text text-anchor="middle" x="292.5" y="-56.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">dopo il ritorno ricorsivo</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="177" cy="-300.33" rx="74.91" ry="23.17" />
+<text text-anchor="middle" x="177" y="-296.63" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">funzione(n)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="177,-242 0,-209 177,-176 354,-209 177,-242" />
+<text text-anchor="middle" x="177" y="-205.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Caso base raggiunto?</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M150.5,-130C150.5,-130 13.5,-130 13.5,-130 7.5,-130 1.5,-124 1.5,-118 1.5,-118 1.5,-94 1.5,-94 1.5,-88 7.5,-82 13.5,-82 13.5,-82 150.5,-82 150.5,-82 156.5,-82 162.5,-88 162.5,-94 162.5,-94 162.5,-118 162.5,-118 162.5,-124 156.5,-130 150.5,-130" />
+<text text-anchor="middle" x="82" y="-109.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Caso base</text>
+<text text-anchor="middle" x="82" y="-94.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Restituzione diretta</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M348,-130C348,-130 198,-130 198,-130 192,-130 186,-124 186,-118 186,-118 186,-94 186,-94 186,-88 192,-82 198,-82 198,-82 348,-82 348,-82 354,-82 360,-88 360,-94 360,-94 360,-118 360,-118 360,-124 354,-130 348,-130" />
+<text text-anchor="middle" x="273" y="-109.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Passo ricorsivo</text>
+<text text-anchor="middle" x="273" y="-94.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Chiamata a sé stessa</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M264,-36C264,-36 90,-36 90,-36 84,-36 78,-30 78,-24 78,-24 78,-12 78,-12 78,-6 84,0 90,0 90,0 264,0 264,0 270,0 276,-6 276,-12 276,-12 276,-24 276,-24 276,-30 270,-36 264,-36" />
+<text text-anchor="middle" x="177" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Restituzione del risultato</text>
+</g>
+</g>
+</svg>

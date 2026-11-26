@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="351pt" height="361pt" viewBox="0.00 0.00 350.80 361.35" role="img">
+<title>Flow chart di una funzione contenente più istruzioni return.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 346.95)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-346.95 336.4,-346.95 336.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M161,-285.67C161,-277.44 161,-267.85 161,-258.56" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="163.52,-258.41 161,-251.21 158.48,-258.41 163.52,-258.41" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M139.69,-189.15C128.89,-175.09 115.92,-158.22 105.68,-144.89" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="107.57,-143.22 101.19,-139.04 103.57,-146.29 107.57,-143.22" />
+<text text-anchor="middle" x="135" y="-159.08" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">True</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M182.6,-189.15C193.55,-175.09 206.69,-158.22 217.08,-144.89" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="219.2,-146.27 221.63,-139.04 215.22,-143.17 219.2,-146.27" />
+<text text-anchor="middle" x="220" y="-159.08" font-family="DejaVu Sans" font-size="11.00" fill="#174580">False</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M102.77,-102.69C110.15,-94.1 119.4,-83.35 128.34,-72.95" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="130.47,-74.33 133.26,-67.22 126.65,-71.04 130.47,-74.33" />
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M220.02,-102.69C212.47,-94.02 203,-83.15 193.86,-72.66" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="195.75,-71 189.12,-67.22 191.95,-74.31 195.75,-71" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="161" cy="-309.22" rx="131.54" ry="23.17" />
+<text text-anchor="middle" x="161" y="-305.52" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">pari_o_dispari(numero)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="161,-250.88 0,-217.88 161,-184.88 322,-217.88 161,-250.88" />
+<text text-anchor="middle" x="161" y="-214.18" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">numero % 2 == 0?</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M132,-138.88C132,-138.88 44,-138.88 44,-138.88 38,-138.88 32,-132.88 32,-126.88 32,-126.88 32,-114.88 32,-114.88 32,-108.88 38,-102.88 44,-102.88 44,-102.88 132,-102.88 132,-102.88 138,-102.88 144,-108.88 144,-114.88 144,-114.88 144,-126.88 144,-126.88 144,-132.88 138,-138.88 132,-138.88" />
+<text text-anchor="middle" x="88" y="-117.18" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return "Pari"</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M290.5,-138.88C290.5,-138.88 179.5,-138.88 179.5,-138.88 173.5,-138.88 167.5,-132.88 167.5,-126.88 167.5,-126.88 167.5,-114.88 167.5,-114.88 167.5,-108.88 173.5,-102.88 179.5,-102.88 179.5,-102.88 290.5,-102.88 290.5,-102.88 296.5,-102.88 302.5,-108.88 302.5,-114.88 302.5,-114.88 302.5,-126.88 302.5,-126.88 302.5,-132.88 296.5,-138.88 290.5,-138.88" />
+<text text-anchor="middle" x="235" y="-117.18" font-family="DejaVu Sans" font-size="14.00" fill="#174580">return "Dispari"</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="161" cy="-33.94" rx="120.42" ry="33.88" />
+<text text-anchor="middle" x="161" y="-37.74" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Fine della funzione</text>
+<text text-anchor="middle" x="161" y="-22.74" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Ritorno al chiamante</text>
+</g>
+</g>
+</svg>

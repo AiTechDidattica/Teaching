@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="605pt" height="395pt" viewBox="0.00 0.00 605.30 394.80" role="img">
+<title>Schema riepilogativo degli effetti delle operazioni sui parametri formali.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 380.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-380.4 590.9,-380.4 590.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M288,-329.7C288,-322.2 288,-313.19 288,-304.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="290.52,-304.45 288,-297.25 285.48,-304.45 290.52,-304.45" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M288,-248.88C288,-241.08 288,-232.14 288,-223.45" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="290.52,-223.43 288,-216.23 285.48,-223.43 290.52,-223.43" />
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M259.75,-155.84C248.38,-145.3 235.23,-133.12 223.63,-122.37" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="225.06,-120.27 218.07,-117.22 221.64,-123.96 225.06,-120.27" />
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M322.31,-157.25C337.74,-146.12 356.01,-132.95 371.87,-121.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="373.68,-123.31 378.04,-117.05 370.73,-119.22 373.68,-123.31" />
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M175.6,-68.9C169.28,-60.51 162.13,-51.03 155.78,-42.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="157.45,-40.63 151.1,-36.39 153.42,-43.66 157.45,-40.63" />
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;h</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M418.86,-68.9C421.95,-60.84 425.43,-51.77 428.57,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="431.1,-44.02 431.33,-36.39 426.4,-42.21 431.1,-44.02" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M383.5,-366C383.5,-366 192.5,-366 192.5,-366 186.5,-366 180.5,-360 180.5,-354 180.5,-354 180.5,-342 180.5,-342 180.5,-336 186.5,-330 192.5,-330 192.5,-330 383.5,-330 383.5,-330 389.5,-330 395.5,-336 395.5,-342 395.5,-342 395.5,-354 395.5,-354 395.5,-360 389.5,-366 383.5,-366" />
+<text text-anchor="middle" x="288" y="-344.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Passaggio di un argomento</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M387,-297C387,-297 189,-297 189,-297 183,-297 177,-291 177,-285 177,-285 177,-261 177,-261 177,-255 183,-249 189,-249 189,-249 387,-249 387,-249 393,-249 399,-255 399,-261 399,-261 399,-285 399,-285 399,-291 393,-297 387,-297" />
+<text text-anchor="middle" x="288" y="-276.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Parametro e argomento</text>
+<text text-anchor="middle" x="288" y="-261.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">associati allo stesso oggetto</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="288,-216 132,-183 288,-150 444,-183 288,-216" />
+<text text-anchor="middle" x="288" y="-179.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Quale operazione?</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M262,-117C262,-117 124,-117 124,-117 118,-117 112,-111 112,-105 112,-105 112,-81 112,-81 112,-75 118,-69 124,-69 124,-69 262,-69 262,-69 268,-69 274,-75 274,-81 274,-81 274,-105 274,-105 274,-111 268,-117 262,-117" />
+<text text-anchor="middle" x="193" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Riassegnazione</text>
+<text text-anchor="middle" x="193" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">parametro = valore</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M483.5,-117C483.5,-117 336.5,-117 336.5,-117 330.5,-117 324.5,-111 324.5,-105 324.5,-105 324.5,-81 324.5,-81 324.5,-75 330.5,-69 336.5,-69 336.5,-69 483.5,-69 483.5,-69 489.5,-69 495.5,-75 495.5,-81 495.5,-81 495.5,-105 495.5,-105 495.5,-111 489.5,-117 483.5,-117" />
+<text text-anchor="middle" x="410" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Modifica dell’oggetto</text>
+<text text-anchor="middle" x="410" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">lista[0] = valore</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M264,-36C264,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 264,0 264,0 270,0 276,-6 276,-12 276,-12 276,-24 276,-24 276,-30 270,-36 264,-36" />
+<text text-anchor="middle" x="138" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Riferimento del chiamante invariato</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M564.5,-36C564.5,-36 311.5,-36 311.5,-36 305.5,-36 299.5,-30 299.5,-24 299.5,-24 299.5,-12 299.5,-12 299.5,-6 305.5,0 311.5,0 311.5,0 564.5,0 564.5,0 570.5,0 576.5,-6 576.5,-12 576.5,-12 576.5,-24 576.5,-24 576.5,-30 570.5,-36 564.5,-36" />
+<text text-anchor="middle" x="438" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Modifica visibile anche al chiamante</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="399pt" height="239pt" viewBox="0.00 0.00 399.30 238.80" role="img">
+<title>Organizzazione gerarchica delle funzioni di un programma modulare.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 224.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-224.4 384.9,-224.4 384.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;m</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M183.5,-161.72C183.5,-153.77 183.5,-144.75 183.5,-136.32" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="186.02,-136.31 183.5,-129.11 180.98,-136.31 186.02,-136.31" />
+</g>
+
+<g id="edge2" class="edge">
+<title>m-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M154.89,-80.94C144.02,-72.17 131.51,-62.09 120.14,-52.93" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="121.5,-50.78 114.31,-48.23 118.34,-54.71 121.5,-50.78" />
+</g>
+
+<g id="edge3" class="edge">
+<title>m-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M212.4,-80.94C223.38,-72.17 236.02,-62.09 247.5,-52.93" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="249.34,-54.69 253.39,-48.23 246.19,-50.75 249.34,-54.69" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M281,-210C281,-210 86,-210 86,-210 80,-210 74,-204 74,-198 74,-198 74,-174 74,-174 74,-168 80,-162 86,-162 86,-162 281,-162 281,-162 287,-162 293,-168 293,-174 293,-174 293,-198 293,-198 293,-204 287,-210 281,-210" />
+<text text-anchor="middle" x="183.5" y="-189.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Punto di ingresso</text>
+<text text-anchor="middle" x="183.5" y="-174.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">if __name__ == "__main__":</text>
+</g>
+
+<g id="node2" class="node">
+<title>m</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M252.5,-129C252.5,-129 114.5,-129 114.5,-129 108.5,-129 102.5,-123 102.5,-117 102.5,-117 102.5,-93 102.5,-93 102.5,-87 108.5,-81 114.5,-81 114.5,-81 252.5,-81 252.5,-81 258.5,-81 264.5,-87 264.5,-93 264.5,-93 264.5,-117 264.5,-117 264.5,-123 258.5,-129 252.5,-129" />
+<text text-anchor="middle" x="183.5" y="-108.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Funzione principale</text>
+<text text-anchor="middle" x="183.5" y="-93.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">main()</text>
+</g>
+
+<g id="node3" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M159,-48C159,-48 12,-48 12,-48 6,-48 0,-42 0,-36 0,-36 0,-12 0,-12 0,-6 6,0 12,0 12,0 159,0 159,0 165,0 171,-6 171,-12 171,-12 171,-36 171,-36 171,-42 165,-48 159,-48" />
+<text text-anchor="middle" x="85.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">mostra_titolo()</text>
+<text text-anchor="middle" x="85.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Visualizzazione titolo</text>
+</g>
+
+<g id="node4" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M358.5,-48C358.5,-48 206.5,-48 206.5,-48 200.5,-48 194.5,-42 194.5,-36 194.5,-36 194.5,-12 194.5,-12 194.5,-6 200.5,0 206.5,0 206.5,0 358.5,0 358.5,0 364.5,0 370.5,-6 370.5,-12 370.5,-12 370.5,-36 370.5,-36 370.5,-42 364.5,-48 358.5,-48" />
+<text text-anchor="middle" x="282.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">mostra_menu()</text>
+<text text-anchor="middle" x="282.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Visualizzazione menù</text>
+</g>
+</g>
+</svg>

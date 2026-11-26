@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="264pt" height="316pt" viewBox="0.00 0.00 263.80 315.80" role="img">
+<title>Funzione che riceve due argomenti, elabora e restituisce il risultato.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 301.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-301.4 249.4,-301.4 249.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M102.17,-250.94C94.26,-242.14 84.5,-231.27 75.95,-221.76" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="77.77,-220.01 71.08,-216.34 74.02,-223.38 77.77,-220.01" />
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M133.07,-250.94C141.11,-242.14 151.03,-231.27 159.72,-221.76" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="161.67,-223.36 164.67,-216.34 157.95,-219.96 161.67,-223.36" />
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M68.35,-179.91C74.63,-171.54 82.46,-161.13 90,-151.09" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="92.08,-152.52 94.39,-145.25 88.05,-149.49 92.08,-152.52" />
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M167.45,-179.91C161.06,-171.54 153.11,-161.13 145.44,-151.09" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.35,-149.44 140.98,-145.25 143.35,-152.5 147.35,-149.44" />
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M117.5,-81.88C117.5,-69.39 117.5,-55.14 117.5,-43.37" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="120.02,-43.24 117.5,-36.04 114.98,-43.24 120.02,-43.24" />
+<text text-anchor="middle" x="143.5" y="-56.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">return 50</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M223,-287C223,-287 12,-287 12,-287 6,-287 0,-281 0,-275 0,-275 0,-263 0,-263 0,-257 6,-251 12,-251 12,-251 223,-251 223,-251 229,-251 235,-257 235,-263 235,-263 235,-275 235,-275 235,-281 229,-287 223,-287" />
+<text text-anchor="middle" x="117.5" y="-265.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">risultato = calcola_area(10, 5)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M93,-216C93,-216 18,-216 18,-216 12,-216 6,-210 6,-204 6,-204 6,-192 6,-192 6,-186 12,-180 18,-180 18,-180 93,-180 93,-180 99,-180 105,-186 105,-192 105,-192 105,-204 105,-204 105,-210 99,-216 93,-216" />
+<text text-anchor="middle" x="55.5" y="-194.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">base = 10</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M221,-216C221,-216 140,-216 140,-216 134,-216 128,-210 128,-204 128,-204 128,-192 128,-192 128,-186 134,-180 140,-180 140,-180 221,-180 221,-180 227,-180 233,-186 233,-192 233,-192 233,-204 233,-204 233,-210 227,-216 221,-216" />
+<text text-anchor="middle" x="180.5" y="-194.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">altezza = 5</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M211.5,-145C211.5,-145 23.5,-145 23.5,-145 17.5,-145 11.5,-139 11.5,-133 11.5,-133 11.5,-94 11.5,-94 11.5,-88 17.5,-82 23.5,-82 23.5,-82 211.5,-82 211.5,-82 217.5,-82 223.5,-88 223.5,-94 223.5,-94 223.5,-133 223.5,-133 223.5,-139 217.5,-145 211.5,-145" />
+<text text-anchor="middle" x="117.5" y="-124.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">calcola_area(base, altezza)</text>
+<text text-anchor="middle" x="117.5" y="-109.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">area = 10 * 5</text>
+<text text-anchor="middle" x="117.5" y="-94.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">return area</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M218,-36C218,-36 17,-36 17,-36 11,-36 5,-30 5,-24 5,-24 5,-12 5,-12 5,-6 11,0 17,0 17,0 218,0 218,0 224,0 230,-6 230,-12 230,-12 230,-24 230,-24 230,-30 224,-36 218,-36" />
+<text text-anchor="middle" x="117.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">risultato = 50 nel chiamante</text>
+</g>
+</g>
+</svg>

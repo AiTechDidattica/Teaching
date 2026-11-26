@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="445pt" height="400pt" viewBox="0.00 0.00 444.80 400.47" role="img">
+<title>Funzionamento del punto di ingresso condizionale in Python.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 386.07)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-386.07 430.4,-386.07 430.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M208,-324.63C208,-316.04 208,-306.24 208,-297.49" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="210.52,-297.34 208,-290.14 205.48,-297.34 210.52,-297.34" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M208,-253.6C208,-245.71 208,-236.03 208,-226.52" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="210.52,-226.52 208,-219.32 205.48,-226.52 210.52,-226.52" />
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;d</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M183.32,-156.75C171.03,-142.68 156.37,-125.9 144.82,-112.68" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="146.71,-111.02 140.08,-107.25 142.91,-114.33 146.71,-111.02" />
+<text text-anchor="middle" x="177" y="-127.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">True</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M236.61,-157.27C251.37,-142.96 269.14,-125.73 283,-112.29" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="284.88,-113.98 288.3,-107.16 281.38,-110.36 284.88,-113.98" />
+<text text-anchor="middle" x="283" y="-127.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">False</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M123.02,-70.94C122.07,-62.71 120.91,-52.68 119.86,-43.64" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="122.34,-43.2 119.01,-36.34 117.34,-43.78 122.34,-43.2" />
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;h</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M307.73,-70.94C308.57,-62.71 309.58,-52.68 310.5,-43.64" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="313.02,-43.76 311.24,-36.34 308.01,-43.25 313.02,-43.76" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="208" cy="-348.33" rx="116.85" ry="23.17" />
+<text text-anchor="middle" x="208" y="-344.63" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Caricamento del file</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M346,-290C346,-290 70,-290 70,-290 64,-290 58,-284 58,-278 58,-278 58,-266 58,-266 58,-260 64,-254 70,-254 70,-254 346,-254 346,-254 352,-254 358,-260 358,-266 358,-266 358,-278 358,-278 358,-284 352,-290 346,-290" />
+<text text-anchor="middle" x="208" y="-268.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Importazioni e definizioni delle funzioni</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="208,-219 0,-186 208,-153 416,-186 208,-219" />
+<text text-anchor="middle" x="208" y="-182.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">__name__ == "__main__"?</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M149,-107C149,-107 101,-107 101,-107 95,-107 89,-101 89,-95 89,-95 89,-83 89,-83 89,-77 95,-71 101,-71 101,-71 149,-71 149,-71 155,-71 161,-77 161,-83 161,-83 161,-95 161,-95 161,-101 155,-107 149,-107" />
+<text text-anchor="middle" x="125" y="-85.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">main()</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M400.5,-107C400.5,-107 211.5,-107 211.5,-107 205.5,-107 199.5,-101 199.5,-95 199.5,-95 199.5,-83 199.5,-83 199.5,-77 205.5,-71 211.5,-71 211.5,-71 400.5,-71 400.5,-71 406.5,-71 412.5,-77 412.5,-83 412.5,-83 412.5,-95 412.5,-95 412.5,-101 406.5,-107 400.5,-107" />
+<text text-anchor="middle" x="306" y="-85.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">main() non viene chiamata</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M195,-36C195,-36 39,-36 39,-36 33,-36 27,-30 27,-24 27,-24 27,-12 27,-12 27,-6 33,0 39,0 39,0 195,0 195,0 201,0 207,-6 207,-12 207,-12 207,-24 207,-24 207,-30 201,-36 195,-36" />
+<text text-anchor="middle" x="117" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Programma principale</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M383.5,-36C383.5,-36 242.5,-36 242.5,-36 236.5,-36 230.5,-30 230.5,-24 230.5,-24 230.5,-12 230.5,-12 230.5,-6 236.5,0 242.5,0 242.5,0 383.5,0 383.5,0 389.5,0 395.5,-6 395.5,-12 395.5,-12 395.5,-24 395.5,-24 395.5,-30 389.5,-36 383.5,-36" />
+<text text-anchor="middle" x="313" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Modulo riutilizzabile</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="670pt" height="260pt" viewBox="0.00 0.00 670.30 259.80" role="img">
+<title>Scelta della modalità con cui una funzione svolge il proprio compito.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 245.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-245.4 655.9,-245.4 655.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M303,-194.61C303,-187.26 303,-178.38 303,-169.59" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="305.52,-169.46 303,-162.26 300.48,-169.46 305.52,-169.46" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M254.47,-105.61C229.02,-93.87 197.33,-79.25 169,-66.18" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="169.84,-63.79 162.25,-63.06 167.73,-68.37 169.84,-63.79" />
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M303,-95.93C303,-87.72 303,-78.81 303,-70.33" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="305.52,-70.23 303,-63.03 300.48,-70.23 305.52,-70.23" />
+</g>
+
+<g id="edge4" class="edge">
+<title>b-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M354.34,-106.21C387.78,-92.02 431.57,-73.43 466.82,-58.47" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="468.1,-60.66 473.74,-55.53 466.13,-56.02 468.1,-60.66" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M402.5,-231C402.5,-231 203.5,-231 203.5,-231 197.5,-231 191.5,-225 191.5,-219 191.5,-219 191.5,-207 191.5,-207 191.5,-201 197.5,-195 203.5,-195 203.5,-195 402.5,-195 402.5,-195 408.5,-195 414.5,-201 414.5,-207 414.5,-207 414.5,-219 414.5,-219 414.5,-225 408.5,-231 402.5,-231" />
+<text text-anchor="middle" x="303" y="-209.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Progettazione della funzione</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="303,-162 138,-129 303,-96 468,-129 303,-162" />
+<text text-anchor="middle" x="303" y="-125.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Qual è il suo scopo?</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M180,-63C180,-63 12,-63 12,-63 6,-63 0,-57 0,-51 0,-51 0,-12 0,-12 0,-6 6,0 12,0 12,0 180,0 180,0 186,0 192,-6 192,-12 192,-12 192,-51 192,-51 192,-57 186,-63 180,-63" />
+<text text-anchor="middle" x="96" y="-42.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Visualizzare un risultato</text>
+<text text-anchor="middle" x="96" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">print()</text>
+<text text-anchor="middle" x="96" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Utente</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M379,-63C379,-63 227,-63 227,-63 221,-63 215,-57 215,-51 215,-51 215,-12 215,-12 215,-6 221,0 227,0 227,0 379,0 379,0 385,0 391,-6 391,-12 391,-12 391,-51 391,-51 391,-57 385,-63 379,-63" />
+<text text-anchor="middle" x="303" y="-42.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Restituire un risultato</text>
+<text text-anchor="middle" x="303" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return</text>
+<text text-anchor="middle" x="303" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Chiamante</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M629.5,-55.5C629.5,-55.5 426.5,-55.5 426.5,-55.5 420.5,-55.5 414.5,-49.5 414.5,-43.5 414.5,-43.5 414.5,-19.5 414.5,-19.5 414.5,-13.5 420.5,-7.5 426.5,-7.5 426.5,-7.5 629.5,-7.5 629.5,-7.5 635.5,-7.5 641.5,-13.5 641.5,-19.5 641.5,-19.5 641.5,-43.5 641.5,-43.5 641.5,-49.5 635.5,-55.5 629.5,-55.5" />
+<text text-anchor="middle" x="528" y="-35.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Produrre un altro effetto utile</text>
+<text text-anchor="middle" x="528" y="-20.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">es. modifica di una lista</text>
+</g>
+</g>
+</svg>

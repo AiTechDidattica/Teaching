@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="381pt" height="146pt" viewBox="0.00 0.00 381.30 145.80" role="img">
+<title>Variabili locali omonime appartenenti a funzioni differenti.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 131.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-131.4 366.9,-131.4 366.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M56.5,-68.9C56.5,-60.84 56.5,-51.77 56.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="59.02,-43.59 56.5,-36.39 53.98,-43.59 59.02,-43.59" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M192.5,-68.9C192.5,-60.84 192.5,-51.77 192.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="195.02,-43.59 192.5,-36.39 189.98,-43.59 195.02,-43.59" />
+</g>
+
+<g id="edge3" class="edge">
+<title>c-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M312.5,-68.9C312.5,-60.84 312.5,-51.77 312.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="315.02,-43.59 312.5,-36.39 309.98,-43.59 315.02,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M101,-117C101,-117 12,-117 12,-117 6,-117 0,-111 0,-105 0,-105 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 101,-69 101,-69 107,-69 113,-75 113,-81 113,-81 113,-105 113,-105 113,-111 107,-117 101,-117" />
+<text text-anchor="middle" x="56.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">funzione_1()</text>
+<text text-anchor="middle" x="56.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M237,-117C237,-117 148,-117 148,-117 142,-117 136,-111 136,-105 136,-105 136,-81 136,-81 136,-75 142,-69 148,-69 148,-69 237,-69 237,-69 243,-69 249,-75 249,-81 249,-81 249,-105 249,-105 249,-111 243,-117 237,-117" />
+<text text-anchor="middle" x="192.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">funzione_2()</text>
+<text text-anchor="middle" x="192.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M340.5,-117C340.5,-117 284.5,-117 284.5,-117 278.5,-117 272.5,-111 272.5,-105 272.5,-105 272.5,-81 272.5,-81 272.5,-75 278.5,-69 284.5,-69 284.5,-69 340.5,-69 340.5,-69 346.5,-69 352.5,-75 352.5,-81 352.5,-81 352.5,-105 352.5,-105 352.5,-111 346.5,-117 340.5,-117" />
+<text text-anchor="middle" x="312.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">main()</text>
+<text text-anchor="middle" x="312.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M71.5,-36C71.5,-36 41.5,-36 41.5,-36 35.5,-36 29.5,-30 29.5,-24 29.5,-24 29.5,-12 29.5,-12 29.5,-6 35.5,0 41.5,0 41.5,0 71.5,0 71.5,0 77.5,0 83.5,-6 83.5,-12 83.5,-12 83.5,-24 83.5,-24 83.5,-30 77.5,-36 71.5,-36" />
+<text text-anchor="middle" x="56.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">10</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M207.5,-36C207.5,-36 177.5,-36 177.5,-36 171.5,-36 165.5,-30 165.5,-24 165.5,-24 165.5,-12 165.5,-12 165.5,-6 171.5,0 177.5,0 177.5,0 207.5,0 207.5,0 213.5,0 219.5,-6 219.5,-12 219.5,-12 219.5,-24 219.5,-24 219.5,-30 213.5,-36 207.5,-36" />
+<text text-anchor="middle" x="192.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">20</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M327.5,-36C327.5,-36 297.5,-36 297.5,-36 291.5,-36 285.5,-30 285.5,-24 285.5,-24 285.5,-12 285.5,-12 285.5,-6 291.5,0 297.5,0 297.5,0 327.5,0 327.5,0 333.5,0 339.5,-6 339.5,-12 339.5,-12 339.5,-24 339.5,-24 339.5,-30 333.5,-36 327.5,-36" />
+<text text-anchor="middle" x="312.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">30</text>
+</g>
+</g>
+</svg>

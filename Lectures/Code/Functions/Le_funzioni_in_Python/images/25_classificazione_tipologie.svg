@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656 618.04" width="656" height="618.04" role="img"><title>Classificazione delle funzioni in base ai parametri e ai valori di ritorno significativi.</title><rect x="0" y="0" width="656" height="618.04" fill="#ffffff" /><rect x="12" y="11" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="168.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Tipologia 1</text><svg width="247.02" height="247.02" viewBox="0.00 0.00 214.80 214.80" x="44.49" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 200.4,-200.4 200.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M93,-149.7C93,-142.2 93,-133.19 93,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="95.52,-124.45 93,-117.25 90.48,-124.45 95.52,-124.45" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M93,-68.9C93,-60.84 93,-51.77 93,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="95.52,-43.59 93,-36.39 90.48,-43.59 95.52,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M158.5,-186C158.5,-186 27.5,-186 27.5,-186 21.5,-186 15.5,-180 15.5,-174 15.5,-174 15.5,-162 15.5,-162 15.5,-156 21.5,-150 27.5,-150 27.5,-150 158.5,-150 158.5,-150 164.5,-150 170.5,-156 170.5,-162 170.5,-162 170.5,-174 170.5,-174 170.5,-180 164.5,-186 158.5,-186" />
+<text text-anchor="middle" x="93" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Nessun parametro</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M133.5,-117C133.5,-117 52.5,-117 52.5,-117 46.5,-117 40.5,-111 40.5,-105 40.5,-105 40.5,-81 40.5,-81 40.5,-75 46.5,-69 52.5,-69 52.5,-69 133.5,-69 133.5,-69 139.5,-69 145.5,-75 145.5,-81 145.5,-81 145.5,-105 145.5,-105 145.5,-111 139.5,-117 133.5,-117" />
+<text text-anchor="middle" x="93" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">funzione()</text>
+<text text-anchor="middle" x="93" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Esecuzione</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M174,-36C174,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 174,0 174,0 180,0 186,-6 186,-12 186,-12 186,-24 186,-24 186,-30 180,-36 174,-36" />
+<text text-anchor="middle" x="93" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">None (ritorno implicito)</text>
+</g>
+</g>
+</svg><rect x="332" y="11" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="488.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Tipologia 2</text><svg width="247.02" height="247.02" viewBox="0.00 0.00 214.80 214.80" x="364.49" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 200.4,-200.4 200.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M93,-149.7C93,-142.2 93,-133.19 93,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="95.52,-124.45 93,-117.25 90.48,-124.45 95.52,-124.45" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M93,-68.9C93,-60.84 93,-51.77 93,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="95.52,-43.59 93,-36.39 90.48,-43.59 95.52,-43.59" />
+</g>
+
+<g id="node1_2" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M168,-186C168,-186 18,-186 18,-186 12,-186 6,-180 6,-174 6,-174 6,-162 6,-162 6,-156 12,-150 18,-150 18,-150 168,-150 168,-150 174,-150 180,-156 180,-162 180,-162 180,-174 180,-174 180,-180 174,-186 168,-186" />
+<text text-anchor="middle" x="93" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Parametri in ingresso</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M142.5,-117C142.5,-117 43.5,-117 43.5,-117 37.5,-117 31.5,-111 31.5,-105 31.5,-105 31.5,-81 31.5,-81 31.5,-75 37.5,-69 43.5,-69 43.5,-69 142.5,-69 142.5,-69 148.5,-69 154.5,-75 154.5,-81 154.5,-81 154.5,-105 154.5,-105 154.5,-111 148.5,-117 142.5,-117" />
+<text text-anchor="middle" x="93" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">funzione(a, b)</text>
+<text text-anchor="middle" x="93" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Esecuzione</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>n2</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M174,-36C174,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 174,0 174,0 180,0 186,-6 186,-12 186,-12 186,-24 186,-24 186,-30 180,-36 174,-36" />
+<text text-anchor="middle" x="93" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">None (ritorno implicito)</text>
+</g>
+</g>
+</svg><rect x="12" y="312.02" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="168.0" y="334.02" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Tipologia 3</text><svg width="211.37" height="247.02" viewBox="0.00 0.00 183.80 214.80" x="62.31" y="344.02">
+<g id="graph0_3" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 169.4,-200.4 169.4,14.4 -14.4,14.4" />
+
+<g id="edge1_3" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M77.5,-149.7C77.5,-142.2 77.5,-133.19 77.5,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="80.02,-124.45 77.5,-117.25 74.98,-124.45 80.02,-124.45" />
+</g>
+
+<g id="edge2_3" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M77.5,-68.9C77.5,-60.84 77.5,-51.77 77.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="80.02,-43.59 77.5,-36.39 74.98,-43.59 80.02,-43.59" />
+</g>
+
+<g id="node1_3" class="node">
+<title>n0</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M143,-186C143,-186 12,-186 12,-186 6,-186 0,-180 0,-174 0,-174 0,-162 0,-162 0,-156 6,-150 12,-150 12,-150 143,-150 143,-150 149,-150 155,-156 155,-162 155,-162 155,-174 155,-174 155,-180 149,-186 143,-186" />
+<text text-anchor="middle" x="77.5" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Nessun parametro</text>
+</g>
+
+<g id="node2_3" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M130.5,-117C130.5,-117 24.5,-117 24.5,-117 18.5,-117 12.5,-111 12.5,-105 12.5,-105 12.5,-81 12.5,-81 12.5,-75 18.5,-69 24.5,-69 24.5,-69 130.5,-69 130.5,-69 136.5,-69 142.5,-75 142.5,-81 142.5,-81 142.5,-105 142.5,-105 142.5,-111 136.5,-117 130.5,-117" />
+<text text-anchor="middle" x="77.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">funzione()</text>
+<text text-anchor="middle" x="77.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">return risultato</text>
+</g>
+
+<g id="node3_3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M133,-36C133,-36 22,-36 22,-36 16,-36 10,-30 10,-24 10,-24 10,-12 10,-12 10,-6 16,0 22,0 22,0 133,0 133,0 139,0 145,-6 145,-12 145,-12 145,-24 145,-24 145,-30 139,-36 133,-36" />
+<text text-anchor="middle" x="77.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Valore restituito</text>
+</g>
+</g>
+</svg><rect x="332" y="312.02" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="488.0" y="334.02" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Tipologia 4</text><svg width="233.22" height="247.02" viewBox="0.00 0.00 202.80 214.80" x="371.39" y="344.02">
+<g id="graph0_4" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 188.4,-200.4 188.4,14.4 -14.4,14.4" />
+
+<g id="edge1_4" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M87,-149.7C87,-142.2 87,-133.19 87,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="89.52,-124.45 87,-117.25 84.48,-124.45 89.52,-124.45" />
+</g>
+
+<g id="edge2_4" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M87,-68.9C87,-60.84 87,-51.77 87,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="89.52,-43.59 87,-36.39 84.48,-43.59 89.52,-43.59" />
+</g>
+
+<g id="node1_4" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M162,-186C162,-186 12,-186 12,-186 6,-186 0,-180 0,-174 0,-174 0,-162 0,-162 0,-156 6,-150 12,-150 12,-150 162,-150 162,-150 168,-150 174,-156 174,-162 174,-162 174,-174 174,-174 174,-180 168,-186 162,-186" />
+<text text-anchor="middle" x="87" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Parametri in ingresso</text>
+</g>
+
+<g id="node2_4" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M140,-117C140,-117 34,-117 34,-117 28,-117 22,-111 22,-105 22,-105 22,-81 22,-81 22,-75 28,-69 34,-69 34,-69 140,-69 140,-69 146,-69 152,-75 152,-81 152,-81 152,-105 152,-105 152,-111 146,-117 140,-117" />
+<text text-anchor="middle" x="87" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">funzione(a, b)</text>
+<text text-anchor="middle" x="87" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">return risultato</text>
+</g>
+
+<g id="node3_4" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M142.5,-36C142.5,-36 31.5,-36 31.5,-36 25.5,-36 19.5,-30 19.5,-24 19.5,-24 19.5,-12 19.5,-12 19.5,-6 25.5,0 31.5,0 31.5,0 142.5,0 142.5,0 148.5,0 154.5,-6 154.5,-12 154.5,-12 154.5,-24 154.5,-24 154.5,-30 148.5,-36 142.5,-36" />
+<text text-anchor="middle" x="87" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Valore restituito</text>
+</g>
+</g>
+</svg></svg>

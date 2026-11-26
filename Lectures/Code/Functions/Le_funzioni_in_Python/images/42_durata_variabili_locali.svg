@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 976 317.02" width="976" height="317.02" role="img"><title>Creazione di un nuovo namespace locale a ogni chiamata della funzione.</title><rect x="0" y="0" width="976" height="317.02" fill="#ffffff" /><rect x="12" y="11" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="168.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Chiamata 1</text><svg width="187.22" height="247.02" viewBox="0.00 0.00 162.80 214.80" x="74.39" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 148.4,-200.4 148.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-137.9C67,-129.84 67,-120.77 67,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-112.59 67,-105.39 64.48,-112.59 69.52,-112.59" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-68.75C67,-61.15 67,-52.08 67,-43.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-43.63 67,-36.43 64.48,-43.63 69.52,-43.63" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M116,-186C116,-186 18,-186 18,-186 12,-186 6,-180 6,-174 6,-174 6,-150 6,-150 6,-144 12,-138 18,-138 18,-138 116,-138 116,-138 122,-138 128,-144 128,-150 128,-150 128,-174 128,-174 128,-180 122,-186 116,-186" />
+<text text-anchor="middle" x="67" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">incrementa()</text>
+<text text-anchor="middle" x="67" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">contatore = 0</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M122,-105C122,-105 12,-105 12,-105 6,-105 0,-99 0,-93 0,-93 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 122,-69 122,-69 128,-69 134,-75 134,-81 134,-81 134,-93 134,-93 134,-99 128,-105 122,-105" />
+<text text-anchor="middle" x="67" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">contatore += 1</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M101.5,-36C101.5,-36 32.5,-36 32.5,-36 26.5,-36 20.5,-30 20.5,-24 20.5,-24 20.5,-12 20.5,-12 20.5,-6 26.5,0 32.5,0 32.5,0 101.5,0 101.5,0 107.5,0 113.5,-6 113.5,-12 113.5,-12 113.5,-24 113.5,-24 113.5,-30 107.5,-36 101.5,-36" />
+<text text-anchor="middle" x="67" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Output: 1</text>
+</g>
+</g>
+</svg><rect x="332" y="11" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="488.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Chiamata 2</text><svg width="187.22" height="247.02" viewBox="0.00 0.00 162.80 214.80" x="394.39" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 148.4,-200.4 148.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-137.9C67,-129.84 67,-120.77 67,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-112.59 67,-105.39 64.48,-112.59 69.52,-112.59" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-68.75C67,-61.15 67,-52.08 67,-43.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-43.63 67,-36.43 64.48,-43.63 69.52,-43.63" />
+</g>
+
+<g id="node1_2" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M116,-186C116,-186 18,-186 18,-186 12,-186 6,-180 6,-174 6,-174 6,-150 6,-150 6,-144 12,-138 18,-138 18,-138 116,-138 116,-138 122,-138 128,-144 128,-150 128,-150 128,-174 128,-174 128,-180 122,-186 116,-186" />
+<text text-anchor="middle" x="67" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">incrementa()</text>
+<text text-anchor="middle" x="67" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">contatore = 0</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>n1</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M122,-105C122,-105 12,-105 12,-105 6,-105 0,-99 0,-93 0,-93 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 122,-69 122,-69 128,-69 134,-75 134,-81 134,-81 134,-93 134,-93 134,-99 128,-105 122,-105" />
+<text text-anchor="middle" x="67" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">contatore += 1</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M101.5,-36C101.5,-36 32.5,-36 32.5,-36 26.5,-36 20.5,-30 20.5,-24 20.5,-24 20.5,-12 20.5,-12 20.5,-6 26.5,0 32.5,0 32.5,0 101.5,0 101.5,0 107.5,0 113.5,-6 113.5,-12 113.5,-12 113.5,-24 113.5,-24 113.5,-30 107.5,-36 101.5,-36" />
+<text text-anchor="middle" x="67" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Output: 1</text>
+</g>
+</g>
+</svg><rect x="652" y="11" width="312" height="293.02" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="808.0" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Chiamata 3</text><svg width="187.22" height="247.02" viewBox="0.00 0.00 162.80 214.80" x="714.39" y="43">
+<g id="graph0_3" class="graph" transform="scale(1 1) rotate(0) translate(14.4 200.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-200.4 148.4,-200.4 148.4,14.4 -14.4,14.4" />
+
+<g id="edge1_3" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-137.9C67,-129.84 67,-120.77 67,-112.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-112.59 67,-105.39 64.48,-112.59 69.52,-112.59" />
+</g>
+
+<g id="edge2_3" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M67,-68.75C67,-61.15 67,-52.08 67,-43.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="69.52,-43.63 67,-36.43 64.48,-43.63 69.52,-43.63" />
+</g>
+
+<g id="node1_3" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M116,-186C116,-186 18,-186 18,-186 12,-186 6,-180 6,-174 6,-174 6,-150 6,-150 6,-144 12,-138 18,-138 18,-138 116,-138 116,-138 122,-138 128,-144 128,-150 128,-150 128,-174 128,-174 128,-180 122,-186 116,-186" />
+<text text-anchor="middle" x="67" y="-165.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">incrementa()</text>
+<text text-anchor="middle" x="67" y="-150.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">contatore = 0</text>
+</g>
+
+<g id="node2_3" class="node">
+<title>n1</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M122,-105C122,-105 12,-105 12,-105 6,-105 0,-99 0,-93 0,-93 0,-81 0,-81 0,-75 6,-69 12,-69 12,-69 122,-69 122,-69 128,-69 134,-75 134,-81 134,-81 134,-93 134,-93 134,-99 128,-105 122,-105" />
+<text text-anchor="middle" x="67" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">contatore += 1</text>
+</g>
+
+<g id="node3_3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M101.5,-36C101.5,-36 32.5,-36 32.5,-36 26.5,-36 20.5,-30 20.5,-24 20.5,-24 20.5,-12 20.5,-12 20.5,-6 26.5,0 32.5,0 32.5,0 101.5,0 101.5,0 107.5,0 113.5,-6 113.5,-12 113.5,-12 113.5,-24 113.5,-24 113.5,-30 107.5,-36 101.5,-36" />
+<text text-anchor="middle" x="67" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Output: 1</text>
+</g>
+</g>
+</svg></svg>

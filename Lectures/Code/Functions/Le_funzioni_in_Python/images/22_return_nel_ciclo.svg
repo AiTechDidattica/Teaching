@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="632pt" height="583pt" viewBox="0.00 0.00 631.80 583.47" role="img">
+<title>Terminazione anticipata di una funzione durante l’esecuzione di un ciclo.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 569.07)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-569.07 617.4,-569.07 617.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M96,-507.79C96,-499.55 96,-489.97 96,-480.68" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="98.52,-480.52 96,-473.32 93.48,-480.52 98.52,-480.52" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#c04d57" stroke-width="1.3" d="M91.35,-408.42C88.08,-386.89 83.76,-358.44 80.71,-338.42" />
+<polygon fill="#c04d57" stroke="#c04d57" stroke-width="1.3" points="83.19,-337.93 79.61,-331.19 78.2,-338.69 83.19,-337.93" />
+<text text-anchor="middle" x="94" y="-381.2" font-family="DejaVu Sans" font-size="11.00" fill="#912d38">Sì</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M133.48,-419.88C170.53,-400.98 228.06,-371.62 273.15,-348.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="274.45,-350.79 279.71,-345.27 272.15,-346.3 274.45,-350.79" />
+<text text-anchor="middle" x="220" y="-381.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">No</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M298.11,-275.98C277.73,-258.87 254.02,-238.96 236.33,-224.11" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="237.71,-221.98 230.58,-219.28 234.47,-225.84 237.71,-221.98" />
+<text text-anchor="middle" x="269" y="-239.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">Sì</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>d-&gt;j</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M362.55,-270.41C370.39,-255.29 378.97,-238.72 385.73,-225.67" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="388.01,-226.75 389.09,-219.2 383.54,-224.43 388.01,-226.75" />
+<text text-anchor="middle" x="388" y="-239.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">No</text>
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M210,-182.6C210,-174.71 210,-165.03 210,-155.52" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="212.52,-155.52 210,-148.32 207.48,-155.52 212.52,-155.52" />
+</g>
+
+<g id="edge8" class="edge">
+<title>f-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M272.37,-132.65C346.7,-152.49 461,-183 461,-183 461,-183 461,-219 461,-219 461,-219 425.21,-246.73 392.73,-271.91" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="390.86,-270.17 386.71,-276.58 393.94,-274.16 390.86,-270.17" />
+<text text-anchor="middle" x="532" y="-198.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">No: iterazione successiva</text>
+</g>
+
+<g id="edge7" class="edge">
+<title>f-&gt;h</title>
+<path fill="none" stroke="#c04d57" stroke-width="1.3" d="M210,-81.84C210,-69.3 210,-55.16 210,-43.47" />
+<polygon fill="#c04d57" stroke="#c04d57" stroke-width="1.3" points="212.52,-43.39 210,-36.19 207.48,-43.39 212.52,-43.39" />
+<text text-anchor="middle" x="215" y="-56.2" font-family="DejaVu Sans" font-size="11.00" fill="#912d38">Sì</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<ellipse fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" cx="96" cy="-531.33" rx="89.61" ry="23.17" />
+<text text-anchor="middle" x="96" y="-527.63" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">is_primo(num)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="96,-473 0,-440 96,-407 192,-440 96,-473" />
+<text text-anchor="middle" x="96" y="-436.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">num &lt; 2?</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#fcecee" stroke="#c04d57" stroke-width="1.35" d="M119,-331C119,-331 35,-331 35,-331 29,-331 23,-325 23,-319 23,-319 23,-307 23,-307 23,-301 29,-295 35,-295 35,-295 119,-295 119,-295 125,-295 131,-301 131,-307 131,-307 131,-319 131,-319 131,-325 125,-331 119,-331" />
+<text text-anchor="middle" x="77" y="-309.3" font-family="DejaVu Sans" font-size="14.00" fill="#912d38">return False</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="341,-361 154,-313 341,-265 528,-313 341,-361" />
+<text text-anchor="middle" x="341" y="-316.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">for: rimangono valori</text>
+<text text-anchor="middle" x="341" y="-301.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">da 2 a int(num ** 0.5)?</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M311,-219C311,-219 109,-219 109,-219 103,-219 97,-213 97,-207 97,-207 97,-195 97,-195 97,-189 103,-183 109,-183 109,-183 311,-183 311,-183 317,-183 323,-189 323,-195 323,-195 323,-207 323,-207 323,-213 317,-219 311,-219" />
+<text text-anchor="middle" x="210" y="-197.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Associa a i il prossimo valore</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<polygon fill="#fff3dc" stroke="#c18020" stroke-width="1.35" points="210,-148 76,-115 210,-82 344,-115 210,-148" />
+<text text-anchor="middle" x="210" y="-111.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">num % i == 0?</text>
+</g>
+
+<g id="node7" class="node">
+<title>h</title>
+<path fill="#fcecee" stroke="#c04d57" stroke-width="1.35" d="M252,-36C252,-36 168,-36 168,-36 162,-36 156,-30 156,-24 156,-24 156,-12 156,-12 156,-6 162,0 168,0 168,0 252,0 252,0 258,0 264,-6 264,-12 264,-12 264,-24 264,-24 264,-30 258,-36 252,-36" />
+<text text-anchor="middle" x="210" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#912d38">return False</text>
+</g>
+
+<g id="node8" class="node">
+<title>j</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M437.5,-219C437.5,-219 358.5,-219 358.5,-219 352.5,-219 346.5,-213 346.5,-207 346.5,-207 346.5,-195 346.5,-195 346.5,-189 352.5,-183 358.5,-183 358.5,-183 437.5,-183 437.5,-183 443.5,-183 449.5,-189 449.5,-195 449.5,-195 449.5,-207 449.5,-207 449.5,-213 443.5,-219 437.5,-219" />
+<text text-anchor="middle" x="398" y="-197.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return True</text>
+</g>
+</g>
+</svg>

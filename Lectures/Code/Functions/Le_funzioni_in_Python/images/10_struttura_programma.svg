@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="248pt" height="380pt" viewBox="0.00 0.00 247.80 379.80" role="img">
+<title>Struttura generale di un file Python organizzato secondo i principi della programmazione modulare.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 365.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-365.4 233.4,-365.4 233.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M109.5,-302.82C109.5,-295.08 109.5,-286.24 109.5,-277.66" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="112.02,-277.43 109.5,-270.23 106.98,-277.43 112.02,-277.43" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M109.5,-206.77C109.5,-198.83 109.5,-190.11 109.5,-181.58" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="112.02,-181.36 109.5,-174.16 106.98,-181.36 112.02,-181.36" />
+</g>
+
+<g id="edge3" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M109.5,-95.92C109.5,-87.65 109.5,-78.9 109.5,-70.63" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="112.02,-70.39 109.5,-63.19 106.98,-70.39 112.02,-70.39" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M171,-351C171,-351 48,-351 48,-351 42,-351 36,-345 36,-339 36,-339 36,-315 36,-315 36,-309 42,-303 48,-303 48,-303 171,-303 171,-303 177,-303 183,-309 183,-315 183,-315 183,-339 183,-339 183,-345 177,-351 171,-351" />
+<text text-anchor="middle" x="109.5" y="-330.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">1. IMPORTAZIONI</text>
+<text text-anchor="middle" x="109.5" y="-315.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">import math</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M203.5,-270C203.5,-270 15.5,-270 15.5,-270 9.5,-270 3.5,-264 3.5,-258 3.5,-258 3.5,-219 3.5,-219 3.5,-213 9.5,-207 15.5,-207 15.5,-207 203.5,-207 203.5,-207 209.5,-207 215.5,-213 215.5,-219 215.5,-219 215.5,-258 215.5,-258 215.5,-264 209.5,-270 203.5,-270" />
+<text text-anchor="middle" x="109.5" y="-249.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">2. FUNZIONI SECONDARIE</text>
+<text text-anchor="middle" x="109.5" y="-234.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">def funzione_1(): ...</text>
+<text text-anchor="middle" x="109.5" y="-219.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">def funzione_2(): ...</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M199.5,-174C199.5,-174 19.5,-174 19.5,-174 13.5,-174 7.5,-168 7.5,-162 7.5,-162 7.5,-108 7.5,-108 7.5,-102 13.5,-96 19.5,-96 19.5,-96 199.5,-96 199.5,-96 205.5,-96 211.5,-102 211.5,-108 211.5,-108 211.5,-162 211.5,-162 211.5,-168 205.5,-174 199.5,-174" />
+<text text-anchor="middle" x="109.5" y="-153.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">3. FUNZIONE PRINCIPALE</text>
+<text text-anchor="middle" x="109.5" y="-138.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">def main():</text>
+<text text-anchor="middle" x="109.5" y="-123.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">    funzione_1()</text>
+<text text-anchor="middle" x="109.5" y="-108.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">    funzione_2()</text>
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M207,-63C207,-63 12,-63 12,-63 6,-63 0,-57 0,-51 0,-51 0,-12 0,-12 0,-6 6,0 12,0 12,0 207,0 207,0 213,0 219,-6 219,-12 219,-12 219,-51 219,-51 219,-57 213,-63 207,-63" />
+<text text-anchor="middle" x="109.5" y="-42.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">4. PUNTO DI INGRESSO</text>
+<text text-anchor="middle" x="109.5" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">if __name__ == "__main__":</text>
+<text text-anchor="middle" x="109.5" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">    main()</text>
+</g>
+</g>
+</svg>

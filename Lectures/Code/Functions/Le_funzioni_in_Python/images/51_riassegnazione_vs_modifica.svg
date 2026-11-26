@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.8 415.6" width="377.8" height="415.6" role="img"><title>Differenza tra riassegnazione del parametro formale e modifica diretta dell’oggetto.</title><rect x="0" y="0" width="377.8" height="415.6" fill="#ffffff" /><rect x="12.0" y="11" width="353.8" height="191.8" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="188.9" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">A – lista = [5, 10, 15]</text><svg width="337.8" height="145.8" viewBox="0.00 0.00 337.80 145.80" x="20.0" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 131.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-131.4 323.4,-131.4 323.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M80,-80.7C80,-73.2 80,-64.19 80,-55.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="82.52,-55.45 80,-48.25 77.48,-55.45 82.52,-55.45" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M246,-80.7C246,-73.2 246,-64.19 246,-55.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="248.52,-55.45 246,-48.25 243.48,-55.45 248.52,-55.45" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M148,-117C148,-117 12,-117 12,-117 6,-117 0,-111 0,-105 0,-105 0,-93 0,-93 0,-87 6,-81 12,-81 12,-81 148,-81 148,-81 154,-81 160,-87 160,-93 160,-93 160,-105 160,-105 160,-111 154,-117 148,-117" />
+<text text-anchor="middle" x="80" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Chiamante: numeri</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M297,-117C297,-117 195,-117 195,-117 189,-117 183,-111 183,-105 183,-105 183,-93 183,-93 183,-87 189,-81 195,-81 195,-81 297,-81 297,-81 303,-81 309,-87 309,-93 309,-93 309,-105 309,-105 309,-111 303,-117 297,-117" />
+<text text-anchor="middle" x="246" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Funzione: lista</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M129.5,-48C129.5,-48 30.5,-48 30.5,-48 24.5,-48 18.5,-42 18.5,-36 18.5,-36 18.5,-12 18.5,-12 18.5,-6 24.5,0 30.5,0 30.5,0 129.5,0 129.5,0 135.5,0 141.5,-6 141.5,-12 141.5,-12 141.5,-36 141.5,-36 141.5,-42 135.5,-48 129.5,-48" />
+<text text-anchor="middle" x="80" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Lista originale</text>
+<text text-anchor="middle" x="80" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">[30, 40, 50]</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M286,-48C286,-48 206,-48 206,-48 200,-48 194,-42 194,-36 194,-36 194,-12 194,-12 194,-6 200,0 206,0 206,0 286,0 286,0 292,0 298,-6 298,-12 298,-12 298,-36 298,-36 298,-42 292,-48 286,-48" />
+<text text-anchor="middle" x="246" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Nuova lista</text>
+<text text-anchor="middle" x="246" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">[5, 10, 15]</text>
+</g>
+</g>
+</svg><rect x="12.0" y="210.8" width="353.8" height="191.8" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="188.9" y="232.8" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">B – lista[0] = 5, ecc.</text><svg width="337.8" height="145.8" viewBox="0.00 0.00 337.80 145.80" x="20.0" y="242.8">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 131.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-131.4 323.4,-131.4 323.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M99.67,-80.7C109.06,-72.44 120.53,-62.35 131.12,-53.04" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="132.82,-54.9 136.56,-48.25 129.49,-51.12 132.82,-54.9" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M226.33,-80.7C216.94,-72.44 205.47,-62.35 194.88,-53.04" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="196.51,-51.12 189.44,-48.25 193.18,-54.9 196.51,-51.12" />
+</g>
+
+<g id="node1_2" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M148,-117C148,-117 12,-117 12,-117 6,-117 0,-111 0,-105 0,-105 0,-93 0,-93 0,-87 6,-81 12,-81 12,-81 148,-81 148,-81 154,-81 160,-87 160,-93 160,-93 160,-105 160,-105 160,-111 154,-117 148,-117" />
+<text text-anchor="middle" x="80" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Chiamante: numeri</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M297,-117C297,-117 195,-117 195,-117 189,-117 183,-111 183,-105 183,-105 183,-93 183,-93 183,-87 189,-81 195,-81 195,-81 297,-81 297,-81 303,-81 309,-87 309,-93 309,-93 309,-105 309,-105 309,-111 303,-117 297,-117" />
+<text text-anchor="middle" x="246" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Funzione: lista</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M242.5,-48C242.5,-48 83.5,-48 83.5,-48 77.5,-48 71.5,-42 71.5,-36 71.5,-36 71.5,-12 71.5,-12 71.5,-6 77.5,0 83.5,0 83.5,0 242.5,0 242.5,0 248.5,0 254.5,-6 254.5,-12 254.5,-12 254.5,-36 254.5,-36 254.5,-42 248.5,-48 242.5,-48" />
+<text text-anchor="middle" x="163" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Stessa lista modificata</text>
+<text text-anchor="middle" x="163" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">[5, 10, 15]</text>
+</g>
+</g>
+</svg></svg>

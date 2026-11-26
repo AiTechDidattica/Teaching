@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742.6 348.07" width="742.6" height="348.07" role="img"><title>Differenza tra visualizzazione mediante print() e restituzione mediante return.</title><rect x="0" y="0" width="742.6" height="348.07" fill="#ffffff" /><rect x="12.0" y="11" width="355.3" height="324.07" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="189.65" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Funzione con print()</text><svg width="339.3" height="241.8" viewBox="0.00 0.00 339.30 241.80" x="20.0" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 227.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-227.4 324.9,-227.4 324.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M132,-176.98C132,-168.86 132,-158.9 132,-149.54" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="134.52,-149.41 132,-142.21 129.48,-149.41 134.52,-149.41" />
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#c18020" stroke-width="1.3" d="M111.06,-93.78C100.05,-81.58 86.45,-66.52 74.8,-53.6" />
+<polygon fill="#c18020" stroke="#c18020" stroke-width="1.3" points="76.63,-51.87 69.94,-48.21 72.89,-55.24 76.63,-51.87" />
+<text text-anchor="middle" x="123.5" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#85510c">visualizza</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M153.2,-93.78C166.15,-79.59 182.65,-61.53 195.48,-47.48" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="197.38,-49.13 200.38,-42.11 193.66,-45.73 197.38,-49.13" />
+<text text-anchor="middle" x="221.5" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#293c50">return implicito</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M182,-213C182,-213 82,-213 82,-213 76,-213 70,-207 70,-201 70,-201 70,-189 70,-189 70,-183 76,-177 82,-177 82,-177 182,-177 182,-177 188,-177 194,-183 194,-189 194,-189 194,-201 194,-201 194,-207 188,-213 182,-213" />
+<text text-anchor="middle" x="132" y="-191.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">somma(10, 5)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M193,-142C193,-142 71,-142 71,-142 65,-142 59,-136 59,-130 59,-130 59,-106 59,-106 59,-100 65,-94 71,-94 71,-94 193,-94 193,-94 199,-94 205,-100 205,-106 205,-106 205,-130 205,-130 205,-136 199,-142 193,-142" />
+<text text-anchor="middle" x="132" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">def somma(a, b):</text>
+<text text-anchor="middle" x="132" y="-106.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">    print(a + b)</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#253348" stroke="#253348" stroke-width="1.35" d="M86,-48C86,-48 12,-48 12,-48 6,-48 0,-42 0,-36 0,-36 0,-12 0,-12 0,-6 6,0 12,0 12,0 86,0 86,0 92,0 98,-6 98,-12 98,-12 98,-36 98,-36 98,-42 92,-48 86,-48" />
+<text text-anchor="middle" x="49" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">SCHERMO</text>
+<text text-anchor="middle" x="49" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">15</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M298.5,-42C298.5,-42 133.5,-42 133.5,-42 127.5,-42 121.5,-36 121.5,-30 121.5,-30 121.5,-18 121.5,-18 121.5,-12 127.5,-6 133.5,-6 133.5,-6 298.5,-6 298.5,-6 304.5,-6 310.5,-12 310.5,-18 310.5,-18 310.5,-30 310.5,-30 310.5,-36 304.5,-42 298.5,-42" />
+<text text-anchor="middle" x="216" y="-20.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Chiamante riceve None</text>
+</g>
+</g>
+</svg><rect x="375.3" y="11" width="355.3" height="324.07" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="552.95" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Funzione con return</text><svg width="244.72" height="278.07" viewBox="0.00 0.00 212.80 241.80" x="430.59" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 227.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-227.4 198.4,-227.4 198.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M92,-176.98C92,-168.86 92,-158.9 92,-149.54" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="94.52,-149.41 92,-142.21 89.48,-149.41 94.52,-149.41" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>b-&gt;c</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M92,-93.78C92,-82.24 92,-68.12 92,-55.69" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="94.52,-55.41 92,-48.21 89.48,-55.41 94.52,-55.41" />
+<text text-anchor="middle" x="130" y="-68.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">restituisce 15</text>
+</g>
+
+<g id="node1_2" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M172,-213C172,-213 12,-213 12,-213 6,-213 0,-207 0,-201 0,-201 0,-189 0,-189 0,-183 6,-177 12,-177 12,-177 172,-177 172,-177 178,-177 184,-183 184,-189 184,-189 184,-201 184,-201 184,-207 178,-213 172,-213" />
+<text text-anchor="middle" x="92" y="-191.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">totale = somma(10, 5)</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M153,-142C153,-142 31,-142 31,-142 25,-142 19,-136 19,-130 19,-130 19,-106 19,-106 19,-100 25,-94 31,-94 31,-94 153,-94 153,-94 159,-94 165,-100 165,-106 165,-106 165,-130 165,-130 165,-136 159,-142 153,-142" />
+<text text-anchor="middle" x="92" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">def somma(a, b):</text>
+<text text-anchor="middle" x="92" y="-106.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">    return a + b</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M143,-48C143,-48 41,-48 41,-48 35,-48 29,-42 29,-36 29,-36 29,-12 29,-12 29,-6 35,0 41,0 41,0 143,0 143,0 149,0 155,-6 155,-12 155,-12 155,-36 155,-36 155,-42 149,-48 143,-48" />
+<text text-anchor="middle" x="92" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">totale = 15</text>
+<text text-anchor="middle" x="92" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Nel chiamante</text>
+</g>
+</g>
+</svg></svg>

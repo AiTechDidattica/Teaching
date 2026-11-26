@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.6 353.8" width="699.6" height="353.8" role="img"><title>Utilizzo del valore di default in assenza del corrispondente argomento.</title><rect x="0" y="0" width="699.6" height="353.8" fill="#ffffff" /><rect x="12.0" y="11" width="333.8" height="329.8" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="178.9" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Valore di default</text><svg width="317.8" height="283.8" viewBox="0.00 0.00 317.80 283.80" x="20.0" y="43">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 269.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-269.4 303.4,-269.4 303.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-218.75C144.5,-211.15 144.5,-202.08 144.5,-193.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-193.63 144.5,-186.43 141.98,-193.63 147.02,-193.63" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-149.7C144.5,-142.2 144.5,-133.19 144.5,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-124.45 144.5,-117.25 141.98,-124.45 147.02,-124.45" />
+</g>
+
+<g id="edge3" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-68.9C144.5,-60.84 144.5,-51.77 144.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-43.59 144.5,-36.39 141.98,-43.59 147.02,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M277,-255C277,-255 12,-255 12,-255 6,-255 0,-249 0,-243 0,-243 0,-231 0,-231 0,-225 6,-219 12,-219 12,-219 277,-219 277,-219 283,-219 289,-225 289,-231 289,-231 289,-243 289,-243 289,-249 283,-255 277,-255" />
+<text text-anchor="middle" x="144.5" y="-233.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">def saluta(nome, messaggio="Ciao"):</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M198,-186C198,-186 91,-186 91,-186 85,-186 79,-180 79,-174 79,-174 79,-162 79,-162 79,-156 85,-150 91,-150 91,-150 198,-150 198,-150 204,-150 210,-156 210,-162 210,-162 210,-174 210,-174 210,-180 204,-186 198,-186" />
+<text text-anchor="middle" x="144.5" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">saluta("Mario")</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M247.5,-117C247.5,-117 41.5,-117 41.5,-117 35.5,-117 29.5,-111 29.5,-105 29.5,-105 29.5,-81 29.5,-81 29.5,-75 35.5,-69 41.5,-69 41.5,-69 247.5,-69 247.5,-69 253.5,-69 259.5,-75 259.5,-81 259.5,-81 259.5,-105 259.5,-105 259.5,-111 253.5,-117 247.5,-117" />
+<text text-anchor="middle" x="144.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">nome = "Mario"</text>
+<text text-anchor="middle" x="144.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">messaggio = "Ciao" (default)</text>
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<path fill="#253348" stroke="#253348" stroke-width="1.35" d="M187,-36C187,-36 102,-36 102,-36 96,-36 90,-30 90,-24 90,-24 90,-12 90,-12 90,-6 96,0 102,0 102,0 187,0 187,0 193,0 199,-6 199,-12 199,-12 199,-24 199,-24 199,-30 193,-36 187,-36" />
+<text text-anchor="middle" x="144.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">Ciao, Mario!</text>
+</g>
+</g>
+</svg><rect x="353.8" y="11" width="333.8" height="329.8" rx="8" fill="#FFFFFF" stroke="#B9C4D0" stroke-width="1.7" /><text x="520.7" y="33" font-size="14" font-family="DejaVu Sans" font-weight="bold" fill="#24364A" text-anchor="middle">Argomento fornito</text><svg width="317.8" height="283.8" viewBox="0.00 0.00 317.80 283.80" x="361.8" y="43">
+<g id="graph0_2" class="graph" transform="scale(1 1) rotate(0) translate(14.4 269.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-269.4 303.4,-269.4 303.4,14.4 -14.4,14.4" />
+
+<g id="edge1_2" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-218.75C144.5,-211.15 144.5,-202.08 144.5,-193.77" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-193.63 144.5,-186.43 141.98,-193.63 147.02,-193.63" />
+</g>
+
+<g id="edge2_2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-149.7C144.5,-142.2 144.5,-133.19 144.5,-124.62" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-124.45 144.5,-117.25 141.98,-124.45 147.02,-124.45" />
+</g>
+
+<g id="edge3_2" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M144.5,-68.9C144.5,-60.84 144.5,-51.77 144.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="147.02,-43.59 144.5,-36.39 141.98,-43.59 147.02,-43.59" />
+</g>
+
+<g id="node1_2" class="node">
+<title>n0</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M277,-255C277,-255 12,-255 12,-255 6,-255 0,-249 0,-243 0,-243 0,-231 0,-231 0,-225 6,-219 12,-219 12,-219 277,-219 277,-219 283,-219 289,-225 289,-231 289,-231 289,-243 289,-243 289,-249 283,-255 277,-255" />
+<text text-anchor="middle" x="144.5" y="-233.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">def saluta(nome, messaggio="Ciao"):</text>
+</g>
+
+<g id="node2_2" class="node">
+<title>n1</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M249.5,-186C249.5,-186 39.5,-186 39.5,-186 33.5,-186 27.5,-180 27.5,-174 27.5,-174 27.5,-162 27.5,-162 27.5,-156 33.5,-150 39.5,-150 39.5,-150 249.5,-150 249.5,-150 255.5,-150 261.5,-156 261.5,-162 261.5,-162 261.5,-174 261.5,-174 261.5,-180 255.5,-186 249.5,-186" />
+<text text-anchor="middle" x="144.5" y="-164.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">saluta("Giulia", "Buongiorno")</text>
+</g>
+
+<g id="node3_2" class="node">
+<title>n2</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M240.5,-117C240.5,-117 48.5,-117 48.5,-117 42.5,-117 36.5,-111 36.5,-105 36.5,-105 36.5,-81 36.5,-81 36.5,-75 42.5,-69 48.5,-69 48.5,-69 240.5,-69 240.5,-69 246.5,-69 252.5,-75 252.5,-81 252.5,-81 252.5,-105 252.5,-105 252.5,-111 246.5,-117 240.5,-117" />
+<text text-anchor="middle" x="144.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">nome = "Giulia"</text>
+<text text-anchor="middle" x="144.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">messaggio = "Buongiorno"</text>
+</g>
+
+<g id="node4_2" class="node">
+<title>n3</title>
+<path fill="#253348" stroke="#253348" stroke-width="1.35" d="M212,-36C212,-36 77,-36 77,-36 71,-36 65,-30 65,-24 65,-24 65,-12 65,-12 65,-6 71,0 77,0 77,0 212,0 212,0 218,0 224,-6 224,-12 224,-12 224,-24 224,-24 224,-30 218,-36 212,-36" />
+<text text-anchor="middle" x="144.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">Buongiorno, Giulia!</text>
+</g>
+</g>
+</svg></svg>

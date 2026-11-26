@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="394pt" height="186pt" viewBox="0.00 0.00 393.80 185.80" role="img">
+<title>Precedenza dell’identificatore locale rispetto all’identificatore globale omonimo.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 171.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-171.4 379.4,-171.4 379.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#c04d57" stroke-width="1.3" stroke-dasharray="5,2" d="M224.32,-108.96C204.76,-100.07 187,-92 187,-92 187,-92 165.53,-79.95 141.92,-66.7" />
+<polygon fill="#c04d57" stroke="#c04d57" stroke-width="1.3" points="143.06,-64.45 135.55,-63.12 140.6,-68.84 143.06,-64.45" />
+<text text-anchor="middle" x="228.5" y="-83.2" font-family="DejaVu Sans" font-size="11.00" fill="#912d38">nome oscurato</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M275,-108.92C275,-97.6 275,-83.65 275,-70.79" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="277.52,-70.57 275,-63.37 272.48,-70.57 277.52,-70.57" />
+<text text-anchor="middle" x="315.5" y="-83.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">lettura globale</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M344,-157C344,-157 206,-157 206,-157 200,-157 194,-151 194,-145 194,-145 194,-121 194,-121 194,-115 200,-109 206,-109 206,-109 344,-109 344,-109 350,-109 356,-115 356,-121 356,-121 356,-145 356,-145 356,-151 350,-157 344,-157" />
+<text text-anchor="middle" x="275" y="-136.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Namespace globale</text>
+<text text-anchor="middle" x="275" y="-121.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero = 100</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M150,-63C150,-63 12,-63 12,-63 6,-63 0,-57 0,-51 0,-51 0,-12 0,-12 0,-6 6,0 12,0 12,0 150,0 150,0 156,0 162,-6 162,-12 162,-12 162,-51 162,-51 162,-57 156,-63 150,-63" />
+<text text-anchor="middle" x="81" y="-42.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">funzione_1()</text>
+<text text-anchor="middle" x="81" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">numero = 10</text>
+<text text-anchor="middle" x="81" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">print(numero) → 10</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M353,-63C353,-63 197,-63 197,-63 191,-63 185,-57 185,-51 185,-51 185,-12 185,-12 185,-6 191,0 197,0 197,0 353,0 353,0 359,0 365,-6 365,-12 365,-12 365,-51 365,-51 365,-57 359,-63 353,-63" />
+<text text-anchor="middle" x="275" y="-42.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">funzione_2()</text>
+<text text-anchor="middle" x="275" y="-27.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Nessun numero locale</text>
+<text text-anchor="middle" x="275" y="-12.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">print(numero) → 100</text>
+</g>
+</g>
+</svg>

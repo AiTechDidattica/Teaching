@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="296pt" height="323pt" viewBox="0.00 0.00 295.80 322.80" role="img">
+<title>Distinzione tra definizione e chiamata di una funzione.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 308.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-308.4 281.4,-308.4 281.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>n0-&gt;n1</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M133.5,-230.76C133.5,-222.51 133.5,-213.59 133.5,-205.35" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="136.02,-205.23 133.5,-198.03 130.98,-205.23 136.02,-205.23" />
+</g>
+
+<g id="edge2" class="edge">
+<title>n1-&gt;n2</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M133.5,-149.72C133.5,-141.77 133.5,-132.75 133.5,-124.32" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="136.02,-124.31 133.5,-117.11 130.98,-124.31 136.02,-124.31" />
+</g>
+
+<g id="edge3" class="edge">
+<title>n2-&gt;n3</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M133.5,-68.9C133.5,-60.84 133.5,-51.77 133.5,-43.6" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="136.02,-43.59 133.5,-36.39 130.98,-43.59 136.02,-43.59" />
+</g>
+
+<g id="node1" class="node">
+<title>n0</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M212.5,-294C212.5,-294 54.5,-294 54.5,-294 48.5,-294 42.5,-288 42.5,-282 42.5,-282 42.5,-243 42.5,-243 42.5,-237 48.5,-231 54.5,-231 54.5,-231 212.5,-231 212.5,-231 218.5,-231 224.5,-237 224.5,-243 224.5,-243 224.5,-282 224.5,-282 224.5,-288 218.5,-294 212.5,-294" />
+<text text-anchor="middle" x="133.5" y="-273.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">DEFINIZIONE</text>
+<text text-anchor="middle" x="133.5" y="-258.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">def saluta():</text>
+<text text-anchor="middle" x="133.5" y="-243.8" font-family="DejaVu Sans" font-size="14.00" fill="#174580">    print("Benvenuto!")</text>
+</g>
+
+<g id="node2" class="node">
+<title>n1</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M255,-198C255,-198 12,-198 12,-198 6,-198 0,-192 0,-186 0,-186 0,-162 0,-162 0,-156 6,-150 12,-150 12,-150 255,-150 255,-150 261,-150 267,-156 267,-162 267,-162 267,-186 267,-186 267,-192 261,-198 255,-198" />
+<text text-anchor="middle" x="133.5" y="-177.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Funzione disponibile</text>
+<text text-anchor="middle" x="133.5" y="-162.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Il corpo non viene ancora eseguito</text>
+</g>
+
+<g id="node3" class="node">
+<title>n2</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M171,-117C171,-117 96,-117 96,-117 90,-117 84,-111 84,-105 84,-105 84,-81 84,-81 84,-75 90,-69 96,-69 96,-69 171,-69 171,-69 177,-69 183,-75 183,-81 183,-81 183,-105 183,-105 183,-111 177,-117 171,-117" />
+<text text-anchor="middle" x="133.5" y="-96.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">CHIAMATA</text>
+<text text-anchor="middle" x="133.5" y="-81.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">saluta()</text>
+</g>
+
+<g id="node4" class="node">
+<title>n3</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M226.5,-36C226.5,-36 40.5,-36 40.5,-36 34.5,-36 28.5,-30 28.5,-24 28.5,-24 28.5,-12 28.5,-12 28.5,-6 34.5,0 40.5,0 40.5,0 226.5,0 226.5,0 232.5,0 238.5,-6 238.5,-12 238.5,-12 238.5,-24 238.5,-24 238.5,-30 232.5,-36 226.5,-36" />
+<text text-anchor="middle" x="133.5" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Esecuzione delle istruzioni</text>
+</g>
+</g>
+</svg>

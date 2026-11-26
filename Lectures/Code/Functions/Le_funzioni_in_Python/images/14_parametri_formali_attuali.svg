@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="254pt" height="395pt" viewBox="0.00 0.00 253.80 394.80" role="img">
+<title>Associazione tra parametri attuali, parametri formali e valore restituito.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 380.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-380.4 239.4,-380.4 239.4,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>c-&gt;a</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M89.18,-317.68C84.67,-308.77 79.52,-298.61 74.99,-289.67" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="77.17,-288.39 71.67,-283.11 72.68,-290.67 77.17,-288.39" />
+</g>
+
+<g id="edge2" class="edge">
+<title>c-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M115.3,-317.68C120.82,-308.68 127.12,-298.41 132.64,-289.41" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="134.89,-290.56 136.51,-283.11 130.59,-287.93 134.89,-290.56" />
+</g>
+
+<g id="edge3" class="edge">
+<title>a-&gt;d</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M61.26,-246.64C60.15,-235.45 58.67,-220.74 57.44,-208.39" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="59.93,-207.96 56.71,-201.05 54.91,-208.47 59.93,-207.96" />
+<text text-anchor="middle" x="98" y="-221.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">1° argomento</text>
+</g>
+
+<g id="edge4" class="edge">
+<title>b-&gt;e</title>
+<path fill="none" stroke="#c18020" stroke-width="1.3" d="M147.87,-246.64C148.43,-235.45 149.16,-220.74 149.78,-208.39" />
+<polygon fill="#c18020" stroke="#c18020" stroke-width="1.3" points="152.3,-208.37 150.15,-201.05 147.27,-208.12 152.3,-208.37" />
+<text text-anchor="middle" x="187" y="-221.2" font-family="DejaVu Sans" font-size="11.00" fill="#85510c">2° argomento</text>
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M65.44,-164.98C70.61,-156.54 77.01,-146.11 82.95,-136.43" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="85.15,-137.66 86.77,-130.21 80.85,-135.03 85.15,-137.66" />
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M139.65,-164.98C134.03,-156.54 127.07,-146.11 120.62,-136.43" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="122.56,-134.8 116.47,-130.21 118.37,-137.59 122.56,-134.8" />
+</g>
+
+<g id="edge7" class="edge">
+<title>f-&gt;z</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M101,-81.95C101,-70.12 101,-55.69 101,-43.63" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="103.52,-43.3 101,-36.1 98.48,-43.3 103.52,-43.3" />
+<text text-anchor="middle" x="118" y="-56.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">return</text>
+</g>
+
+<g id="node1" class="node">
+<title>c</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M190,-366C190,-366 12,-366 12,-366 6,-366 0,-360 0,-354 0,-354 0,-330 0,-330 0,-324 6,-318 12,-318 12,-318 190,-318 190,-318 196,-318 202,-324 202,-330 202,-330 202,-354 202,-354 202,-360 196,-366 190,-366" />
+<text text-anchor="middle" x="101" y="-345.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Chiamata</text>
+<text text-anchor="middle" x="101" y="-330.8" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">risultato = somma(10, 5)</text>
+</g>
+
+<g id="node2" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M78,-283C78,-283 48,-283 48,-283 42,-283 36,-277 36,-271 36,-271 36,-259 36,-259 36,-253 42,-247 48,-247 48,-247 78,-247 78,-247 84,-247 90,-253 90,-259 90,-259 90,-271 90,-271 90,-277 84,-283 78,-283" />
+<text text-anchor="middle" x="63" y="-261.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">10</text>
+</g>
+
+<g id="node3" class="node">
+<title>b</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M162,-283C162,-283 132,-283 132,-283 126,-283 120,-277 120,-271 120,-271 120,-259 120,-259 120,-253 126,-247 132,-247 132,-247 162,-247 162,-247 168,-247 174,-253 174,-259 174,-259 174,-271 174,-271 174,-277 168,-283 162,-283" />
+<text text-anchor="middle" x="147" y="-261.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">5</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M80,-201C80,-201 30,-201 30,-201 24,-201 18,-195 18,-189 18,-189 18,-177 18,-177 18,-171 24,-165 30,-165 30,-165 80,-165 80,-165 86,-165 92,-171 92,-177 92,-177 92,-189 92,-189 92,-195 86,-201 80,-201" />
+<text text-anchor="middle" x="55" y="-179.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">a = 10</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M172,-201C172,-201 130,-201 130,-201 124,-201 118,-195 118,-189 118,-189 118,-177 118,-177 118,-171 124,-165 130,-165 130,-165 172,-165 172,-165 178,-165 184,-171 184,-177 184,-177 184,-189 184,-189 184,-195 178,-201 172,-201" />
+<text text-anchor="middle" x="151" y="-179.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">b = 5</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#253348" stroke="#253348" stroke-width="1.35" d="M162,-130C162,-130 40,-130 40,-130 34,-130 28,-124 28,-118 28,-118 28,-94 28,-94 28,-88 34,-82 40,-82 40,-82 162,-82 162,-82 168,-82 174,-88 174,-94 174,-94 174,-118 174,-118 174,-124 168,-130 162,-130" />
+<text text-anchor="middle" x="101" y="-109.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">def somma(a, b):</text>
+<text text-anchor="middle" x="101" y="-94.8" font-family="DejaVu Sans" font-size="14.00" fill="#ffffff">    return a + b</text>
+</g>
+
+<g id="node7" class="node">
+<title>z</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M150.5,-36C150.5,-36 51.5,-36 51.5,-36 45.5,-36 39.5,-30 39.5,-24 39.5,-24 39.5,-12 39.5,-12 39.5,-6 45.5,0 51.5,0 51.5,0 150.5,0 150.5,0 156.5,0 162.5,-6 162.5,-12 162.5,-12 162.5,-24 162.5,-24 162.5,-30 156.5,-36 150.5,-36" />
+<text text-anchor="middle" x="101" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">risultato = 15</text>
+</g>
+</g>
+</svg>

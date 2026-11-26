@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="307pt" height="272pt" viewBox="0.00 0.00 307.30 271.80" role="img">
+<title>Associazione degli argomenti ai parametri formali in base alla posizione.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 257.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-257.4 292.9,-257.4 292.9,14.4 -14.4,14.4" />
+
+<g id="edge1" class="edge">
+<title>a-&gt;b</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M121.69,-206.75C112.24,-198.31 100.76,-188.05 90.68,-179.05" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="92.3,-177.11 85.25,-174.2 88.94,-180.87 92.3,-177.11" />
+</g>
+
+<g id="edge2" class="edge">
+<title>a-&gt;c</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M160.57,-206.75C170.15,-198.31 181.78,-188.05 191.99,-179.05" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="193.76,-180.85 197.49,-174.2 190.43,-177.07 193.76,-180.85" />
+</g>
+
+<g id="edge3" class="edge">
+<title>b-&gt;d</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M73.47,-137.75C76.82,-129.99 80.84,-120.7 84.5,-112.27" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="86.91,-113.04 87.46,-105.43 82.28,-111.04 86.91,-113.04" />
+</g>
+
+<g id="edge4" class="edge">
+<title>c-&gt;e</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M213.14,-137.75C211.42,-130.07 209.36,-120.89 207.49,-112.52" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="209.93,-111.9 205.9,-105.43 205.02,-113.01 209.93,-111.9" />
+</g>
+
+<g id="edge5" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M106.85,-68.75C112.33,-60.76 118.93,-51.15 124.86,-42.51" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="127.04,-43.79 129.03,-36.43 122.88,-40.94 127.04,-43.79" />
+</g>
+
+<g id="edge6" class="edge">
+<title>e-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M186.29,-68.75C178.81,-60.53 169.76,-50.58 161.72,-41.76" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="163.58,-40.06 156.87,-36.43 159.85,-43.45 163.58,-40.06" />
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#f1f4f8" stroke="#77879a" stroke-width="1.35" d="M237.5,-243C237.5,-243 44.5,-243 44.5,-243 38.5,-243 32.5,-237 32.5,-231 32.5,-231 32.5,-219 32.5,-219 32.5,-213 38.5,-207 44.5,-207 44.5,-207 237.5,-207 237.5,-207 243.5,-207 249.5,-213 249.5,-219 249.5,-219 249.5,-231 249.5,-231 249.5,-237 243.5,-243 237.5,-243" />
+<text text-anchor="middle" x="141" y="-221.3" font-family="DejaVu Sans" font-size="14.00" fill="#293c50">Chiamata: differenza(10, 5)</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M120,-174C120,-174 12,-174 12,-174 6,-174 0,-168 0,-162 0,-162 0,-150 0,-150 0,-144 6,-138 12,-138 12,-138 120,-138 120,-138 126,-138 132,-144 132,-150 132,-150 132,-162 132,-162 132,-168 126,-174 120,-174" />
+<text text-anchor="middle" x="66" y="-152.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">Posizione 1: 10</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M266.5,-174C266.5,-174 167.5,-174 167.5,-174 161.5,-174 155.5,-168 155.5,-162 155.5,-162 155.5,-150 155.5,-150 155.5,-144 161.5,-138 167.5,-138 167.5,-138 266.5,-138 266.5,-138 272.5,-138 278.5,-144 278.5,-150 278.5,-150 278.5,-162 278.5,-162 278.5,-168 272.5,-174 266.5,-174" />
+<text text-anchor="middle" x="217" y="-152.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">Posizione 2: 5</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M120,-105C120,-105 70,-105 70,-105 64,-105 58,-99 58,-93 58,-93 58,-81 58,-81 58,-75 64,-69 70,-69 70,-69 120,-69 120,-69 126,-69 132,-75 132,-81 132,-81 132,-93 132,-93 132,-99 126,-105 120,-105" />
+<text text-anchor="middle" x="95" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">a = 10</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#fff3dc" stroke="#c18020" stroke-width="1.35" d="M223,-105C223,-105 181,-105 181,-105 175,-105 169,-99 169,-93 169,-93 169,-81 169,-81 169,-75 175,-69 181,-69 181,-69 223,-69 223,-69 229,-69 235,-75 235,-81 235,-81 235,-93 235,-93 235,-99 229,-105 223,-105" />
+<text text-anchor="middle" x="202" y="-83.3" font-family="DejaVu Sans" font-size="14.00" fill="#85510c">b = 5</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M254,-36C254,-36 28,-36 28,-36 22,-36 16,-30 16,-24 16,-24 16,-12 16,-12 16,-6 22,0 28,0 28,0 254,0 254,0 260,0 266,-6 266,-12 266,-12 266,-24 266,-24 266,-30 260,-36 254,-36" />
+<text text-anchor="middle" x="141" y="-14.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">Definizione: def differenza(a, b):</text>
+</g>
+</g>
+</svg>

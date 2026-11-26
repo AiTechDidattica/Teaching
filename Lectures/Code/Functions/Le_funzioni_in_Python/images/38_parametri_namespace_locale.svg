@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="588pt" height="249pt" viewBox="0.00 0.00 587.80 248.80" role="img">
+<title>Parametri formali e ambiente locale del chiamante e del chiamato.</title><g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 234.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-234.4 573.4,-234.4 573.4,14.4 -14.4,14.4" />
+<g id="clust1" class="cluster">
+<title>cluster_0</title>
+<path fill="#ffffff" stroke="#b9c4d0" d="M12,-8C12,-8 185,-8 185,-8 191,-8 197,-14 197,-20 197,-20 197,-200 197,-200 197,-206 191,-212 185,-212 185,-212 12,-212 12,-212 6,-212 0,-206 0,-200 0,-200 0,-20 0,-20 0,-14 6,-8 12,-8" />
+<text text-anchor="middle" x="98.5" y="-197.6" font-family="DejaVu Sans" font-size="13.00" fill="#22334a">main() – namespace locale</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_1</title>
+<path fill="#ffffff" stroke="#b9c4d0" d="M296,-67C296,-67 539,-67 539,-67 545,-67 551,-73 551,-79 551,-79 551,-200 551,-200 551,-206 545,-212 539,-212 539,-212 296,-212 296,-212 290,-212 284,-206 284,-200 284,-200 284,-79 284,-79 284,-73 290,-67 296,-67" />
+<text text-anchor="middle" x="417.5" y="-197.6" font-family="DejaVu Sans" font-size="13.00" fill="#22334a">somma() – namespace locale</text>
+</g>
+
+<g id="edge1" class="edge">
+<title>a-&gt;d</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M166.07,-158C206.02,-158 255.68,-158 290.61,-158" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="290.63,-160.52 297.83,-158 290.63,-155.48 290.63,-160.52" />
+<text text-anchor="middle" x="240.5" y="-161.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">argomento 1</text>
+</g>
+
+<g id="edge2" class="edge">
+<title>b-&gt;e</title>
+<path fill="none" stroke="#2863b6" stroke-width="1.3" d="M161.73,-99C203.78,-99 258.05,-99 294.34,-99" />
+<polygon fill="#2863b6" stroke="#2863b6" stroke-width="1.3" points="294.6,-101.52 301.8,-99 294.6,-96.48 294.6,-101.52" />
+<text text-anchor="middle" x="240.5" y="-102.2" font-family="DejaVu Sans" font-size="11.00" fill="#174580">argomento 2</text>
+</g>
+
+<g id="edge3" class="edge">
+<title>d-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M372.18,-143.8C381.66,-140.07 392.2,-135.94 402.77,-131.79" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="403.92,-134.04 409.7,-129.06 402.08,-129.35 403.92,-134.04" />
+</g>
+
+<g id="edge4" class="edge">
+<title>e-&gt;f</title>
+<path fill="none" stroke="#77879a" stroke-width="1.3" d="M368.34,-100.44C377.87,-100.86 388.7,-101.34 399.67,-101.83" />
+<polygon fill="#77879a" stroke="#77879a" stroke-width="1.3" points="399.58,-104.35 406.89,-102.15 399.81,-99.31 399.58,-104.35" />
+</g>
+
+<g id="edge5" class="edge">
+<title>f-&gt;c</title>
+<path fill="none" stroke="#16836d" stroke-width="1.3" d="M420.34,-80.95C395.98,-69.39 372,-58 372,-58 372,-58 238.81,-49.2 158.66,-43.91" />
+<polygon fill="#16836d" stroke="#16836d" stroke-width="1.3" points="158.43,-41.37 151.08,-43.41 158.09,-46.4 158.43,-41.37" />
+<text text-anchor="middle" x="335" y="-61.2" font-family="DejaVu Sans" font-size="11.00" fill="#105e50">return 15</text>
+</g>
+
+<g id="node1" class="node">
+<title>a</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M154,-176C154,-176 43,-176 43,-176 37,-176 31,-170 31,-164 31,-164 31,-152 31,-152 31,-146 37,-140 43,-140 43,-140 154,-140 154,-140 160,-140 166,-146 166,-152 166,-152 166,-164 166,-164 166,-170 160,-176 154,-176" />
+<text text-anchor="middle" x="98.5" y="-154.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero_1 = 10</text>
+</g>
+
+<g id="node2" class="node">
+<title>b</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M149.5,-117C149.5,-117 47.5,-117 47.5,-117 41.5,-117 35.5,-111 35.5,-105 35.5,-105 35.5,-93 35.5,-93 35.5,-87 41.5,-81 47.5,-81 47.5,-81 149.5,-81 149.5,-81 155.5,-81 161.5,-87 161.5,-93 161.5,-93 161.5,-105 161.5,-105 161.5,-111 155.5,-117 149.5,-117" />
+<text text-anchor="middle" x="98.5" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">numero_2 = 5</text>
+</g>
+
+<g id="node3" class="node">
+<title>c</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M139,-58C139,-58 58,-58 58,-58 52,-58 46,-52 46,-46 46,-46 46,-34 46,-34 46,-28 52,-22 58,-22 58,-22 139,-22 139,-22 145,-22 151,-28 151,-34 151,-34 151,-46 151,-46 151,-52 145,-58 139,-58" />
+<text text-anchor="middle" x="98.5" y="-36.3" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">totale = 15</text>
+</g>
+
+<g id="node4" class="node">
+<title>d</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M360,-176C360,-176 310,-176 310,-176 304,-176 298,-170 298,-164 298,-164 298,-152 298,-152 298,-146 304,-140 310,-140 310,-140 360,-140 360,-140 366,-140 372,-146 372,-152 372,-152 372,-164 372,-164 372,-170 366,-176 360,-176" />
+<text text-anchor="middle" x="335" y="-154.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">a = 10</text>
+</g>
+
+<g id="node5" class="node">
+<title>e</title>
+<path fill="#eaf2ff" stroke="#2863b6" stroke-width="1.35" d="M356,-117C356,-117 314,-117 314,-117 308,-117 302,-111 302,-105 302,-105 302,-93 302,-93 302,-87 308,-81 314,-81 314,-81 356,-81 356,-81 362,-81 368,-87 368,-93 368,-93 368,-105 368,-105 368,-111 362,-117 356,-117" />
+<text text-anchor="middle" x="335" y="-95.3" font-family="DejaVu Sans" font-size="14.00" fill="#174580">b = 5</text>
+</g>
+
+<g id="node6" class="node">
+<title>f</title>
+<path fill="#e5f5ef" stroke="#16836d" stroke-width="1.35" d="M525,-129C525,-129 419,-129 419,-129 413,-129 407,-123 407,-117 407,-117 407,-93 407,-93 407,-87 413,-81 419,-81 419,-81 525,-81 525,-81 531,-81 537,-87 537,-93 537,-93 537,-117 537,-117 537,-123 531,-129 525,-129" />
+<text text-anchor="middle" x="472" y="-108.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">risultato = 15</text>
+<text text-anchor="middle" x="472" y="-93.8" font-family="DejaVu Sans" font-size="14.00" fill="#105e50">return risultato</text>
+</g>
+</g>
+</svg>
