@@ -28,7 +28,7 @@ risultato = fattoriale(5)
 print("Il fattoriale è:", risultato)
 ```
 
-## 3. Verifica se un Numero è Primo
+## 3. Verifica se un Numero sia Primo
 Questa funzione controlla se un numero è primo restituendo `True` se lo è e `False` altrimenti.
 
 ```python
