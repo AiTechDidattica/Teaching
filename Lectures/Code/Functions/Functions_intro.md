@@ -70,7 +70,7 @@ risultato = conta_parole("Questa è una frase di esempio.")
 print("Numero di parole:", risultato)
 ```
 
-## 6. Verifica se un Numero è Pari o Dispari
+## 6. Verifica se un Numero sia Pari o Dispari
 Questa funzione prende un numero come input e restituisce una stringa che indica se il numero è pari o dispari.
 
 ```python
